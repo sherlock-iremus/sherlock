@@ -1,0 +1,44 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+<66fcdc36-461f-4516-a065-57d9ef51f697>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by "Référentiel de la France de l'Ancien régime" ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P9_consists_of <14ecef4d-2357-4f6f-824b-6b315efeb9a7>, <666eb019-355f-42fc-9655-3b5533b2328e>, <63563a42-8235-4f89-ae2d-f028ed000b3c> ;
+    crm:P14_carried_out_by <b25c0ded-46e0-480d-8446-0a202266bd8f>, <e6f783bc-2b2e-497b-9f48-f0bbd86f4bbb>
+    .
+
+    <14ecef4d-2357-4f6f-824b-6b315efeb9a7>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Référentiel des personnes de la France de l'Ancien régime" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P16_used_specific_object <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468> ;
+        .
+
+        <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468>
+            a sherlock:Corpus ;
+            crm:P1_is_identified_by <eea017e2-16cd-4261-922a-5dde92033991> ;
+            .
+
+            <eea017e2-16cd-4261-922a-5dde92033991>
+                a crm:E42_Identifier ;
+                crm:P190_has_symbolic_content "http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=accueildictionnaire" ;
+                .
+
+    <666eb019-355f-42fc-9655-3b5533b2328e>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Référentiel des lieux de la France de l'Ancien régime" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        .
+
+    <63563a42-8235-4f89-ae2d-f028ed000b3c>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Référentiel des institutions de la France de l'Ancien régime" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        .

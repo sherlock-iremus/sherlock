@@ -1,0 +1,8 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<759d110d-fd68-47bb-92fd-341bb63dbcae>
+  a crm:E1_Entity ;
+  crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ; 
+  crm:P1_is_identified_by "Corpus des estampes du Mercure Galant"
+  .
