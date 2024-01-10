@@ -3,7 +3,7 @@
 
 apps-and-deps/
 backups/
-modules/
+repositories/
 secret/
 temp_prod/
 zzz*/
