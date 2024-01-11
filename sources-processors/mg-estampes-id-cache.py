@@ -1,16 +1,20 @@
 import argparse
+import dload
 from pathlib import Path
+from pprint import pprint
 from sherlockcachemanagement import Cache
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--cache")
-parser.add_argument("--pictures")
 args = parser.parse_args()
 
 cache = Cache(args.cache)
 
-files = Path(args.pictures).glob('*')
-for file in files:
-    print(file.stem)
+url = 'https://api.github.com/repos/sherlock-iremus/mercure-galant-estampes/git/trees/main?recursive=1'
+j = dload.json(url)
+for file in j["tree"]:
+    if file["path"] != ".gitattributes":
+        clef_métier = Path(file["path"]).stem
+        uuid = cache.get_uuid([clef_métier, 'sherlock_uuid'], True)
 
 cache.bye()

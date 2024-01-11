@@ -4,3 +4,6 @@
 [submodule "in/mercure-galant-sources-github"]
 	path = in/mercure-galant-sources-github
 	url = git@github.com:sherlock-iremus/mercure-galant-sources.git
+[submodule "mercure-galant-estampes"]
+	path = in/mercure-galant-estampes-github
+	url = git@github.com:sherlock-iremus/mercure-galant-estampes.git

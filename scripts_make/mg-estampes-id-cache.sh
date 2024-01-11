@@ -4,4 +4,3 @@ mkdir -p $ROOT/caches/mg
 
 python3 $ROOT/sources-processors/mg-estampes-id-cache.py \
     --cache caches/mg/id.yaml \
-    --pictures in/mercure-galant-github/images \
