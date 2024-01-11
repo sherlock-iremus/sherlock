@@ -47,6 +47,23 @@ class Cache:
 
             value = value[k]
 
+    def set_kv(self, key_parts, user_value):
+        value = self.cache
+        key_parts = [str(k) for k in key_parts]
+        for i in range(len(key_parts)):
+            k = key_parts[i]
+            if k not in value:
+                if i == len(key_parts) - 1:
+                    value[k] = user_value
+                else:
+                    value[k] = dict()
+            else:
+                if i == len(key_parts) - 1:
+                    return value[k]
+
+            value = value[k]
+        print(key_parts, user_value)
+
     def bye(self):
         with open(self.path, 'w', encoding='utf-8') as f:
             yaml.dump(self.cache, f, default_flow_style=False, sort_keys=False, allow_unicode=True)

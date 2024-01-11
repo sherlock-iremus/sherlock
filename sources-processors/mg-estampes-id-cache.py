@@ -16,5 +16,6 @@ for file in j["tree"]:
     if file["path"] != ".gitattributes":
         clef_métier = Path(file["path"]).stem
         uuid = cache.get_uuid([clef_métier, 'sherlock_uuid'], True)
+        cache.set_kv([clef_métier, 'sha'], file['sha'])
 
 cache.bye()
