@@ -6,6 +6,12 @@ import pathlib
 import re
 from sherlockcachemanagement import Cache
 
+# Data constants
+
+EQUIPE_MERCURE_GALANT_UUID = "684b4c1a-be76-474c-810e-0f5984b47921"
+
+# Setup
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--tei")
 parser.add_argument("--output_ttl")
@@ -18,6 +24,7 @@ iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
+sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
 g = Graph(base=str(iremus_ns))
 
@@ -25,6 +32,7 @@ g.bind("crm", crm_ns)
 g.bind("crmdig", crmdig_ns)
 g.bind("iremus", iremus_ns)
 g.bind("lrm", lrmoo_ns)
+g.bind("she_ns", sherlock_ns)
 
 ################################################################################
 # DONNEES STATIQUES
@@ -110,12 +118,12 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_tei, RDF.type, crmdig_ns["D1_Digital_Object"]))
     g.add((livraison_F2_tei, RDF.type, crm_ns["E31_Document"]))
     g.add((livraison_F1, lrmoo_ns["R3_is_realised_in"], livraison_F2_tei))
-    g.add((livraison_F2_tei, iremus_ns["same_interpretative_content"], livraison_F2_originale))
-    g.add((livraison_F2_originale, iremus_ns["same_interpretative_content"], livraison_F2_tei))
+    g.add((livraison_F2_tei, sherlock_ns["same_interpretative_content"], livraison_F2_originale))
+    g.add((livraison_F2_originale, sherlock_ns["same_interpretative_content"], livraison_F2_tei))
 
     # Ajout au corpus
-    g.add((iremus_ns["8c5e4763-d2dc-4ef2-9a1a-161277a34006"], RDF.type, iremus_ns["Corpus"]))
-    g.add((iremus_ns["8c5e4763-d2dc-4ef2-9a1a-161277a34006"], iremus_ns["has_member"], livraison_F2_tei))
+    g.add((iremus_ns["8c5e4763-d2dc-4ef2-9a1a-161277a34006"], RDF.type, sherlock_ns["Corpus"]))
+    g.add((iremus_ns["8c5e4763-d2dc-4ef2-9a1a-161277a34006"], sherlock_ns["has_member"], livraison_F2_tei))
 
     # URL du fichier TEI
     livraison_F2_tei_E42 = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E42"], True)]
@@ -136,7 +144,7 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_tei_F28, RDF.type, lrmoo_ns["F28_Expression_Creation"]))
     g.add((livraison_F2_tei_F28, lrmoo_ns["R17_created"], livraison_F2_tei))
     g.add((livraison_F2_tei_F28, crm_ns["P16_used_specific_object"], livraison_F2_originale))
-    g.add((livraison_F2_tei_F28, crm_ns["P14_carried_out_by"], iremus_ns["684b4c1a-be76-474c-810e-0f5984b47921"]))
+    g.add((livraison_F2_tei_F28, crm_ns["P14_carried_out_by"], iremus_ns[EQUIPE_MERCURE_GALANT_UUID]))
     g.add((livraison_F2_tei_F28, crm_ns["P2_has_type"], iremus_ns["9acad7ae-1335-4ab4-b79c-489319e5d595"]))  # type « Encodage TEI »
 
     ################################################################################
@@ -172,8 +180,8 @@ for file in os.listdir(args.tei):
         g.add((livraison_F2_tei, crm_ns["P148_has_component"], article_F2_tei))
         g.add((article_F2_tei, crm_ns["P2_has_type"], iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"]))  # type « Article »
         g.add((article_F2_tei, crm_ns["P2_has_type"], iremus_ns["62b49ca2-ec73-4d72-aaf3-045da6869a15"]))  # édition « TEI »
-        g.add((article_F2_tei, iremus_ns["same_interpretative_content"], article_F2_original))
-        g.add((article_F2_original, iremus_ns["same_interpretative_content"], article_F2_tei))
+        g.add((article_F2_tei, sherlock_ns["same_interpretative_content"], article_F2_original))
+        g.add((article_F2_original, sherlock_ns["same_interpretative_content"], article_F2_tei))
 
         # Identifiant de l'expression TEI
         article_F2_tei_E42 = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2_E42",], True)]
@@ -192,11 +200,11 @@ for file in os.listdir(args.tei):
         n = 1
         for note in notes_editoriales:
             E13_note_editoriale = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, f"E13 note éditoriale n°{n}",], True)]
-            g.add((E13_note_editoriale, crm_ns["P14_carried_out_by"], iremus_ns["684b4c1a-be76-474c-810e-0f5984b47921"]))
+            g.add((E13_note_editoriale, crm_ns["P14_carried_out_by"], iremus_ns[EQUIPE_MERCURE_GALANT_UUID]))
             g.add((E13_note_editoriale, RDF.type, crm_ns["E13_Attribute_Assignement"]))
             g.add((E13_note_editoriale, crm_ns["P140_assigned_attribute_to"], article_F2_original))
             g.add((E13_note_editoriale, crm_ns["P141_assigned"], l(note)))
-            g.add((E13_note_editoriale, crm_ns["P177_assigned_property_of_type"], iremus_ns["has_editorial_note"]))
+            g.add((E13_note_editoriale, crm_ns["P177_assigned_property_of_type"], sherlock_ns["has_editorial_note"]))
             n += 1
 
 
