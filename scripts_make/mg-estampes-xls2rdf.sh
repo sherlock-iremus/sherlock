@@ -8,4 +8,4 @@ python3 $ROOT/rdfizers/mg-estampes-xls2rdf.py \
     --directus_secret $ROOT/secret/directus.rfar.yaml \
     --opentheso_id th391 \
     --ttl $ROOT/out/ttl/mg/estampes.ttl \
-    --xlsx $ROOT/in/mercure-galant-sources/indexation-estampes.xlsx \
+    --xlsx $ROOT/in/mercure-galant-sources-github/indexation-estampes.xlsx \

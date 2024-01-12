@@ -13,9 +13,10 @@
 <0205f283-a73a-47e3-81bf-d0c67501fc22> a crm:E55_Type ; crm:P1_is_identified_by "Type de représentation" .
 <f8914e8f-c1f1-4e1b-90e6-591bcb75ea95> a crm:E55_Type ; crm:P1_is_identified_by "Technique de gravure" .
 
-# Types de métadonnées
-<15c5867f-f612-4a00-b9f3-17b57e566b8c> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant BnF" .
-
 # Types de rôles dans le contexte de production
 <4d57ac14-247f-4b0e-90ca-0397b6051b8b> a crm:E55_Type ; crm:P1_is_identified_by "Invenit" .
 <f39eb497-5559-486c-b5ce-6a607f615773> a crm:E55_Type ; crm:P1_is_identified_by "Sculpsit" .
+
+# Indexation
+<413f7969-406b-4be6-a042-09a800197e8f> a crm:E55_Type ; crm:P1_is_identified_by "Lieu associé" .
+<909049a0-99c3-49a8-b9d6-c4c3517859fb> a crm:E55_Type ; crm:P1_is_identified_by "Personne associée" .

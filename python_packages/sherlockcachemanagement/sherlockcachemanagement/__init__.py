@@ -62,7 +62,6 @@ class Cache:
                     return value[k]
 
             value = value[k]
-        print(key_parts, user_value)
 
     def bye(self):
         with open(self.path, 'w', encoding='utf-8') as f:
