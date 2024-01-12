@@ -2,8 +2,8 @@ import argparse
 from lxml import etree
 import os
 from rdflib import Graph, Literal as l, Namespace, RDF, RDFS, URIRef as u, XSD
-import pathlib
 import re
+import pathlib
 from sherlockcachemanagement import Cache
 
 # Data constants
@@ -32,7 +32,7 @@ g.bind("crm", crm_ns)
 g.bind("crmdig", crmdig_ns)
 g.bind("iremus", iremus_ns)
 g.bind("lrm", lrmoo_ns)
-g.bind("she_ns", sherlock_ns)
+g.bind("sherlock", sherlock_ns)
 
 ################################################################################
 # DONNEES STATIQUES
@@ -174,6 +174,7 @@ for file in os.listdir(args.tei):
 
         # Expression TEI
         article_F2_tei = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2",], True)]
+        g.add((iremus_ns["4622a7ec-f737-469b-80ee-cf815ab1f7e7"], sherlock_ns["has_member"], article_F2_tei))
         g.add((article_F2_tei, RDF.type, lrmoo_ns["F2_Expression"]))
         g.add((article_F2_tei, RDF.type, crm_ns["E31_Document"]))
         g.add((article_F2_tei, RDF.type, crmdig_ns["D1_Digital_Object"]))
