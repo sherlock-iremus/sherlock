@@ -74,7 +74,7 @@ g.bind("crmdig", crmdig_ns)
 g.bind("iremus", iremus_ns)
 g.bind("lrmoo", lrmoo_ns)
 g.bind("opentheso", opentheso_ns)
-g.bind("she_ns", sherlock_ns_ns)
+g.bind("sherlock", sherlock_ns_ns)
 
 print('-' * 80)
 personnes_directus = graphql_query("""
@@ -108,7 +108,7 @@ print('-' * 80)
 def make_E13(cache_key, p140, p177, p141, document_context=None):
     e13 = iremus_ns[cache_estampes.get_uuid(cache_key, True)]
     g.add((e13, RDF.type, crm_ns["E13_Attribute_Assignment"]))
-    g.add((e13, crm_ns["P14_carried_out_by"], URIRef(EQUIPE_MERCURE_GALANT_UUID)))
+    g.add((e13, crm_ns["P14_carried_out_by"], iremus_ns[EQUIPE_MERCURE_GALANT_UUID]))
     g.add((e13, crm_ns["P140_assigned_attribute_to"], p140))
     g.add((e13, crm_ns["P141_assigned"], p141))
     g.add((e13, crm_ns["P177_assigned_property_of_type"], p177))
@@ -151,6 +151,7 @@ for sheet_title, rows in sheets.items():
             g.add((estampe, RDF.type, crm_ns["E36_Visual_Item"]))
             g.add((corpus, sherlock_ns_ns["has_member"], estampe))
             g.add((estampe, crm_ns["P2_has_type"], iremus_ns[ESTAMPE_MG_E55_UUID]))
+            g.add((iremus_ns["759d110d-fd68-47bb-92fd-341bb63dbcae"], sherlock_ns_ns["has_member"], estampe))
             # endregion
 
             # region E42: Identifiant Mercure Galant de l'estampe

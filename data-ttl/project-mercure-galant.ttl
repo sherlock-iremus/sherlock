@@ -1,11 +1,47 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+# Acteurs
+
+<684b4c1a-be76-474c-810e-0f5984b47921>
+  a crm:E39_Actor ;
+  crm:P1_is_identified_by "L'équipe Mercure Galant" ;
+  .
+
+# Projets
+
+<02b27c88-7fea-40d1-86cf-428b0d3e3a13>
+  a crm:E7_Activity ;
+  crm:P1_is_identified_by "Projet d'édition du Mercure Galant" ;
+  crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ; 
+  crm:P9_consists_of <756aa164-0cde-46ac-bc3a-a0ea83a08e2d> ;
+  crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+  .
+
+<756aa164-0cde-46ac-bc3a-a0ea83a08e2d>
+  a crm:E7_Activity ;
+  crm:P1_is_identified_by "Projet d'analyse des estampes du Mercure Galant"
+  crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+  crm:P16_used_specific_object <4622a7ec-f737-469b-80ee-cf815ab1f7e7>, <759d110d-fd68-47bb-92fd-341bb63dbcae> ;
+  .
+
+# Corpus
+
+<4622a7ec-f737-469b-80ee-cf815ab1f7e7>
+  a sherlock:Corpus ;
+  crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ; 
+  crm:P1_is_identified_by "Corpus des texte du Mercure Galant"
+  .
+
+<f35b75fb-8634-4c53-8056-6129a4301a9f>
+  a sherlock:Corpus ;
+  crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ; 
+  crm:P1_is_identified_by "Corpus des airs du Mercure Galant"
+  .
 
 <759d110d-fd68-47bb-92fd-341bb63dbcae>
-  a crm:E1_Entity ;
+  a sherlock:Corpus ;
   crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ; 
   crm:P1_is_identified_by "Corpus des estampes du Mercure Galant"
   .
-
-#TODO : INDEXATION_ESTAMPE_ANALYTICAL_PROJECT_UUID = "756aa164-0cde-46ac-bc3a-a0ea83a08e2d"
-#TODO : EQUIPE_MERCURE_GALANT_UUID = "684b4c1a-be76-474c-810e-0f5984b47921"
