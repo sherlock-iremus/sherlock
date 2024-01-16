@@ -1,3 +1,4 @@
+@base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
@@ -18,27 +19,38 @@
         a crm:E7_Activity ;
         crm:P1_is_identified_by "Référentiel des personnes de la France de l'Ancien régime" ;
         crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
-        crm:P16_used_specific_object <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468> ;
+        crm:P9_consists_of <d53e8ee8-751a-4fda-a6ee-fdc5f78153a5> ;
         .
 
-        <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468>
-            a sherlock:Corpus ;
-            crm:P1_is_identified_by <eea017e2-16cd-4261-922a-5dde92033991> ;
+        <d53e8ee8-751a-4fda-a6ee-fdc5f78153a5>
+            a crm:E65_Creation ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P16_used_specific_object <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468> ;
             .
 
-            <eea017e2-16cd-4261-922a-5dde92033991>
-                a crm:E42_Identifier ;
-                crm:P190_has_symbolic_content "http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=accueildictionnaire" ;
-                .
+            <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468> a sherlock:Corpus ; crm:P1_is_identified_by <eea017e2-16cd-4261-922a-5dde92033991> .
+            <eea017e2-16cd-4261-922a-5dde92033991> a crm:E42_Identifier ; crm:P190_has_symbolic_content "http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=accueildictionnaire" .
 
     <666eb019-355f-42fc-9655-3b5533b2328e>
         a crm:E7_Activity ;
         crm:P1_is_identified_by "Référentiel des lieux de la France de l'Ancien régime" ;
         crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P9_consists_of <4d8fa713-d12d-4e50-b947-9af7aa3db7e7> ;
         .
+
+        <4d8fa713-d12d-4e50-b947-9af7aa3db7e7>
+            a crm:E65_Creation ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            .
 
     <63563a42-8235-4f89-ae2d-f028ed000b3c>
         a crm:E7_Activity ;
         crm:P1_is_identified_by "Référentiel des institutions de la France de l'Ancien régime" ;
         crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P9_consists_of <6491b003-b7c1-471e-a896-bad6dccd1802> ;
         .
+
+        <6491b003-b7c1-471e-a896-bad6dccd1802>
+            a crm:E65_Creation ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            .

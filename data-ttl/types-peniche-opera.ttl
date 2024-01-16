@@ -1,5 +1,5 @@
-@base <http://data-iremus .huma-num .fr/id/>  .
-@prefix crm: <http://www .cidoc-crm .org/cidoc-crm/>  .
+@base <http://data-iremus.huma-num.fr/id/>  .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>  .
 
 <1d2f3f12-5bde-492e-a8ba-a3ac50652758> a crm:E55_Type ; crm:P1_is_identified_by "Composition" .
 <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> a crm:E55_Type ; crm:P1_is_identified_by "Ecriture du libretto" .

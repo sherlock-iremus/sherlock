@@ -21,7 +21,7 @@
 
 <756aa164-0cde-46ac-bc3a-a0ea83a08e2d>
   a crm:E7_Activity ;
-  crm:P1_is_identified_by "Projet d'analyse des estampes du Mercure Galant"
+  crm:P1_is_identified_by "Projet d'analyse des estampes du Mercure Galant" ;
   crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
   crm:P16_used_specific_object <4622a7ec-f737-469b-80ee-cf815ab1f7e7>, <759d110d-fd68-47bb-92fd-341bb63dbcae> ;
   .
