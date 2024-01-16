@@ -1,10 +1,6 @@
 import argparse
 import json
-<<<<<<< HEAD
 from rdflib import Graph, Namespace, RDF, URIRef, URIRef, Literal
-=======
-from rdflib import Graph, Namespace, DCTERMS, RDF, SKOS, URIRef, URIRef, Literal
->>>>>>> 2fbc3d78b7b2ab78306e253fde8e02ffea58d638
 import requests
 import yaml
 

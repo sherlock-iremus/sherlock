@@ -1,6 +1,4 @@
 for i in $(find . -name "*.ttl")
 do
-  echo " "
-  echo $i
-  ttl $i
+  echo $i $(ttl $i) | grep -v "0 errors"
 done

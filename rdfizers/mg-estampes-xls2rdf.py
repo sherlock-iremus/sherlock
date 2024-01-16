@@ -14,7 +14,6 @@ import yaml
 
 INDEXATION_ESTAMPE_ANALYTICAL_PROJECT_UUID = "756aa164-0cde-46ac-bc3a-a0ea83a08e2d"
 EQUIPE_MERCURE_GALANT_UUID = "684b4c1a-be76-474c-810e-0f5984b47921"
-COLLECTION_D_IMAGES_E55_UUID = "14926d58-83e7-4414-90a8-1a3f5ca8fec1"
 ESTAMPE_MG_E55_UUID = "1317e1ac-50c8-4b97-9eac-c4d902b7da10"
 IDENTIFIANT_MG_E55_UUID = "92c258a0-1e34-437f-9686-e24322b95305"
 IDENTIFIANT_IIIF_3_E55_UUID = "19073c4a-0ef7-4ac4-a51a-e0810a596773"
@@ -126,12 +125,6 @@ def opth(concept, thesaurus_id):
 # TRAITEMENT DES ESTAMPES
 #######################################################################################################
 
-
-# Le corpus
-corpus = iremus_ns["759d110d-fd68-47bb-92fd-341bb63dbcae"]
-g.add((corpus, RDF.type, sherlock_ns_ns["Corpus"]))
-g.add((corpus, crm_ns["P2_has_type"], iremus_ns[COLLECTION_D_IMAGES_E55_UUID]))
-
 sheets = helpers_excel.get_xlsx_rows_as_dicts(args.xlsx)
 for sheet_title, rows in sheets.items():
     for row in rows:
@@ -149,9 +142,8 @@ for sheet_title, rows in sheets.items():
             # region E36: Estampe
             estampe = iremus_ns[cache_estampes.get_uuid(["estampes", id, "E36_uuid"], True)]
             g.add((estampe, RDF.type, crm_ns["E36_Visual_Item"]))
-            g.add((corpus, sherlock_ns_ns["has_member"], estampe))
+            g.add((iremus_ns["7dd7cb84-ad41-44e6-8044-155827d9ff76"], sherlock_ns_ns["has_member"], estampe))
             g.add((estampe, crm_ns["P2_has_type"], iremus_ns[ESTAMPE_MG_E55_UUID]))
-            g.add((iremus_ns["759d110d-fd68-47bb-92fd-341bb63dbcae"], sherlock_ns_ns["has_member"], estampe))
             # endregion
 
             # region E42: Identifiant Mercure Galant de l'estampe

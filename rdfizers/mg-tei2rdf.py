@@ -121,10 +121,6 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_tei, sherlock_ns["same_interpretative_content"], livraison_F2_originale))
     g.add((livraison_F2_originale, sherlock_ns["same_interpretative_content"], livraison_F2_tei))
 
-    # Ajout au corpus
-    g.add((iremus_ns["8c5e4763-d2dc-4ef2-9a1a-161277a34006"], RDF.type, sherlock_ns["Corpus"]))
-    g.add((iremus_ns["8c5e4763-d2dc-4ef2-9a1a-161277a34006"], sherlock_ns["has_member"], livraison_F2_tei))
-
     # URL du fichier TEI
     livraison_F2_tei_E42 = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E42"], True)]
     g.add((livraison_F2_tei, crm_ns["P1_is_identified_by"], livraison_F2_tei_E42))
@@ -174,7 +170,7 @@ for file in os.listdir(args.tei):
 
         # Expression TEI
         article_F2_tei = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2",], True)]
-        g.add((iremus_ns["4622a7ec-f737-469b-80ee-cf815ab1f7e7"], sherlock_ns["has_member"], article_F2_tei))
+        g.add((iremus_ns["7dd7cb84-ad41-44e6-8044-155827d9ff76"], sherlock_ns["has_member"], article_F2_tei))
         g.add((article_F2_tei, RDF.type, lrmoo_ns["F2_Expression"]))
         g.add((article_F2_tei, RDF.type, crm_ns["E31_Document"]))
         g.add((article_F2_tei, RDF.type, crmdig_ns["D1_Digital_Object"]))
