@@ -142,7 +142,7 @@ for sheet_title, rows in sheets.items():
             # region E36: Estampe
             estampe = iremus_ns[cache_estampes.get_uuid(["estampes", id, "E36_uuid"], True)]
             g.add((estampe, RDF.type, crm_ns["E36_Visual_Item"]))
-            g.add((iremus_ns["7dd7cb84-ad41-44e6-8044-155827d9ff76"], sherlock_ns_ns["has_member"], estampe))
+            g.add((iremus_ns["a96bdf72-695a-4c34-aa4e-43e75adc839e"], sherlock_ns_ns["has_member"], estampe))
             g.add((estampe, crm_ns["P2_has_type"], iremus_ns[ESTAMPE_MG_E55_UUID]))
             # endregion
 
