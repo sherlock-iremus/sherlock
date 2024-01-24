@@ -180,7 +180,7 @@ for sheet_title, rows in sheets.items():
                         g.add((livraison_F2_originale, crm_ns["P148_has_component"], estampe))
                         g.add((livraison_F2_TEI, crm_ns["P148_has_component"], estampe))
                     except:
-                        print("ERREUR [Colonne ID estampe] Livraison TEI inexistante : " + id_livraison)
+                        print("WARNING [Colonne ID estampe] Livraison TEI inexistante : " + id_livraison)
             # endregion
 
             # region F2: Article annexe à la gravure

@@ -13873,6 +13873,13 @@ estampes:
           E18_uuid: da95cce3-3c4f-48e8-9834-d53f9ea1bfca
           E13_IIIF_uuid: bf346545-d727-4e2c-9bc8-cd2b5888ff94
           E13_P138_uuid: 68b0bc09-e966-43c9-93aa-ce2dda7209f1
+      Hérésie (personnification) SUPPRIMER:
+        E36_fragment:
+          uuid: fa6c891f-280c-4e80-b434-2289ee16a742
+          E42_IIIF_humanum_uuid: 93802682-f185-4901-b98f-dcd3b50a3e59
+          E18_uuid: 3ed95eb0-fa76-4627-8ed2-5dbc763ec312
+          E13_IIIF_uuid: ab6b1cda-0bb4-4151-9da5-fbcf23d4dddb
+          E13_P138_uuid: 4b96ceab-0b91-4c5e-ae2f-049d90e734d2
     personnes représentées:
       1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6:
         E36_fragment:
@@ -13885,12 +13892,17 @@ estampes:
       E65_sculpsit:
         uuid: b1a91595-b60d-40d2-9e0d-e230862a0ef8
         E13_P14_uuid: 22b39b5b-3c37-48af-a19e-ce9e4c500ee5
+      E65_invenit:
+        uuid: c652d9cc-f6d8-4336-a1ff-714371969f14
+        E13_P14_uuid: 9d87f820-9b04-4716-8e08-efd41a39f2cc
     types de représentation:
       portraits-en-medaille:
         E13_uuid: a63a330f-9579-4401-9852-6bf4da540e30
     technique de la gravure:
       eau-forte:
         E13_uuid: 292ba4b3-ad3a-48b6-aebd-7d923ea8ae42
+    bibliographie:
+      E13_P70_uuid: 6d9afc2b-372d-4f7c-b347-09a62611827a
   1677-09_212:
     E36_uuid: 75f13eab-dfc1-4f56-9758-53cc821666eb
     E42_mercure_uuid: 840b913e-938a-44a8-81bb-880a30a16cb7
@@ -30300,6 +30312,9 @@ estampes:
     technique de la gravure:
       eau-forte:
         E13_uuid: 215415b6-12d3-4566-b899-a89500100a7a
+    personnes associées:
+      Lucas, conseiller au parlement de Toulouse:
+        E13_uuid: cb4567f2-3474-41df-a526-509b6a09220c
   1695-11_089:
     E36_uuid: 6aac2244-8a3c-45a1-a711-c4e634956aaf
     E42_mercure_uuid: e822ac41-7700-4f71-83f1-32ae72db00d6
@@ -31507,6 +31522,56 @@ estampes:
     E36_uuid: 39905630-a921-42ad-b1d1-eec11ab20fd5
   1683-12e_166:
     E36_uuid: cfa0e198-7244-42bd-8f46-2db17c4aa94c
+    E42_mercure_uuid: 63f79878-5b54-4c04-913c-f1530c847d15
+    E42_IIIF_humanum_uuid: 8a366a4f-f12e-4f44-8d35-d3f04b1b03a3
+    E13_titre_sur_l_image_uuid: 5853aa07-9ba7-440f-811b-25492624d5b4
+    E13_titre_forgé_uuid: 8c8e7608-22bb-49c7-b00f-15f8e90c69ae
+    E13_titre_péritexte_uuid: 4033b5ef-2d56-42ab-a669-72e6925d55c5
+    objets:
+      lentille:
+        E36_fragment:
+          uuid: 01ac2878-1b6d-40a2-b11b-2abca180f22f
+          E42_IIIF_humanum_uuid: cefecbd0-6d02-4e81-9f6f-b2e73a11e922
+          E18_uuid: 830fd7fe-7125-4337-bed4-2aa79771eed6
+          E13_IIIF_uuid: f76a51b3-ac07-4aa5-8cd4-b0b83b9b4800
+          E13_P138_uuid: 7b1780e2-7513-4522-9e55-45c3309c58d2
+      église:
+        E36_fragment:
+          uuid: 210c0b30-98a0-46a1-b340-08f0d380fb79
+          E42_IIIF_humanum_uuid: 8ab53c83-4ad4-4a39-ba7e-1a69423e5104
+          E18_uuid: 2f5c4056-48b0-4777-83a4-7c33e7212710
+          E13_IIIF_uuid: 2c61846b-f4fe-4fdb-a95e-e30913d1fa82
+          E13_P138_uuid: 9d0ba86c-0b6f-46a7-b904-cf47a633ba68
+      fleuve, rivière, ruisseau:
+        E36_fragment:
+          uuid: 57c8b8c8-b623-49e9-9e42-208a12aedffe
+          E42_IIIF_humanum_uuid: eef3ab92-56c2-4a85-82e3-1d31cc17b5ac
+          E18_uuid: 381bc710-2f9a-441c-a407-c82a14918ded
+          E13_IIIF_uuid: 534e9280-04bb-4121-a863-71b3188ac750
+          E13_P138_uuid: 254496df-f7ad-40ae-93dd-6480b0e1460e
+      montagne:
+        E36_fragment:
+          uuid: 5396988c-4d70-454c-b5f7-045804f36b9e
+          E42_IIIF_humanum_uuid: 9dd6a70a-bfce-4690-bae0-a316389bfef1
+          E18_uuid: 426c2412-841a-4754-a7b2-db5e04b18ef9
+          E13_IIIF_uuid: d619a723-4499-4789-8fb4-fb2285e8cdd0
+          E13_P138_uuid: 5ae97f32-6d1c-40b5-8806-6b279bcf9d3a
+      schéma mathématique:
+        E36_fragment:
+          uuid: d09ab5db-49b8-4586-b82c-163e95a8c76a
+          E42_IIIF_humanum_uuid: 1a0ece75-a503-4faf-b58e-0e3a25ff221f
+          E18_uuid: 9bf9d7df-15cb-4cea-be2a-c4bf32e8ddbb
+          E13_IIIF_uuid: 2e3b54ee-a5f8-48ed-86d1-cca1eaa4e2a7
+          E13_P138_uuid: ac3b60b4-30d9-446c-b56f-dd842c5809d7
+    personnes associées:
+      4d960afc-3dd9-4e0e-8a27-ede19c7c91aa:
+        E13_uuid: 780a3ed5-ad1e-4f46-8cc0-a5a5d252c5c2
+    types de représentation:
+      planche-scientifique:
+        E13_uuid: d247b8f5-dba6-4834-b0a5-646b98329878
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: 9317f0e9-e13b-4c90-94df-f4fedf1e8e93
   1684-01_067:
     E36_uuid: c451c3c5-6ae0-418d-a9e9-83f8f9a00e24
   1684-03_068:
@@ -31537,10 +31602,142 @@ estampes:
     E36_uuid: 84790ac8-4828-4ff5-9fe6-df0c20b97627
   1689-01_215:
     E36_uuid: 71572c47-549c-4c45-ab81-4fa042ff2835
+    E42_mercure_uuid: 50224c47-e46c-4117-963f-1c572c49aedc
+    E42_IIIF_humanum_uuid: e046d251-1a1d-45d1-87d9-1a12bcabb508
+    E42_gallica_uuid: 8061e40a-2089-4e72-b957-5cfb7861b391
+    E13_titre_forgé_uuid: 808f08ae-5db5-4472-9711-45a2661ec3d3
+    E13_titre_péritexte_uuid: 133e1d0e-61e4-4b0a-a57c-ac1caed1c328
+    objets:
+      médaille:
+        E36_fragment:
+          uuid: e7ea1c72-7fe4-4d88-b449-81db3ff14f78
+          E42_IIIF_humanum_uuid: aeed6a8c-2d9c-47c9-9ee0-b799130d283a
+          E18_uuid: 6a638911-29ac-478d-b165-bcc20a8afcbf
+          E13_IIIF_uuid: 1a2c4b53-a61f-4447-9951-9d2ffd8ac29d
+          E13_P138_uuid: 19e7672a-c856-452e-8b44-0ba7871b1409
+          médaille_avers:
+            E36_uuid: 7d61b14e-a01f-4581-a40e-4ceb0c7018ec
+            E42_IIIF_humanum_uuid: ed51f932-f6f4-4fe4-8cc8-10581a4e2ec2
+            E18_uuid: 78ca1a0f-01b8-432b-baa8-3242f7dd8218
+            inscription:
+              uuid: ed69c80b-c7c8-4ce8-aa71-b57fabc8c1a4
+              E13_uuid: df09bc50-a9dc-40c8-a908-78d3b244752e
+            E13_P138_uuid: 14a31ba2-d832-4b40-8734-d8bd5f821159
+            E13_P165_uuid: 05b2e774-05a9-478c-a25d-e25604df0750
+            médaille_physique:
+              E13_P46_E18_uuid: 0ec06fd1-8946-46a0-ab0d-ae1a686a006f
+              E13_P46_E34_uuid: bc9e3f82-4311-41ea-bbf4-9bcb1ea1f8a3
+          médaille_revers:
+            E36_uuid: 9c222e05-c540-4349-bc25-ea7357a02045
+            E42_IIIF_humanum_uuid: de184ab9-85f5-45a3-9d16-98cf17e66c9a
+            E18_uuid: 4b73bb12-af64-414e-90ef-001b9b62e4c7
+            inscription:
+              uuid: 2fe22f08-bb02-4df4-89da-5ef059055c1b
+              E13_uuid: 9214a12a-d433-4ee3-8f29-9797a1fbc42f
+            E13_P138_uuid: 11104f58-075c-4ea5-84d1-d928d4fc9127
+            E13_P165_uuid: 75d859ca-8ad0-4e07-a26a-651e9e3fc3de
+            médaille_physique:
+              E13_P46_E18_uuid: 9ea2652f-1b6b-449c-b0dd-9782d3d6d9a0
+              E13_P46_E34_uuid: 1ce41fb5-aff9-4d92-b99d-f4ba111e70a2
+      enfant:
+        E36_fragment:
+          uuid: 018ce6f5-ee27-404d-a1c6-166f3d9488ea
+          E42_IIIF_humanum_uuid: 7eac42ac-45f7-4f0b-b9a5-1bc7a246393c
+          E18_uuid: a62f7224-2756-4a6d-b72a-d47fec5b3b99
+          E13_IIIF_uuid: ea5533f6-1b2d-4568-a37f-2344fa63003c
+          E13_P138_uuid: 43997c0e-2300-4a93-9ea0-161a10217945
+      lit:
+        E36_fragment:
+          uuid: c7a58713-94bb-42de-92f1-dc841e9439a0
+          E42_IIIF_humanum_uuid: 8e644383-3777-40e7-a32e-4b635d1c1814
+          E18_uuid: d406c62c-99e5-4165-97e9-a8ee06903d04
+          E13_IIIF_uuid: 0c210e7b-d6d3-469e-86fc-c0f6a2a75764
+          E13_P138_uuid: cbf95300-8e63-46ea-9228-24cd5b44b1dc
+    personnes représentées:
+      0cea0d9b-75fc-4bbe-af49-20a7188d4783:
+        E36_fragment:
+          uuid: 26f2849d-5477-4bb9-8098-544fdb845a77
+          E42_IIIF_humanum_uuid: 3b5709d2-ac34-4a05-b61b-c302ae3b8dd1
+          E13_IIIF_uuid: 56567e87-8d46-46fb-86f8-e6fd2529df85
+          E13_P138_uuid: 055a39c6-9e2d-4e20-80b5-15088adb9b14
+      462e3055-baa4-4ffa-bda0-76355bb63dab:
+        E36_fragment:
+          uuid: ad5fed0f-0efe-47bf-a0c4-cd22896614ef
+          E42_IIIF_humanum_uuid: 2d2d975c-4c68-4ba8-9851-9be3e623a375
+          E13_IIIF_uuid: cb7a967b-efa5-412c-8c7b-8faf2af63538
+          E13_P138_uuid: 29b61aaf-546a-4340-8b62-7fcc6b0b9665
+    E65:
+      uuid: 7cf55b8d-0bad-46b8-a222-f02f483883fe
+      E65_sculpsit:
+        uuid: 278c929f-ad1b-4ae9-98ae-696aa6e55b35
+        E13_P14_uuid: 9dbcd822-3a2a-41fe-b46d-1a180b173670
+    types de représentation:
+      portraits-en-medaille:
+        E13_uuid: abac644e-52bb-48c4-95c2-d3303fb35e94
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: 8f5d62a4-0bc1-4b55-b417-a080f78bc8c8
   1690-09_184:
     E36_uuid: f9fa796e-1f04-4916-a502-6fe62e13886a
   1692-01a_288:
     E36_uuid: 8a038876-046b-426a-a161-1fcbb9c050cd
+    E42_mercure_uuid: d77206d2-b82a-4826-9ce9-61d82da322b7
+    E42_IIIF_humanum_uuid: 850ee8fc-700b-42db-9370-5c3862ae5882
+    E42_gallica_uuid: d46b5f29-ead9-4429-a45a-ead4fa566297
+    E13_titre_forgé_uuid: 6d9b358d-b97c-4242-ae74-55b7fb1498fd
+    E13_titre_péritexte_uuid: 73d53b0c-7a12-4c19-b8d3-67bc268f91bc
+    objets:
+      médaille:
+        E36_fragment:
+          uuid: 877501b4-fdb7-44c0-9e74-58eb0808088c
+          E42_IIIF_humanum_uuid: 90b6694e-00dd-4934-be4c-8c93f9bdd6b7
+          E18_uuid: b39815ea-1b95-4b51-a39d-20d06916bb77
+          E13_IIIF_uuid: 1429a242-f3ba-4b5e-af6c-fc3a999b8949
+          E13_P138_uuid: cf8ef57a-3c67-4470-8554-4f987af5aaca
+          médaille_revers:
+            E36_uuid: 9a58a3e9-abf8-4935-b216-3d62aad62b5b
+            E42_IIIF_humanum_uuid: 2b1d690e-c9b2-4da1-add8-c474ebcda044
+            E18_uuid: 08513f2d-ed43-4033-8bfb-f7cd7864d165
+            inscription:
+              uuid: 6f2d5c22-53c4-4429-849c-70d6476f67af
+              E13_uuid: 8e66facc-38bd-4ef7-8bfb-b3d6a3cf4b76
+            E13_P138_uuid: 71bd05b1-84a8-4ab2-8ae7-269f82f33d83
+            E13_P165_uuid: f3e07e88-d334-42f9-95f4-34bfa6f90e3f
+            médaille_physique:
+              E13_P46_E18_uuid: 6b9188fa-bbe2-4293-8b84-88c928c6ed32
+              E13_P46_E34_uuid: 998886af-84cd-4393-aa06-8ea98852f36d
+      piédestal:
+        E36_fragment:
+          uuid: e55ceffd-12f8-4d27-8c2a-cd84d9f3b3c3
+          E42_IIIF_humanum_uuid: f758a644-2d40-4877-97e0-43585ebe4734
+          E18_uuid: 1242832c-496c-4838-a637-a66699825d4c
+          E13_IIIF_uuid: 05f06848-306d-49fa-8007-249369dabad5
+          E13_P138_uuid: 4e2a9331-24be-4805-b96b-6c5268d90614
+      gouvernail:
+        E36_fragment:
+          uuid: 9ea139ea-28da-4cba-9e51-78069f6ade6b
+          E42_IIIF_humanum_uuid: b2385627-289e-4f9f-ab1a-2b5c28c21c49
+          E18_uuid: 7c69e938-d3cd-4924-ba2c-2978bf044987
+          E13_IIIF_uuid: 47c89cf9-e935-4ad1-8587-023e8ec34c2e
+          E13_P138_uuid: fbf7de1b-a34b-4ba9-bf3b-06c670739475
+    personnes représentées:
+      1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6:
+        E36_fragment:
+          uuid: b257ad16-dc0f-46c2-96e1-c3efac456de8
+          E42_IIIF_humanum_uuid: 83d6c156-d520-4c57-b86e-20b31f76a9f2
+          E13_IIIF_uuid: b0a61c29-e6f7-4af2-a5eb-a3ed3a1d4576
+          E13_P138_uuid: 6c2ff993-7980-41e3-ad16-422a918d85ed
+    E65:
+      uuid: 54c60013-f618-4703-a7c5-0a306ba51446
+      E65_sculpsit:
+        uuid: 05a95cb6-3d6a-4674-aed8-7b64bde589f2
+        E13_P14_uuid: 8870b0de-0741-4b38-bc9c-cc7191ed7242
+    types de représentation:
+      reproduction-de-medaille-jeton-ou-monnaie:
+        E13_uuid: a9c3f415-7905-4fd8-92e2-f84966cb29c4
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: 2830db02-6f3a-400f-9a10-ddfcfcf7bd70
   1692-02a_324:
     E36_uuid: 9c660c44-0779-4440-b11f-17a45f154857
   1692-02a_326:
@@ -31617,6 +31814,433 @@ estampes:
     E36_uuid: d601be8a-a90f-4191-bbab-9ad5fa9f7bde
   1706-11_032:
     E36_uuid: f8a2e7a2-12c8-454c-9927-fbcea2e617cf
+  1678-04_306b:
+    E36_uuid: 932b5ca9-4ccd-46fe-a243-56939c97bde6
+    E42_mercure_uuid: cc64ca7a-1476-478a-8f65-c7457c491c2b
+    E42_IIIF_humanum_uuid: e0c2e3bd-0660-4a1a-82ec-0030004bb656
+    E42_gallica_uuid: a4104e4d-7794-4636-a294-bf7b8295decf
+    E13_titre_sur_l_image_uuid: 93ef12fd-8fc0-49fd-bd6b-867233f1cf2f
+    E13_titre_forgé_uuid: 3e6cbd5e-c651-4dff-beb0-567cf3f37812
+    E13_titre_péritexte_uuid: 94749891-681e-4df4-9534-37cfdf1210a6
+    objets:
+      cadran ou horloge:
+        E36_fragment:
+          uuid: aa209f7c-db27-49ad-b84b-4c6141791816
+          E42_IIIF_humanum_uuid: 105b70c0-1af1-4216-8162-c4f309d876e5
+          E18_uuid: 7956dc82-80cd-4652-9de7-9f8dae93ee79
+          E13_IIIF_uuid: 4b23307b-b861-4a38-9384-9b5e46bce76d
+          E13_P138_uuid: e58ac346-49e4-48ba-b90f-51b93d68375f
+      mer:
+        E36_fragment:
+          uuid: 7757011d-1d4d-4836-913a-270019ee8a70
+          E42_IIIF_humanum_uuid: 5045cb59-0b49-4531-8623-7a18549375d8
+          E18_uuid: 4cce0966-38cc-4385-8fa4-22c9ed4fcda8
+          E13_IIIF_uuid: cf8969ea-8c7c-49a8-832c-60ed7c4660fb
+          E13_P138_uuid: f251bd39-42de-4e7a-adcf-4d8311a4684c
+      amours:
+        E36_fragment:
+          uuid: 40ca3046-c624-44d7-a00a-1f7f62974535
+          E42_IIIF_humanum_uuid: 6893c0c0-0266-4979-8c8e-413da9775583
+          E18_uuid: 4f2d1cda-be1c-4d00-a518-c9551a06186c
+          E13_IIIF_uuid: 4d5d6240-bd6c-45a9-97f5-316e01eb6668
+          E13_P138_uuid: 38d3287b-9c67-470e-8263-4f43205d0738
+      lion (animal):
+        E36_fragment:
+          uuid: 54525969-763a-4af2-831a-43cb30816d73
+          E42_IIIF_humanum_uuid: f454a65b-7eae-4313-bdea-97066ef670e4
+          E18_uuid: 2abf5bc5-34e1-44b1-af35-7971782657c9
+          E13_IIIF_uuid: 5b5558be-5c83-4969-9244-071ccc78b2e2
+          E13_P138_uuid: fdd1255b-8ea3-442c-ac0d-edcf2778284a
+      cerf:
+        E36_fragment:
+          uuid: 56337e98-4868-4087-b34a-72cbf190c4c4
+          E42_IIIF_humanum_uuid: e7e2c323-7240-44e7-9ba5-b537247e2214
+          E18_uuid: f695c713-f644-4872-8a50-a368fa050ce4
+          E13_IIIF_uuid: 7b4f98ce-082b-4fba-b748-89c4f4ddd694
+          E13_P138_uuid: 978d73a3-7b8a-4725-a90b-3c5deb0063d5
+      cœur:
+        E36_fragment:
+          uuid: 3a5be2d1-b756-43a8-b144-db3429e2b1fa
+          E42_IIIF_humanum_uuid: 65f3a8e5-6846-4f9c-bc59-ec283834b486
+          E18_uuid: 91b5939a-82b6-4376-9df3-3330f8207fce
+          E13_IIIF_uuid: ddf3b048-25d9-4ee9-a634-3f6dcbb33fd4
+          E13_P138_uuid: d736637a-f266-4f27-89bd-4eed62561428
+      poisson (animal):
+        E36_fragment:
+          uuid: 9dc35f01-f7a7-435e-b1a3-86007e44d843
+          E42_IIIF_humanum_uuid: b16517de-4bcf-443d-a032-f66cc979f05c
+          E18_uuid: c27e439f-a34c-4e26-9b9e-6376b95d19ce
+          E13_IIIF_uuid: 821cf990-3c1b-4a29-8b6b-875eb9c2cfb8
+          E13_P138_uuid: a64213d2-363e-4579-9ec0-4e3404ea1d72
+      lyre (antique):
+        E36_fragment:
+          uuid: f0b87f15-2977-466d-bfa5-84c7a7f7f461
+          E42_IIIF_humanum_uuid: 4db3412c-1735-42c2-b42f-c6574fa85c5a
+          E18_uuid: 09ad6ef9-9978-41ed-bed1-0545b527b6a9
+          E13_IIIF_uuid: ada1aeb7-8878-46ac-a9f1-a46589e01240
+          E13_P138_uuid: 705d958d-3b3c-403e-8744-bcda2f431844
+      flèche:
+        E36_fragment:
+          uuid: 2a5d64c9-db1a-4bb6-80a6-3288a2f2e352
+          E42_IIIF_humanum_uuid: 5be88c98-2505-4e1a-90eb-cff6b4955835
+          E18_uuid: b12647a7-5344-4b95-b74b-0d2a86dfe89e
+          E13_IIIF_uuid: 831070cf-4b1c-48c3-9569-2bd6294a65dc
+          E13_P138_uuid: 4546125d-0038-4f2e-8aa6-fac82a8adfd4
+      oiseau:
+        E36_fragment:
+          uuid: dfec2b10-f9fb-4b2e-850d-02c164d0731f
+          E42_IIIF_humanum_uuid: c7c21016-666d-4110-a443-679471bf2f44
+          E18_uuid: e51d9a49-ac78-41f7-90ec-f95179eda991
+          E13_IIIF_uuid: 71742019-a3f1-490f-9d50-a5611d446f42
+          E13_P138_uuid: 5289a2e9-0f36-44b8-972c-12d038101ed0
+      viole de gambe:
+        E36_fragment:
+          uuid: bdbd6a7d-1c7c-4c44-ac16-7ef1a1414981
+          E42_IIIF_humanum_uuid: bad58f0a-0f78-414b-95e9-6b06f46cde01
+          E18_uuid: fbd8b7be-cfc9-4f62-9403-a70665da71c5
+          E13_IIIF_uuid: b048dcea-4f83-49f9-92a1-99fcc0e312ab
+          E13_P138_uuid: bac04b84-a4a2-451c-922e-541ad229cc92
+    types de représentation:
+      compositions-allegoriques-et-emblematiques:
+        E13_uuid: 1f3cffa5-2fab-4b43-93df-8645f2134729
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: 8d633be5-33d8-4de8-947c-24857ac3a9de
+  1678-06e_390a:
+    E36_uuid: 449fef23-7d82-4488-8aee-c32f20a8008b
+    E42_mercure_uuid: 99d4ac7e-93e6-4c72-8a64-f63d551f4cfb
+    E42_IIIF_humanum_uuid: fedefd00-cfed-4209-aaa1-2d96e87bf79c
+    E13_titre_sur_l_image_uuid: 526b784d-0406-48e0-b3c7-539aa282a95a
+    E13_titre_forgé_uuid: 53a0bcbc-ede7-4731-83e7-ae8389029261
+    E13_titre_péritexte_uuid: c036cd90-e5b8-4c18-9a2b-e1dbd4e6bf08
+    objets:
+      vêtement:
+        E36_fragment:
+          uuid: 23f582f9-26de-4024-8b72-6c346e3a39bd
+          E42_IIIF_humanum_uuid: 4667af5c-05a9-4ca1-b6fb-7bc3fd70bde1
+          E18_uuid: 4c2bd507-ec26-4b76-a7fa-ced61d11bb19
+          E13_IIIF_uuid: 2c19eebf-dda2-4ed4-a074-ef6805cdf556
+          E13_P138_uuid: e190b1ee-7a91-4f4e-8ea0-78d5639b913d
+    types de représentation:
+      dessin-de-mode:
+        E13_uuid: 84c2a341-7b6d-4f5d-8a23-0beb5bf63eca
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: 876d008a-7fc0-4d21-a565-beefe18061aa
+  1678-06e_390b:
+    E36_uuid: 58ae2ee9-40e7-4f96-ba09-e0103e571275
+    E42_mercure_uuid: 5bf7a3b8-f5c1-448f-b141-ae84bfef8aa6
+    E42_IIIF_humanum_uuid: b3c1d326-023d-4cec-a9b7-efa9d9417b6f
+    seeAlso:
+      E13_uuid: 24aa7a37-7a47-464f-876f-90299332b3ec
+    E42_gallica_uuid: 723cbcd7-9446-43ce-9644-5e83a5f5e7d6
+    E13_titre_sur_l_image_uuid: 7806e32a-5976-4fc5-afdb-392aebe24f4b
+    E13_titre_forgé_uuid: 9a094490-7d20-4cfc-a37f-fe1e64914e11
+    E13_titre_péritexte_uuid: 161a2d3a-bb02-41d7-a630-f3ef0e9a16e1
+    objets:
+      Marsyas:
+        E36_fragment:
+          uuid: 9afcad0f-0217-4b82-8faf-632df140f1fd
+          E42_IIIF_humanum_uuid: 5b3c6bd0-18b2-4327-a423-4a22ddb078a5
+          E18_uuid: 4cde5517-5aff-4a2e-9dd9-19e18e713a49
+          E13_IIIF_uuid: d2b0ba6e-6dab-458f-8e71-2fcbcecae36e
+          E13_P138_uuid: cbb13035-e5cd-4b6d-8871-a3e4f862c365
+      Apollon:
+        E36_fragment:
+          uuid: 2e858e51-d5f1-4fb7-8cf8-b3da255f8afc
+          E42_IIIF_humanum_uuid: 72184b40-03e1-4d91-9443-18f9e25fe882
+          E18_uuid: 9882f216-ab28-486e-8ffe-5dbfdd915bc5
+          E13_IIIF_uuid: c813be16-9707-435f-b70f-b3e650ff964e
+          E13_P138_uuid: 5c0b15ca-5d6b-4a5f-a27a-cf9a7f532da8
+      pin:
+        E36_fragment:
+          uuid: 594a58f6-d763-42fa-ad56-d37ae2310499
+          E42_IIIF_humanum_uuid: bccc92cb-c0e0-408c-9024-44ba0ad07b62
+          E18_uuid: fe3002e4-1e4e-421e-8585-42e6fe7dc62b
+          E13_IIIF_uuid: dcbc575c-91dd-41ad-8c59-3613322856d4
+          E13_P138_uuid: af1b2063-89ee-427a-916d-9e74bf50264d
+    E65:
+      uuid: a22f7432-f3c2-4b1e-a708-dfa427c5b307
+      E65_sculpsit:
+        uuid: 55e16404-ecb7-4947-bd53-2359b593bd1d
+        E13_P14_uuid: 85a899d0-ae89-4759-8d35-c9accdda3369
+    types de représentation:
+      compositions-allegoriques-et-emblematiques:
+        E13_uuid: 2080e8f7-1439-43bd-bbae-7be41fa2cae3
+      composition-mythologique:
+        E13_uuid: 250d3e18-2b4c-471a-ab02-2c0376b2a1f9
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: 7e4b2e4d-0f51-4b00-bb92-a7e0422a4f88
+  1678-09_334:
+    E36_uuid: 65ad19e3-78b1-4fd3-a77b-84f26d747bda
+    E42_mercure_uuid: 9dbecae8-d3ce-44a5-a67a-dd2ac8640b6a
+    E42_IIIF_humanum_uuid: f02cbc5d-a03a-4c0f-8ae2-08624963462a
+    E42_gallica_uuid: 1dd32896-1f30-45bb-b942-3832ef67935d
+    E13_titre_sur_l_image_uuid: b3fd6986-2803-479e-ae8a-840babf29779
+    E13_titre_forgé_uuid: ead21b9d-6bab-4745-9e21-06d16f0a15e3
+    E13_titre_péritexte_uuid: 1f1dfdce-e3f4-40cf-a755-6eb13098ccf4
+    lieux représentés:
+      8d8e301b-e676-40f1-b3c6-183053bd9d75:
+        E36_fragment:
+          uuid: dcfce41f-190b-481f-9317-68ccc673dd03
+          E42_IIIF_humanum_uuid: 317bc24e-b663-45cb-9ca3-fdc7ded7972e
+          E13_IIIF_uuid: 23659caa-e046-45b2-91f4-830d59fb2147
+          E13_P138_uuid: 1b362a58-18fb-4da1-8d5a-6e83200659ba
+    objets:
+      forteresse:
+        E36_fragment:
+          uuid: b9a42e1b-f07a-4024-85a9-df5394d8f808
+          E42_IIIF_humanum_uuid: ceaecce0-4e39-416f-bf24-e90068ad69fe
+          E18_uuid: 5268d361-fd83-4b1e-9988-21e4dd45223e
+          E13_IIIF_uuid: 37463d8e-4111-4fde-836b-c61c4d7f324c
+          E13_P138_uuid: dd3afb87-ecbc-4a28-bcb8-f117e779d079
+      île:
+        E36_fragment:
+          uuid: 941c8ab6-d90c-4d5b-b03f-ec12a2a75c3d
+          E42_IIIF_humanum_uuid: 8815a94e-a743-4450-8423-41a1398ecb97
+          E18_uuid: 659e73dc-bf73-41cd-9cce-ae801989889b
+          E13_IIIF_uuid: 462ae8e7-5604-406d-84dd-25075ea79c79
+          E13_P138_uuid: 1d0eb233-89da-4dc0-ba4a-07a103db6da0
+      fleuve, rivière, ruisseau:
+        E36_fragment:
+          uuid: 0eebcf7c-2d9c-4a96-8a5c-6788d57a54f2
+          E42_IIIF_humanum_uuid: 99b6be15-e6a4-454f-8b73-dd48021299ff
+          E18_uuid: 807e9ad2-6d75-4211-9bfa-1c23720285cf
+          E13_IIIF_uuid: 434c4d6b-53b1-42f0-8e64-126a9ccade86
+          E13_P138_uuid: c5a68a46-4436-4678-b718-183321ab9f10
+      pont:
+        E36_fragment:
+          uuid: c3c24149-bbe4-4ea8-b6ed-1c5f756b7c19
+          E42_IIIF_humanum_uuid: 210f7d9f-199a-4298-b497-655c9b39ee73
+          E18_uuid: 4ff5161a-6ec1-468a-ad82-f7d9254f5338
+          E13_IIIF_uuid: 3da53378-2f8c-4f23-b513-1d07f1462bf8
+          E13_P138_uuid: 8bd6c2c9-6878-44a4-b796-aa3470f46523
+    types de représentation:
+      sieges-et-plans-d-ouvrages-militaires:
+        E13_uuid: 1beeb4a8-ed38-48ba-b241-692a4abcf787
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: 43a1810a-8667-4ce1-9f08-a3524789b38c
+  1678-09_359:
+    E36_uuid: 2604804d-441c-480d-a697-e352bf897e8f
+    E42_mercure_uuid: 0168e708-0c25-4868-83f7-7a08d1f14285
+    E42_IIIF_humanum_uuid: 7922f697-a584-4f8e-a405-527b721a8a2b
+    seeAlso:
+      E13_uuid: 3e5a584d-3d4b-4627-8a95-7a0a44e7a551
+    E42_gallica_uuid: 002783ec-c3c0-4ec1-9946-a63932a40254
+    E13_titre_sur_l_image_uuid: 1b2f4dac-8207-45d1-b783-ca334ba55a1f
+    E13_titre_forgé_uuid: 11574f7e-4f2e-4f4c-b949-5de6f703abd7
+    E13_titre_péritexte_uuid: da1ed695-521d-47eb-a098-af1d8f7d5a22
+    objets:
+      Daphné:
+        E36_fragment:
+          uuid: 0999ad0f-ef66-4cf8-9160-3435be0bcd3a
+          E42_IIIF_humanum_uuid: fc697302-854e-476a-92e9-61cccbd95f35
+          E18_uuid: 248ef387-7b32-4680-8864-5c8046e81977
+          E13_IIIF_uuid: b672f047-0593-41dd-834e-4d8f2af25c07
+          E13_P138_uuid: df4e58b7-df58-438b-a16e-914d6d9eac58
+      Apollon:
+        E36_fragment:
+          uuid: df019677-67b4-421f-993e-d102ea6a81bc
+          E42_IIIF_humanum_uuid: 8f693947-ae21-4bef-ae8d-ec7d81a070c5
+          E18_uuid: 501a0160-0c3c-4637-aaf2-1d5c7577d3f8
+          E13_IIIF_uuid: 08701bff-975a-481e-b8b4-0e7bf9371969
+          E13_P138_uuid: bbec03db-ed38-4f22-97fa-d4ef4eef7a76
+    types de représentation:
+      compositions-allegoriques-et-emblematiques:
+        E13_uuid: bc3d6a02-717a-4ab2-b03f-700e075a66d9
+      composition-mythologique:
+        E13_uuid: cfa518ed-d9e6-4bfe-a83f-1bd7bfa21a68
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: 8d092a3a-023e-46f6-ae3c-9f4e30b8c6dc
+  1679-09_365:
+    E36_uuid: dfe92ed7-a93e-443d-9d03-ff135e0e8b15
+    E42_mercure_uuid: f0fd6c23-4ff8-43ac-8b2d-f37ab67aa247
+    E42_IIIF_humanum_uuid: ad240b29-0572-4efd-abf1-8dcf0c1f7138
+    E42_gallica_uuid: 43a1241b-9f6a-48e5-9bdf-26f612430c58
+    E13_titre_sur_l_image_uuid: d53bb331-78d7-4630-9af3-7a3a68f9a830
+    E13_titre_forgé_uuid: 6c32fbc1-0516-4abe-99ce-66260733038c
+    E13_titre_péritexte_uuid: 83b0a804-01f7-46e9-ba7a-e50f46b1a2d6
+    objets:
+      Clythie:
+        E36_fragment:
+          uuid: b2a9f0ab-dd4d-4907-9a53-5847460e9a74
+          E42_IIIF_humanum_uuid: 9a643c09-7ee4-4673-ba11-c468879d25bb
+          E18_uuid: 297c507a-e0d2-4c91-8fb0-66cc6cc68926
+          E13_IIIF_uuid: 7febed92-0753-4169-b8c5-edbb6fa68ba7
+          E13_P138_uuid: abde9ca5-9808-42f0-a327-c81113d83da7
+      soleil:
+        E36_fragment:
+          uuid: 96b5614c-e590-4571-8876-57bc2633b423
+          E42_IIIF_humanum_uuid: 95c9e31d-5c65-4d6b-8b79-8518a107a39b
+          E18_uuid: 43757ce5-16c2-44e5-aa27-f47b5a22a6da
+          E13_IIIF_uuid: 00be0ab9-44df-4f2b-97f6-dc445c699bf4
+          E13_P138_uuid: 792e9b1f-596e-4b96-9d4a-5ce36328883d
+      Hélios:
+        E36_fragment:
+          uuid: ad23c9e4-83fd-4c0d-8a2a-45e5f6753515
+          E42_IIIF_humanum_uuid: 9c8c5e86-dba3-42e6-a0b3-9a1c76611c0e
+          E18_uuid: 97afbcfc-b633-4445-b8fe-ec8cfbd3e17c
+          E13_IIIF_uuid: 724f3ccb-79a4-4b72-808b-81ba4616ef68
+          E13_P138_uuid: 48ef2e20-f292-498f-a422-3e36589ad300
+    types de représentation:
+      compositions-allegoriques-et-emblematiques:
+        E13_uuid: 9633d3b4-705a-47a7-8796-124c425955d5
+      composition-mythologique:
+        E13_uuid: 31900e93-88e8-43aa-a355-c32ea63e7ea4
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: 78dbbd3a-b2f8-4798-b3e6-2e2f4b8272a4
+  1679-12_328x ; 1679-12_328y:
+    E36_uuid: d8e03f9a-235a-4130-9d4c-98de59a74703
+    E42_mercure_uuid: 79ced666-ed6d-4681-a911-57a6622c8261
+    E42_IIIF_humanum_uuid: 790c7a5a-e2dd-46e3-be69-03697ee5a82c
+    E42_gallica_uuid: 03c2b42e-8caf-4e74-bc99-cb5887630d61
+    E13_titre_forgé_uuid: 98577132-e69b-4751-9b8b-e132bed73058
+    E13_titre_péritexte_uuid: 48bbd819-cd3e-47f5-bdef-b1b8199b18f2
+    objets:
+      médaille:
+        E36_fragment:
+          uuid: 34f766e7-5aeb-43c4-a343-024aeeb65d02
+          E42_IIIF_humanum_uuid: 85b74ca3-522c-495c-abfe-7d0260a6e181
+          E18_uuid: d7c61fcb-8d56-4fcb-b1b7-c69367db1441
+          E13_IIIF_uuid: eee045e2-7ea7-4193-82e0-771d43a94742
+          E13_P138_uuid: f76c9d7b-f7e6-494f-8d77-fdc59d598983
+          médaille_avers:
+            E36_uuid: 6c806a6a-9d4d-4262-850f-7a5145e8ac10
+            E42_IIIF_humanum_uuid: 8dc48dd4-cd56-4c84-9db7-1bebcf22d5ed
+            E18_uuid: 9786d3dd-eae6-4905-af61-2471527efa69
+            inscription:
+              uuid: 0ab7959a-cdff-4a76-8797-5e3a1a1974af
+              E13_uuid: e66937be-c864-4fe7-8661-1d0f8af2de80
+            E13_P138_uuid: 4d222439-7f27-46f0-a15c-8f324329c474
+            E13_P165_uuid: 3820933f-037b-4f91-a943-2b5a853f0f71
+            médaille_physique:
+              E13_P46_E18_uuid: 87b7718c-7e90-4d75-b8c5-333f83adfe74
+              E13_P46_E34_uuid: 362e8559-c1ce-442d-9af0-bb4065190dd3
+          médaille_revers:
+            E36_uuid: da3c6032-020d-4b93-b46e-120f32633f6a
+            E42_IIIF_humanum_uuid: 2921add9-b6b0-454a-a337-085b945ed4d9
+            E18_uuid: 8daa2a10-1009-439d-80df-400f20101c38
+            inscription:
+              uuid: f4c88e9a-be27-4190-9c7b-c19ede56286d
+              E13_uuid: 8dae90d0-bd7d-49b6-9b3b-f46249814fab
+            E13_P138_uuid: 8e3b1072-d4d5-4cb4-ad26-e10fa6f2ed42
+            E13_P165_uuid: 2db004a0-b344-4d0b-ab8a-b11f6df1f9c4
+            médaille_physique:
+              E13_P46_E18_uuid: 035df73d-2522-4c21-9e61-c2baed9bedbc
+              E13_P46_E34_uuid: 4c1014b5-70ae-4270-998f-fe154396c43f
+      armée navale:
+        E36_fragment:
+          uuid: 478bc4bd-3277-4d88-baed-0031d0264f2c
+          E42_IIIF_humanum_uuid: 90816a21-1d29-45e9-8402-c446cfd726a6
+          E18_uuid: 4ed51328-26ec-4052-802c-2147d1e8215c
+          E13_IIIF_uuid: 09e67c40-4b8c-422e-b86d-5da2d55303be
+          E13_P138_uuid: 1b69da05-4da2-4bc2-8f1f-409ddf4614f6
+      mer:
+        E36_fragment:
+          uuid: 1cb801fd-7515-47b0-b3f3-6a73570cd883
+          E42_IIIF_humanum_uuid: 78ac2e3f-1640-4aa8-9688-b8bf6e04f45d
+          E18_uuid: 52b3916c-f64d-4804-b351-c82d08fc55fb
+          E13_IIIF_uuid: 777db58e-a511-41b0-8699-942f171490f8
+          E13_P138_uuid: a8855e88-9cca-408b-858e-f76eb0587660
+      drapeau ou étendard:
+        E36_fragment:
+          uuid: e922069d-78c7-499d-a63d-24de901aa69e
+          E42_IIIF_humanum_uuid: 5000ef24-9cd7-442c-9964-6b54624674d2
+          E18_uuid: c0aa85ce-9d45-450e-8302-72b64e0df371
+          E13_IIIF_uuid: a7e97106-0668-4275-abc1-c7531b42d40f
+          E13_P138_uuid: 4607a438-bd3e-4d8c-8532-20fc617cea15
+    personnes représentées:
+      0cea0d9b-75fc-4bbe-af49-20a7188d4783:
+        E36_fragment:
+          uuid: 7218cfbf-d90b-43c0-8d2a-9c9dffb774b0
+          E42_IIIF_humanum_uuid: 4fbd1f6b-561a-4565-8cec-91d953f9f0bb
+          E13_IIIF_uuid: 50731854-b38f-418b-bbac-ebdc535268c2
+          E13_P138_uuid: 051d67d9-1b5a-4634-9f0b-4106b70041c1
+    types de représentation:
+      portraits-en-medaille:
+        E13_uuid: cfa2f48e-ed94-4262-b9e1-1b3d3817fd94
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: cac9b9a0-127d-4114-b5c3-1cc7cabc56b5
+      burin:
+        E13_uuid: 5f669973-e002-40fb-a320-ee77cd08a5a2
+  1680-01b_207:
+    E36_uuid: 1da33f39-afd1-414b-9189-f607b4e1df93
+    E42_mercure_uuid: 96f25573-684a-44df-86aa-937f3c44340e
+    E42_IIIF_humanum_uuid: 8d016d10-d0de-4788-af8c-5d5ee00af141
+    E42_gallica_uuid: af399129-4610-4a19-bb7a-69cc4d4443af
+    E13_titre_sur_l_image_uuid: f9290fe8-246f-41da-8318-dc7039909374
+    E13_titre_forgé_uuid: c73addd8-0b7d-4fa1-9852-67ea7041593a
+    E13_titre_péritexte_uuid: f52c0568-cf3f-4969-937b-4a920ae042c1
+    lieux représentés:
+      78a59d9b-ea26-4192-8b97-8689a8f08977:
+        E36_fragment:
+          uuid: 62a097b3-0a07-42f1-899f-b35398162938
+          E42_IIIF_humanum_uuid: c71744e5-3986-4f97-9c9b-c1284fb04e7a
+          E13_IIIF_uuid: fa214fa7-0723-4e30-bf49-d3833db3385f
+          E13_P138_uuid: dbb4e605-b926-494f-ad2a-41ab0446967a
+    objets:
+      place:
+        E36_fragment:
+          uuid: 89673917-ad3e-4d91-a4e2-2936c1923025
+          E42_IIIF_humanum_uuid: 39ce9bdb-b323-4cdf-84db-7ce0cccba572
+          E18_uuid: dace1211-b600-4ea9-8739-de17650a87d9
+          E13_IIIF_uuid: bb936b02-31cc-49ba-882b-a03d84ec223d
+          E13_P138_uuid: 5d4d0817-40be-4e40-98f3-348c56ec2c63
+      palais:
+        E36_fragment:
+          uuid: 2daca246-ef3d-42a2-a96d-a404b40b2422
+          E42_IIIF_humanum_uuid: b7e5bd59-7029-4518-afb6-fdb12ebc84aa
+          E18_uuid: 8e30522c-f467-4dc4-81d3-e3f69f4d92de
+          E13_IIIF_uuid: 11a2542e-c1c5-4238-9553-a521b3238c7f
+          E13_P138_uuid: 76f61674-652f-4dec-aeb1-8025d9cd1c0a
+      statue:
+        E36_fragment:
+          uuid: e402c7bc-9b79-4f65-8864-b9a209717e62
+          E42_IIIF_humanum_uuid: 8933567c-610e-44ca-b375-4c663c88cb2c
+          E18_uuid: 6ae510c0-9cd9-4b96-bec9-703759201c78
+          E13_IIIF_uuid: c5aec03b-7045-4c82-95eb-e57ec0275a0b
+          E13_P138_uuid: 884124de-9ede-4f77-8281-55ce2fa0353f
+      cheval:
+        E36_fragment:
+          uuid: e2ccca6b-d1b5-45ea-bda0-88a7316b21f9
+          E42_IIIF_humanum_uuid: cd81d0a1-80e1-4938-bd4b-1572e24e5703
+          E18_uuid: 2bb65c5e-fda8-4a98-801e-213be304fbf0
+          E13_IIIF_uuid: ad1c0037-e418-4a40-802f-b9c46b86c654
+          E13_P138_uuid: 1f42fa88-009a-4f93-91f6-78931c4d08d2
+      jardin:
+        E36_fragment:
+          uuid: 4222e6a3-fc8c-4eae-9796-201156d971d0
+          E42_IIIF_humanum_uuid: 7f523481-e4db-4917-9ad1-066a6d99e732
+          E18_uuid: cec146e2-38b1-4529-9a39-6e01fd8134ac
+          E13_IIIF_uuid: ec13056b-c9e9-4d92-a6f3-5ea7e8d2a908
+          E13_P138_uuid: 0e6d3e64-67af-4f61-aca5-eaa1cfcc647d
+      fontaine:
+        E36_fragment:
+          uuid: fe6b6fc7-9721-461e-97cf-1462c6beab4d
+          E42_IIIF_humanum_uuid: 1b0d99a1-c1e7-42c9-8430-cc0299c94dde
+          E18_uuid: 87fea0ed-3b5b-42d9-9c54-8fe1162a0aa6
+          E13_IIIF_uuid: 4c18751a-91de-4cd0-b1ae-fa25090859f1
+          E13_P138_uuid: 7ea313d6-691c-4498-9be1-919190305f9f
+    E65:
+      uuid: 8e56dbf1-15d9-4de0-abaa-59477c97a44a
+      E65_invenit:
+        uuid: 2c154090-520a-45dc-9a64-c3b1ff180e7f
+        E13_P14_uuid: be3bf720-3aaa-4a18-9674-c24c193d945b
+    types de représentation:
+      vues-de-batiments-et-de-jardins:
+        E13_uuid: 67987756-349a-4510-97de-30732bcc3fb4
+    technique de la gravure:
+      eau-forte:
+        E13_uuid: 01af8f94-8f27-4663-bad7-c4dab550068d
+    bibliographie:
+      E13_P70_uuid: 2f695356-24b4-4418-9741-8382463792c3
+  .DS_Store:
+    E36_uuid: 1e5b557c-e612-484d-8bec-99533b4b03f4
 collection:
   1678-09e_390:
     lieux associés:
@@ -35417,6 +36041,76 @@ collection:
         E13_uuid: 114b4b40-133b-4e6c-a3b7-3df75cb2050e
       vie académique:
         E13_uuid: 2a11ed8c-56a7-4197-9a4d-9e17b1908ba9
+  1678-04_306b:
+    thématiques:
+      allégorie amoureuse:
+        E13_uuid: bb29c73f-11b2-4ffc-9073-cf231f9f9521
+      emblèmes et devises:
+        E13_uuid: c727e06e-10c5-4581-befa-56f03393a8b4
+      musique:
+        E13_uuid: 259f959a-4456-4c4b-a8ad-f55439fff628
+  1678-06e_390a:
+    thématiques:
+      mode vestimentaire:
+        E13_uuid: 137e9f9f-b0da-4483-964b-14106be3c998
+  1678-06e_390b:
+    thématiques:
+      énigme en figure:
+        E13_uuid: 73277a07-0c1b-463a-82f3-e8be5be58b43
+      mythologie gréco-romaine:
+        E13_uuid: ed749a07-d205-44aa-ac26-570f3c324056
+  1678-09_334:
+    thématiques:
+      topographie:
+        E13_uuid: 0affc61b-f7ec-4206-a5d3-924b1d786603
+      vie militaire:
+        E13_uuid: 16bde1c0-20fe-4543-9c51-f553552de1d4
+  1678-09_359:
+    thématiques:
+      énigme en figure:
+        E13_uuid: 58310d98-d10c-47e6-963c-5a714e3e007b
+      mythologie gréco-romaine:
+        E13_uuid: 2253f418-4b4f-471b-88ed-d9e9e5b591d0
+  1679-09_365:
+    thématiques:
+      énigme en figure:
+        E13_uuid: 6430a670-2489-4517-a254-6e2c53133738
+      mythologie gréco-romaine:
+        E13_uuid: 4a2851cb-54ec-49dc-a329-d42d93ab78dd
+  1679-12_328x ; 1679-12_328y:
+    lieux associés:
+      81ced4b9-569b-4c2c-8ce7-fa45acaa59cf:
+        E13_uuid: dafc9ff7-979c-42a8-b871-af8bb392efb8
+      f24cc3ea-9ca0-4397-9263-690f9c38a42f:
+        E13_uuid: 89edb6fd-85ff-4c88-8d0b-2741e28d315f
+    thématiques:
+      emblématique:
+        E13_uuid: 44a6d28e-eafd-4bc7-84d2-224513a6ea69
+      vie militaire:
+        E13_uuid: fc92608e-b3ca-4482-8dbe-9f6dbc846cb8
+  1680-01b_207:
+    thématiques:
+      architecture:
+        E13_uuid: 053fe60e-9d44-41ca-a9ea-b193d06ff340
+      sculpture:
+        E13_uuid: 698c5ee5-069a-4292-95a5-5ac100a544e3
+      topographie:
+        E13_uuid: 1780994b-e0ae-4de3-b955-9c4f44f2ff9c
+  1683-12e_166:
+    thématiques:
+      dioptrique:
+        E13_uuid: 59c6bded-995b-4dda-82d7-2b1df51d3330
+  1689-01_215:
+    lieux associés:
+      f24cc3ea-9ca0-4397-9263-690f9c38a42f:
+        E13_uuid: 5f47aa29-2b32-4aeb-a9f9-daf16436a5fa
+    thématiques:
+      emblématique:
+        E13_uuid: ccaff41d-8519-4e93-a758-0c9c62eb0cad
+  1692-01a_288:
+    thématiques:
+      emblématique:
+        E13_uuid: 653be345-7f7b-4630-8ce5-2ab7edf7bf85
 livraisons:
   1678-09e:
     F3_consultation_uuid: 67ca54c2-885b-4690-8985-4315a8bff5d7
@@ -36354,6 +37048,13 @@ livraisons:
       E54_largeur:
         uuid: 18ff2f42-0e78-4750-b556-aaaea5b672cc
         E13_P43_dimension_uuid: ede6669d-75f9-4390-a21d-4043712b3f77
+    1678-06e_390b:
+      E54_hauteur:
+        uuid: e6c9223f-9d6d-4f67-93e3-1f768d0533bf
+        E13_P43_dimension_uuid: b41d1fee-2138-48f1-91ea-785b67845219
+      E54_largeur:
+        uuid: 884bb310-12e6-4886-906a-726330106d2d
+        E13_P43_dimension_uuid: 57cb3f87-876d-4cc1-8729-006c1383cf24
   1678-01:
     F3_consultation_uuid: b8456298-72ba-4bc2-bd7f-d89a9d1bc9cd
     F5_consultation_uuid: af116697-9e62-4ca1-abbc-6865d63153f6
@@ -36660,6 +37361,13 @@ livraisons:
       E54_largeur:
         uuid: 25cd6425-6707-4007-8a05-4e3738bc494b
         E13_P43_dimension_uuid: bcde92ee-9d4d-45c5-9489-44c7321c2583
+    1678-04_306b:
+      E54_hauteur:
+        uuid: 23f88517-6c50-43c5-9e62-7d5539a6434b
+        E13_P43_dimension_uuid: 4f9e48aa-15f7-4118-a2be-934b2cfb5f06
+      E54_largeur:
+        uuid: 573da3c9-4d87-4aec-b85b-17dfaa452394
+        E13_P43_dimension_uuid: 71285788-d160-4cb5-b7dc-8862e1c62765
   1678-09:
     F3_consultation_uuid: 72fb0b96-87b1-4ce7-a7ab-b1c1291bc183
     F5_consultation_uuid: 3e23c3f5-f024-4053-a236-50ea38c295cb
@@ -36686,6 +37394,13 @@ livraisons:
       E54_largeur:
         uuid: af2b9f8d-2c73-48b5-88bd-91e47646647c
         E13_P43_dimension_uuid: e22a378e-e291-4cc6-9ce0-823076c2d405
+    1678-09_334:
+      E54_hauteur:
+        uuid: a5313715-ad39-4acf-b664-3146221e4598
+        E13_P43_dimension_uuid: eaf97957-e490-466b-8ef4-c2335cd35e51
+      E54_largeur:
+        uuid: 0f820e99-b29a-4269-8aa4-aca46e7abe03
+        E13_P43_dimension_uuid: 7d563cda-8da4-4f09-9d5a-f88d97c083cf
   1678-10:
     F3_consultation_uuid: d9c763ff-e763-47db-82d1-deae11c02791
     F5_consultation_uuid: 7c5d46c9-1dc6-4ab8-9979-f058053b52ba
@@ -36922,6 +37637,13 @@ livraisons:
       E54_largeur:
         uuid: 0c182c4d-93a0-46b4-af8c-ee3d46527ab0
         E13_P43_dimension_uuid: 3dac3ecc-b12e-487a-88af-d4cc9b0ef41c
+    1679-12_328x ; 1679-12_328y:
+      E54_hauteur:
+        uuid: f44c8560-4a4d-4ed7-8d54-462723d5aa50
+        E13_P43_dimension_uuid: b4f125d8-252e-496c-90f2-e3e97cdbd7fe
+      E54_largeur:
+        uuid: b54658ba-4bce-4aab-9ccb-8ee2c25a4446
+        E13_P43_dimension_uuid: b6e0feb3-07ea-4020-96d2-ffc6b0408077
   1679-12e:
     F3_consultation_uuid: 3219917a-ac44-4e1b-9135-0cc23d552cea
     F5_consultation_uuid: e00ec285-c84d-4d6f-ac93-e43b1be46053
@@ -37926,3 +38648,8 @@ livraisons:
       E54_largeur:
         uuid: 74f5768d-fc9d-4168-aa74-02db8124c58e
         E13_P43_dimension_uuid: e4795b50-5b82-4556-9d5c-bc2ed90a6480
+  1692-01a:
+    F3_consultation_uuid: a8ff196d-8240-4b7e-a5ff-046db0366aaf
+    F5_consultation_uuid: de9a04a9-ec13-45e9-b474-9f2acf708c8b
+    E24_feuille_uuid: af0e8ec5-3090-4e55-9141-616eb5f54a95
+    E42_provenance_uuid: 2604de38-540c-4550-af13-fbf6827925fb
