@@ -20,18 +20,26 @@ mkdir -p $JSON_ARTICLES
 for f in $(ls $MGGHXML/*.xml)
 do
   livraison_id=$(file_name $f)
+  livraison_id="${livraison_id//MG-/}"
   echo ""
   echo LIVRAISON $livraison_id
-  cp $f $TEI_LIVRAISONS
+  cp $f $TEI_LIVRAISONS/$livraison_id.xml
   
   # FRAGMENTATION DES FICHIERS TEI
   java -jar $SAXONJAR -s:$f -xsl:"$SCRIPTDIR"/fragment.xslt -o:$TEI_ARTICLES/TOKILL.xml
   rm $TEI_ARTICLES/TOKILL.xml
 
+  # RENOMMAGE DES ARTICLES TEI
+  for f in $(ls $TEI_ARTICLES/MG-$livraison_id*)
+  do
+    mv $f "${f//MG-/}"
+  done
+
   # FORMATAGE DES FRAGMENTS TEI
   for f in $(ls $TEI_ARTICLES/$livraison_id*)
   do
     article_id=$(file_name $f)
+    article_id="${article_id//MG-/}"
 
     mv $f $f.temp0
     xmllint --noblanks $f.temp0 > $f.temp1
