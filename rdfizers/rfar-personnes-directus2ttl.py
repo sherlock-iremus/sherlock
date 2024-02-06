@@ -65,7 +65,7 @@ query {
     }
 }'''
 
-r = requests.post(f'{secret['url']}/graphql?access_token={get_access_token(secret)}', json={'query': query})
+r = requests.post(f"{secret['url']}/graphql?access_token={get_access_token(secret)}", json={'query': query})
 result = json.loads(r.text)
 
 ############################################################################################
@@ -93,7 +93,7 @@ for personne in result['data']['personnes']:
         if altlabel:
             E41_alt_uri = sherlock_data[cache.get_uuid(['personnes', E21_uuid, 'E41_alt', altlabel], True)]
             g.add((E41_alt_uri, RDF.type, crm_ns['E41_Appellation']))
-            g.add((E41_alt_uri, sherlock_data['P190_has_symbolic_content'], Literal(altlabel)))
+            g.add((E41_alt_uri, crm_ns['P190_has_symbolic_content'], Literal(altlabel)))
             g.add((E21_uri, crm_ns['P1_is_identified_by'], E41_alt_uri))
             g.add((E41_alt_uri, crm_ns['P2_has_type'], sherlock_data['70589b95-4156-431e-a58a-818af6dc795a']))  # Alternative Appellation
 
@@ -108,6 +108,7 @@ for personne in result['data']['personnes']:
         if personne[champ]:
             E42_alignement = sherlock_data[cache.get_uuid(['personnes', E21_uuid, 'E42', champ], True)]
             g.add((E21_uri, crm_ns['P1_is_identified_by'], E42_alignement))
+            g.add((E42_alignement, RDF.type, crm_ns['E42_Identifier']))
             g.add((E42_alignement, crm_ns['P2_has_type'], sherlock_data[E55_uuid]))
             g.add((E42_alignement, crm_ns['P190_has_symbolic_content'], Literal(personne[champ])))
 
@@ -117,6 +118,7 @@ for personne in result['data']['personnes']:
     linkE42('isni_alignement', '49729025-e609-46ed-a749-5f3ae53dbfbe')
     linkE42('ref_hortus', '6703d6e9-bd46-4c7d-865e-5e5a4c0a549f')
     linkE42('ref_iremus', '6e2effb0-1dd6-4693-a9bb-f3ceb7dfe6fc')
+    linkE42('viaf_alignement', 'bae39954-9d0c-40e4-8258-c1b6dfd0a4a4')
 
 ################################################################################
 # THAT'S ALL FOLKS!
