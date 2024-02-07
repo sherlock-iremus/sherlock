@@ -288,3 +288,15 @@ sherlock:is_member_of
     rdfs:range sherlock:Corpus ;
     owl:inverseOf sherlock:has_member ;
     .
+
+sherlock:P14_had_contributor
+    a rdfs:Property ;
+    rdfs:domain crm:E7_Activity ;
+    rdfs:range: crm:E39_Actor ;
+    .
+
+sherlock:is_open_to_contribution
+    a rdf:Property ;
+    rdfs:domain crm:E7_Activity ;
+    rdfs:range crm:E55_Type;
+    .
