@@ -298,5 +298,5 @@ sherlock:P14_had_contributor
 sherlock:is_open_to_contribution
     a rdf:Property ;
     rdfs:domain crm:E7_Activity ;
-    rdfs:range crm:E55_Type;
+    rdfs:range xsd:boolean;
     .
