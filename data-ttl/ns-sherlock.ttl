@@ -5,7 +5,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
-@prefis xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # TODO Jouer un rôle fonctionnel dans un groupe n'est pas la même chose qu'appartenir à ce groupe (distinction entre trésorier et adhérent)
 sherlock:possible_part_in_group
