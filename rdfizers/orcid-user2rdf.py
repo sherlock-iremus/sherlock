@@ -21,7 +21,7 @@ ORCID_GENERATED_NAME_E55_UUID = "73ea8d74-3526-4f6a-8830-dd369795650d"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--output_ttl")
-parser.add_argument("--output_old_ttl")
+parser.add_argument("--output_backup_ttl")
 args = parser.parse_args()
 
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
@@ -48,7 +48,7 @@ WHERE {
 r = requests.get("http://data-iremus.huma-num.fr/sparql?query=" + urllib.parse.quote((query)))
 
 g.parse(data=r.text, format='ttl')
-g.serialize(destination=args.output_old_ttl)
+g.serialize(destination=args.output_backup_ttl)
 
 #####################################################################################################
 # RÉCUPÉRATION DE LA LISTE DES UTILISATEURS SHERLOCK AVEC UN ORCID
@@ -80,8 +80,6 @@ where {
 # RÉCUPÉRATION ET GÉNÉRATION DU NOM DE CHAQUE UTILISATEUR SHERLOCK QUI A UN ORCID ID
 #####################################################################################################
 
-user_dict = {}
-
 for row in g.query(query).bindings:
     orcid_id = row[Variable("orcid")].value
     user_uuid = row["user"].split("/")[-1]
@@ -94,23 +92,14 @@ for row in g.query(query).bindings:
     family_name = " " + user["person"]["name"]["family-name"]["value"] if user["person"]["name"]["family-name"] else ""
     orcid_generated_name = f'{given_names}{family_name}'
 
-    user_dict[user_uuid] = {}
-    user_dict[user_uuid]["orcid_generated_name"] = orcid_generated_name
-    if 'orcid_generated_name' in row:
-        user_dict[user_uuid]["previous_orcid_generated_name_identifier"] = row['orcid_generated_name']
-        user_dict[user_uuid]["orcid_generated_name_identifier"] = row['orcid_generated_name_identifier']
-
-#####################################################################################################
-# GÉNÉRATION DU TTL D'ATTRIBUTION DES GENERATED NAMES
-#####################################################################################################
-for user_uuid in user_dict:
-    orcid_generated_name_identifier = u(user_dict[user_uuid]["orcid_generated_name_identifier"]) if "previous_orcid_generated_name_identifier" in user_dict[user_uuid] else iremus_ns[str(uuid.uuid4())]
+    orcid_generated_name_identifier = u(row["orcid_generated_name_identifier"]) if "orcid_generated_name_identifier" in row else iremus_ns[str(uuid.uuid4())]
 
     g.add((iremus_ns[user_uuid], crm_ns["P1_is_identified_by"], orcid_generated_name_identifier))
     g.add((orcid_generated_name_identifier, RDF.type, crm_ns["E41_Appellation"]))
     g.add((orcid_generated_name_identifier, crm_ns["P2_has_type"], iremus_ns[ORCID_GENERATED_NAME_E55_UUID]))
     g.remove((orcid_generated_name_identifier, crm_ns["P190_has_symbolic_content"], None))
-    g.add((orcid_generated_name_identifier, crm_ns["P190_has_symbolic_content"], l(user_dict[user_uuid]["orcid_generated_name"])))
+    g.add((orcid_generated_name_identifier, crm_ns["P190_has_symbolic_content"], l(orcid_generated_name)))
+
 
 #####################################################################################################
 # ECRITURE DU TTL
