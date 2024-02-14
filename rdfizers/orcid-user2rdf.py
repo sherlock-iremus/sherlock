@@ -8,6 +8,7 @@ import json
 import argparse
 import urllib
 from rdflib import Graph, Literal as l, Namespace, RDF, RDFS, URIRef as u, XSD
+from rdflib.term import Variable
 from pprint import pprint
 import uuid
 
@@ -32,16 +33,26 @@ g.bind("crm", crm_ns)
 g.bind("iremus", iremus_ns)
 g.bind("sherlock", sherlock_ns)
 
-old_g = Graph(base=str(iremus_ns))
-old_g.bind("crm", crm_ns)
-old_g.bind("iremus", iremus_ns)
-old_g.bind("sherlock", sherlock_ns)
+#####################################################################################################
+# RÉCUPÉRATION DU GRAPH USER COMPLET
+#####################################################################################################
+
+print("Fetching Sherlock user graph data...")
+
+query = """
+CONSTRUCT { ?s ?p ?o } 
+WHERE { 
+    GRAPH <http://data-iremus.huma-num.fr/graph/users> { ?s ?p ?o } 
+}
+"""
+r = requests.get("http://data-iremus.huma-num.fr/sparql?query=" + urllib.parse.quote((query)))
+
+g.parse(data=r.text, format='ttl')
+g.serialize(destination=args.output_old_ttl)
 
 #####################################################################################################
 # RÉCUPÉRATION DE LA LISTE DES UTILISATEURS SHERLOCK AVEC UN ORCID
 #####################################################################################################
-
-print("Fetching Sherlock user data...")
 
 query = """
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -49,7 +60,6 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 select ?user ?orcid ?orcid_generated_name_identifier ?orcid_generated_name
 where {
- 	graph <http://data-iremus.huma-num.fr/graph/users> {
 		?user rdf:type crm:E21_Person .
     	?user crm:P1_is_identified_by ?orcid_identifier .
     	?orcid_identifier rdf:type crm:E42_Identifier .
@@ -60,11 +70,10 @@ where {
             ?orcid_generated_name_identifier crm:P2_has_type <http://data-iremus.huma-num.fr/id/73ea8d74-3526-4f6a-8830-dd369795650d>. #ORCID NAME IDENTIFIER
             ?orcid_generated_name_identifier crm:P190_has_symbolic_content ?orcid_generated_name .
         }
-  	}
 }
 """
-r = requests.get("http://data-iremus.huma-num.fr/sparql?query=" + urllib.parse.quote((query)))
-sherlock_users_jsonb = json.loads(r.text)
+
+#sherlock_users_jsonb = json.loads(r.text)
 
 
 #####################################################################################################
@@ -73,9 +82,9 @@ sherlock_users_jsonb = json.loads(r.text)
 
 user_dict = {}
 
-for row in sherlock_users_jsonb["results"]["bindings"]:
-    orcid_id = row['orcid']['value']
-    user_uuid = row["user"]["value"].split("/")[-1]
+for row in g.query(query).bindings:
+    orcid_id = row[Variable("orcid")].value
+    user_uuid = row["user"].split("/")[-1]
 
     response = requests.get(f"https://pub.orcid.org/v3.0/{orcid_id}/", headers={'Content-Type': 'application/json'})
     user = response.json()
@@ -88,19 +97,8 @@ for row in sherlock_users_jsonb["results"]["bindings"]:
     user_dict[user_uuid] = {}
     user_dict[user_uuid]["orcid_generated_name"] = orcid_generated_name
     if 'orcid_generated_name' in row:
-        user_dict[user_uuid]["previous_orcid_generated_name_identifier"] = row['orcid_generated_name']['value']
-        user_dict[user_uuid]["orcid_generated_name_identifier"] = row['orcid_generated_name_identifier']['value']
-
-#####################################################################################################
-# GÉNÉRATION DU TTL DE SUPPRESION DES NOMS LORSQU'ILS ONT DÉJÀ ÉTÉ REMPLIS
-#####################################################################################################
-for user_uuid in user_dict:
-    if "orcid_generated_name_identifier" in user_dict[user_uuid]:
-        old_g.add((
-            u(user_dict[user_uuid]["orcid_generated_name_identifier"]), 
-            crm_ns["P190_has_symbolic_content"], 
-            l(user_dict[user_uuid]["previous_orcid_generated_name_identifier"])
-        ))
+        user_dict[user_uuid]["previous_orcid_generated_name_identifier"] = row['orcid_generated_name']
+        user_dict[user_uuid]["orcid_generated_name_identifier"] = row['orcid_generated_name_identifier']
 
 #####################################################################################################
 # GÉNÉRATION DU TTL D'ATTRIBUTION DES GENERATED NAMES
@@ -111,6 +109,7 @@ for user_uuid in user_dict:
     g.add((iremus_ns[user_uuid], crm_ns["P1_is_identified_by"], orcid_generated_name_identifier))
     g.add((orcid_generated_name_identifier, RDF.type, crm_ns["E41_Appellation"]))
     g.add((orcid_generated_name_identifier, crm_ns["P2_has_type"], iremus_ns[ORCID_GENERATED_NAME_E55_UUID]))
+    g.remove((orcid_generated_name_identifier, crm_ns["P190_has_symbolic_content"], None))
     g.add((orcid_generated_name_identifier, crm_ns["P190_has_symbolic_content"], l(user_dict[user_uuid]["orcid_generated_name"])))
 
 #####################################################################################################
@@ -118,4 +117,3 @@ for user_uuid in user_dict:
 #####################################################################################################
 
 g.serialize(destination=args.output_ttl)
-old_g.serialize(destination=args.output_old_ttl)
