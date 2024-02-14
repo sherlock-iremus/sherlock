@@ -4,13 +4,15 @@
 #####################################################################################################
 
 import requests
+import sys
 import json
 import argparse
 import urllib
-from rdflib import Graph, Literal as l, Namespace, RDF, RDFS, URIRef as u, XSD
+from rdflib import Graph, Literal as l, Namespace, RDF, RDFS, URIRef as u, XSD, compare
 from rdflib.term import Variable
 from pprint import pprint
 import uuid
+
 
 
 #####################################################################################################
@@ -33,6 +35,7 @@ g.bind("crm", crm_ns)
 g.bind("iremus", iremus_ns)
 g.bind("sherlock", sherlock_ns)
 
+
 #####################################################################################################
 # RÉCUPÉRATION DU GRAPH USER COMPLET
 #####################################################################################################
@@ -46,10 +49,16 @@ WHERE {
 }
 """
 r = requests.get("http://data-iremus.huma-num.fr/sparql?query=" + urllib.parse.quote((query)))
+g.parse(data=r.content, format='ttl')
+g.serialize(destination=args.output_backup_ttl, encoding='utf-8')
 
-g.parse(data=r.text, format='ttl')
-g.serialize(destination=args.output_backup_ttl)
+g2 = Graph()
+g2.parse(source=args.output_backup_ttl)
 
+if (compare.isomorphic(g,g2)):
+    print("La sauvegarde s'est bien déroulée.")
+else:
+    sys.exit(1)
 #####################################################################################################
 # RÉCUPÉRATION DE LA LISTE DES UTILISATEURS SHERLOCK AVEC UN ORCID
 #####################################################################################################
@@ -68,13 +77,9 @@ where {
         OPTIONAL {
             ?user crm:P1_is_identified_by ?orcid_generated_name_identifier .
             ?orcid_generated_name_identifier crm:P2_has_type <http://data-iremus.huma-num.fr/id/73ea8d74-3526-4f6a-8830-dd369795650d>. #ORCID NAME IDENTIFIER
-            ?orcid_generated_name_identifier crm:P190_has_symbolic_content ?orcid_generated_name .
         }
 }
 """
-
-#sherlock_users_jsonb = json.loads(r.text)
-
 
 #####################################################################################################
 # RÉCUPÉRATION ET GÉNÉRATION DU NOM DE CHAQUE UTILISATEUR SHERLOCK QUI A UN ORCID ID
@@ -105,4 +110,27 @@ for row in g.query(query).bindings:
 # ECRITURE DU TTL
 #####################################################################################################
 
-g.serialize(destination=args.output_ttl)
+g.serialize(destination=args.output_ttl, encoding='utf-8')
+
+#####################################################################################################
+# VÉRIFICATION DE LA RÉUSSITE DE LA GÉNÉRATION DES NOMS 
+#####################################################################################################
+
+new_graph = Graph()
+new_graph.parse(source=args.output_ttl)
+
+old_graph = Graph()
+old_graph.parse(source=args.output_backup_ttl)
+
+if (len(old_graph.all_nodes()) == 0):
+    print("Le graph de production est vide, restaurer manuellement depuis les .ttl de backup.")
+    sys.exit(2)
+
+if (compare.isomorphic(new_graph, old_graph)):
+    print("Aucun changement à appliquer.")
+    sys.exit(2)
+elif (not compare.isomorphic(new_graph, g)):
+    print("Quelque chose s'est mal passé lors de la génération du nouveau .ttl")
+    sys.exit(3)
+
+sys.exit(0)
