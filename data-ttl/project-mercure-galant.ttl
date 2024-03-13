@@ -45,6 +45,7 @@
             <7dd7cb84-ad41-44e6-8044-155827d9ff76>
                 a sherlock:Corpus ;
                 crm:P1_is_identified_by <e38ea871-678a-4ead-99d6-8c7b0c301223> ;
+                crm:P1_is_identified_by "Corpus d'articles transcrits en TEI"
                 .
 
                 <e38ea871-678a-4ead-99d6-8c7b0c301223>

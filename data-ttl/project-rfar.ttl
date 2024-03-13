@@ -34,15 +34,9 @@
             .
 
             <81366968-0fc8-43f6-9a32-9609c19a33c0>
-                a sherlock:Corpus ;
-                crm:P1_is_identified_by <b93cbba1-4c48-4e53-badc-95dbebb735ae>
+                a crm:E32_Authority_Document ;
+                crm:P1_is_identified_by "Référentiel des personnes de la France de l'Ancien Régime"
                 .
-
-                <b93cbba1-4c48-4e53-badc-95dbebb735ae>
-                    a crm:E42_Identifier ;
-                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
-                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/rfar-personnes> ;
-                    .
             
             <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468> a sherlock:Corpus ; crm:P1_is_identified_by <eea017e2-16cd-4261-922a-5dde92033991> .
             <eea017e2-16cd-4261-922a-5dde92033991> a crm:E42_Identifier ; crm:P190_has_symbolic_content "http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=accueildictionnaire" .

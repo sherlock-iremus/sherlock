@@ -79,6 +79,9 @@ for personne in result['data']['personnes']:
     E21_uri = sherlock_data[E21_uuid]
     g.add((E21_uri, RDF.type, crm_ns['E21_Person']))
 
+    # Rattachement au E32
+    g.add((URIRef('81366968-0fc8-43f6-9a32-9609c19a33c0'), crm_ns['P71_lists'], E21_uri))
+
     # prefLabel
     E41_uri = sherlock_data[cache.get_uuid(['personnes', E21_uuid, 'E41_pref'], True)]
     g.add((E21_uri, crm_ns['P1_is_identified_by'], E41_uri))

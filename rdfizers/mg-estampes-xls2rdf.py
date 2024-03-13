@@ -8,6 +8,7 @@ from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef
 import re
 import requests
 from slugify import slugify
+import uuid
 import yaml
 
 # Data constants
@@ -122,8 +123,21 @@ def opth(concept, thesaurus_id):
     return URIRef(f"https://opentheso.huma-num.fr/opentheso/?idc={concept}&idt={thesaurus_id}")
 
 #######################################################################################################
+# HELPERS
+#######################################################################################################
+
+
+def is_valid_uuid(val):
+    try:
+        uuid.UUID(str(val))
+        return True
+    except ValueError:
+        return False
+
+#######################################################################################################
 # TRAITEMENT DES ESTAMPES
 #######################################################################################################
+
 
 sheets = helpers_excel.get_xlsx_rows_as_dicts(args.xlsx)
 for sheet_title, rows in sheets.items():
@@ -388,8 +402,11 @@ for sheet_title, rows in sheets.items():
                     personne = personne.strip().replace("’", "'")
                     if personne == "" or personne == " ":
                         continue
-                    personnes_used.append(personne)
-                    make_E13(["estampes", id, "personnes associées", personne, "E13_uuid"], estampe, iremus_ns[PERSONNE_ASSOCIEE_E55_UUID], iremus_ns[personne], estampe)
+                    if not is_valid_uuid(personne):
+                        print("WARNING [Personnes associées] UUID invalide : " + personne)
+                    else:
+                        personnes_used.append(personne)
+                        make_E13(["estampes", id, "personnes associées", personne, "E13_uuid"], estampe, iremus_ns[PERSONNE_ASSOCIEE_E55_UUID], iremus_ns[personne], estampe)
             # endregion
 
             # region E65: Production de l'estampe

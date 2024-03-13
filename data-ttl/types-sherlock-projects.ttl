@@ -10,4 +10,3 @@
 <fd434edb-66c1-4b0a-9b1f-f1aa136c705a> a crm:E55_Type ; crm:P1_is_identified_by "Software function"@en .
 <cabe46bf-23d4-4392-aa20-b3eb21ad7dfd> a crm:E55_Type ; crm:P1_is_identified_by "Brouillon"@fr, "Draft"@en .
 <54a5cf00-a46a-4435-b893-6eda0cdc5462> a crm:E55_Type ; crm:P1_is_identified_by "Publié"@fr, "Published"@en .
-

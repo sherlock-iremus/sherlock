@@ -292,6 +292,7 @@ sherlock:is_member_of
 
 sherlock:P14_had_contributor
     a rdfs:Property ;
+    rdfs:subPropertyOf crm:P11_had_participant ;
     rdfs:domain crm:E7_Activity ;
     rdfs:range: crm:E39_Actor ;
     .

@@ -16,12 +16,6 @@
 <098f93e4-24d4-456e-8e30-21f1bc551c80> a crm:E41_Appellation ; crm:P190_has_symbolic_content "DFA0DF" ; crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
 <0d4e42e8-23ec-4f34-b144-8074c07b9505> a crm:E42_Identifier ; crm:P190_has_symbolic_content "0009-0009-9315-9363" ; crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
 
-# Francesca Mignogna
-<31bbca5e-a494-4f73-ad4d-de45cac63354> a crm:E21_Person ; crm:P1_is_identified_by <3f478394-6580-4b46-8c42-b52516954ffb> , <8db4b3cd-3f50-406e-92b6-4d2008dd523e> , <eaf5adb3-c387-479b-aa39-42e73fa9d393> .
-<3f478394-6580-4b46-8c42-b52516954ffb> a crm:E42_Identifier ; crm:P190_has_symbolic_content "0000-0001-7819-2151" ; crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> ; .
-<8db4b3cd-3f50-406e-92b6-4d2008dd523e> a crm:E41_Appellation ; crm:P190_has_symbolic_content "F75E25" ; crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
-<eaf5adb3-c387-479b-aa39-42e73fa9d393> a crm:E41_Appellation ; crm:P190_has_symbolic_content "F" ; crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .
-
 # Nicolas Meeùs
 <08a13162-1841-40e4-a1c8-c8f4033cbc6c> a crm:E21_Person ; crm:P1_is_identified_by <9027e6c3-386f-403b-8b22-1db8f8eefec6> , <c4b18aeb-fca7-4703-8dcf-1d7cc779f367> , <e7c16cee-36db-440d-a01e-0a6434cd24cb> .
 <9027e6c3-386f-403b-8b22-1db8f8eefec6> a crm:E42_Identifier ; crm:P190_has_symbolic_content "0000-0003-4308-0445" ; crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
