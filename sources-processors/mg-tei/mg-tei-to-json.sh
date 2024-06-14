@@ -50,7 +50,7 @@ do
     rm $f.temp2
 
     # JSONISATION DES FRAGMENTS TEI
-    echo "    $(file_name $f) [TEI] -> $article_id [JSON]"
-    python3 "$SCRIPTDIR"/xml2json.py $f $JSON_ARTICLES/$article_id.json
+    # echo "    $(file_name $f) [TEI] -> $article_id [JSON]"
+    # python3 "$SCRIPTDIR"/xml2json.py $f $JSON_ARTICLES/$article_id.json
   done
 done

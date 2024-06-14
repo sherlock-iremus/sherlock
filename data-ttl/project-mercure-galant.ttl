@@ -51,7 +51,7 @@
                 <e38ea871-678a-4ead-99d6-8c7b0c301223>
                     a crm:E42_Identifier ;
                     crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
-                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-tei> ;
+                    crm:P190_has_symbolic_content "http://data-iremus.huma-num.fr/graph/mercure-galant-tei" ;
                     .
 
         <fc4956c4-55aa-4528-b584-2d65faf6afe2>

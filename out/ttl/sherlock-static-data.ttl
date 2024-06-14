@@ -436,6 +436,7 @@ sherlock:is_member_of
 
 sherlock:P14_had_contributor
     a rdfs:Property ;
+    rdfs:subPropertyOf crm:P11_had_participant ;
     rdfs:domain crm:E7_Activity ;
     rdfs:range: crm:E39_Actor ;
     .
@@ -497,7 +498,7 @@ sherlock:is_open_to_contribution
                 <e38ea871-678a-4ead-99d6-8c7b0c301223>
                     a crm:E42_Identifier ;
                     crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
-                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-tei> ;
+                    crm:P190_has_symbolic_content "http://data-iremus.huma-num.fr/graph/mercure-galant-tei" ;
                     .
 
         <fc4956c4-55aa-4528-b584-2d65faf6afe2>
@@ -693,6 +694,35 @@ sherlock:is_open_to_contribution
                     crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/rfar-institutions> ;
                     .@base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+<2331eef7-2003-4f39-bdc7-13064657156c>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by 'Polifonia' ;
+    crm:P1_is_identified_by <https://polifonia-project.eu/> ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P9_consists_of <d9dafa60-75d1-4c34-8d1d-5ec12ffa0ea8> ;
+    .
+
+<d9dafa60-75d1-4c34-8d1d-5ec12ffa0ea8>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by 'Tonalities' ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P14_carried_out_by <56ed1334-b47a-440a-b78d-04c8d3cfc311> ;
+    .
+
+<56ed1334-b47a-440a-b78d-04c8d3cfc311>
+    a crm:E39_Actor ;
+    crm:P1_is_identified_by 'Team Tonalities (IReMus)' ;
+    .
+
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
 <6d72746a-9f28-4739-8786-c6415d53c56d> a crm:E55_Type ; crm:P1_is_identified_by "Entité analytique"@fr, "Analytical entity"@en .
 <90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86> a crm:E55_Type ; crm:P1_is_identified_by "MEI score offset"@en .
@@ -882,7 +912,6 @@ sherlock:is_open_to_contribution
 <fd434edb-66c1-4b0a-9b1f-f1aa136c705a> a crm:E55_Type ; crm:P1_is_identified_by "Software function"@en .
 <cabe46bf-23d4-4392-aa20-b3eb21ad7dfd> a crm:E55_Type ; crm:P1_is_identified_by "Brouillon"@fr, "Draft"@en .
 <54a5cf00-a46a-4435-b893-6eda0cdc5462> a crm:E55_Type ; crm:P1_is_identified_by "Publié"@fr, "Published"@en .
-
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
