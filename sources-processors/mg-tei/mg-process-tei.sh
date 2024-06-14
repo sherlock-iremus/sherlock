@@ -14,8 +14,6 @@ rm -rf $TEI_LIVRAISONS
 mkdir -p $TEI_LIVRAISONS
 rm -rf $TEI_ARTICLES
 mkdir -p $TEI_ARTICLES
-rm -rf $JSON_ARTICLES
-mkdir -p $JSON_ARTICLES
 
 for f in $(ls $MGGHXML/*.xml)
 do
