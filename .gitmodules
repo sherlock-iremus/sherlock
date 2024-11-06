@@ -1,0 +1,9 @@
+[submodule "in/mercure-galant-github"]
+	path = in/mercure-galant-github
+	url = git@github.com:OBVIL/mercure-galant.git
+[submodule "in/mercure-galant-sources-github"]
+	path = in/mercure-galant-sources-github
+	url = git@github.com:sherlock-iremus/mercure-galant-sources.git
+[submodule "mercure-galant-estampes"]
+	path = in/mercure-galant-estampes-github
+	url = git@github.com:sherlock-iremus/mercure-galant-estampes.git

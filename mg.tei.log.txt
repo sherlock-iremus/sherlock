@@ -1,0 +1,295 @@
+LIVRAISON 1672-01
+LIVRAISON 1673-02
+LIVRAISON 1673-03
+LIVRAISON 1673-04
+LIVRAISON 1673-05
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/MG-1673-05*: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/1673-05*: No such file or directory
+LIVRAISON 1673-06
+LIVRAISON 1677-03
+LIVRAISON 1677-04
+LIVRAISON 1677-05
+LIVRAISON 1677-06
+LIVRAISON 1677-07
+LIVRAISON 1677-08
+LIVRAISON 1677-09
+LIVRAISON 1677-10
+LIVRAISON 1677-11
+LIVRAISON 1677-12
+LIVRAISON 1678-01
+LIVRAISON 1678-02
+LIVRAISON 1678-03
+LIVRAISON 1678-03e
+LIVRAISON 1678-04
+LIVRAISON 1678-05
+LIVRAISON 1678-06
+LIVRAISON 1678-06e
+LIVRAISON 1678-07
+LIVRAISON 1678-08
+LIVRAISON 1678-09
+LIVRAISON 1678-09e
+LIVRAISON 1678-10
+LIVRAISON 1678-11
+LIVRAISON 1678-12
+LIVRAISON 1678-12e
+LIVRAISON 1679-01
+LIVRAISON 1679-02
+LIVRAISON 1679-03
+LIVRAISON 1679-03e
+LIVRAISON 1679-04
+LIVRAISON 1679-05
+LIVRAISON 1679-06
+LIVRAISON 1679-06e
+LIVRAISON 1679-07
+LIVRAISON 1679-08
+LIVRAISON 1679-09
+LIVRAISON 1679-09e
+LIVRAISON 1679-10a
+LIVRAISON 1679-10b
+LIVRAISON 1679-11
+LIVRAISON 1679-12
+LIVRAISON 1679-12e
+LIVRAISON 1680-01a
+LIVRAISON 1680-01b
+LIVRAISON 1680-02
+LIVRAISON 1680-03a
+LIVRAISON 1680-03b
+LIVRAISON 1680-04
+Error on line 133 column 53 of MG-1680-04.xml:
+  SXXP0003   Error reported by XML parser: Le type d'élément "quote" doit se terminer par la
+  balise de fin correspondante "</quote>".
+SXXP0003   Error reported by XML parser: Le type d'élément "quote" doit se terminer par la balise de fin correspondante "</quote>".
+rm: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/TOKILL.xml: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/MG-1680-04*: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/1680-04*: No such file or directory
+LIVRAISON 1680-05
+LIVRAISON 1680-06
+LIVRAISON 1680-06e
+LIVRAISON 1680-07
+LIVRAISON 1680-08
+LIVRAISON 1680-09a
+LIVRAISON 1680-09b
+LIVRAISON 1680-09e
+LIVRAISON 1680-10
+LIVRAISON 1680-11
+LIVRAISON 1680-12
+LIVRAISON 1680-12e
+LIVRAISON 1681-01
+LIVRAISON 1681-02
+LIVRAISON 1681-03
+Error on line 1381 column 3 of MG-1681-03.xml:
+  SXXP0003   Error reported by XML parser: Le type d'élément "p" doit se terminer par la
+  balise de fin correspondante "</p>".
+SXXP0003   Error reported by XML parser: Le type d'élément "p" doit se terminer par la balise de fin correspondante "</p>".
+rm: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/TOKILL.xml: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/MG-1681-03*: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/1681-03*: No such file or directory
+LIVRAISON 1681-03e
+LIVRAISON 1681-04
+LIVRAISON 1681-05
+LIVRAISON 1681-06
+LIVRAISON 1681-06e
+LIVRAISON 1681-07a
+LIVRAISON 1681-08
+LIVRAISON 1681-09
+LIVRAISON 1681-09e
+LIVRAISON 1681-10
+LIVRAISON 1681-11
+LIVRAISON 1681-12
+LIVRAISON 1681-12e
+LIVRAISON 1682-01
+LIVRAISON 1682-02
+LIVRAISON 1682-03
+LIVRAISON 1682-03e
+LIVRAISON 1682-04
+LIVRAISON 1682-05
+LIVRAISON 1682-06
+LIVRAISON 1682-06e
+LIVRAISON 1682-07
+LIVRAISON 1682-08
+LIVRAISON 1682-09a
+LIVRAISON 1682-09b
+LIVRAISON 1682-09e
+LIVRAISON 1682-10a
+LIVRAISON 1682-10b
+LIVRAISON 1682-11
+LIVRAISON 1682-12
+LIVRAISON 1682-12e
+LIVRAISON 1683-01
+LIVRAISON 1683-02
+LIVRAISON 1683-03
+LIVRAISON 1683-03e
+Error on line 2 column 1 of MG-1683-03e.xml:
+  SXXP0003   Error reported by XML parser: Contenu non autorisé dans le prologue.
+SXXP0003   Error reported by XML parser: Contenu non autorisé dans le prologue.
+rm: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/TOKILL.xml: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/MG-1683-03e*: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/1683-03e*: No such file or directory
+LIVRAISON 1683-04
+LIVRAISON 1683-05
+LIVRAISON 1683-06
+LIVRAISON 1683-06e
+LIVRAISON 1683-07
+LIVRAISON 1683-08
+LIVRAISON 1683-09
+LIVRAISON 1683-09e
+LIVRAISON 1683-10a
+LIVRAISON 1683-10b
+LIVRAISON 1683-11
+LIVRAISON 1683-12
+LIVRAISON 1683-12e
+LIVRAISON 1684-01
+LIVRAISON 1684-02
+LIVRAISON 1684-03
+LIVRAISON 1684-03e
+LIVRAISON 1684-04
+LIVRAISON 1684-05
+LIVRAISON 1684-06a
+LIVRAISON 1684-06b
+LIVRAISON 1684-06c
+LIVRAISON 1684-06e
+LIVRAISON 1684-07
+LIVRAISON 1684-08
+LIVRAISON 1684-09
+LIVRAISON 1684-09e
+LIVRAISON 1684-10
+LIVRAISON 1684-11
+LIVRAISON 1684-12
+LIVRAISON 1684-12e
+LIVRAISON 1685-01
+LIVRAISON 1685-02
+LIVRAISON 1685-03
+LIVRAISON 1685-03e
+LIVRAISON 1685-04
+LIVRAISON 1685-05
+LIVRAISON 1685-06
+LIVRAISON 1685-06e
+LIVRAISON 1685-07
+LIVRAISON 1685-08
+LIVRAISON 1685-09
+LIVRAISON 1685-09e
+LIVRAISON 1685-10
+LIVRAISON 1685-11
+LIVRAISON 1685-12
+LIVRAISON 1685-12e
+LIVRAISON 1686-01
+LIVRAISON 1686-02a
+LIVRAISON 1686-02b
+LIVRAISON 1686-03
+LIVRAISON 1686-04
+LIVRAISON 1686-05
+LIVRAISON 1686-06
+LIVRAISON 1686-07a
+LIVRAISON 1686-07b
+LIVRAISON 1686-08
+LIVRAISON 1686-09a
+LIVRAISON 1686-09b
+LIVRAISON 1686-10a
+LIVRAISON 1686-11a
+LIVRAISON 1686-11b
+LIVRAISON 1686-12a
+LIVRAISON 1686-12b
+LIVRAISON 1687-01a
+LIVRAISON 1687-01b
+LIVRAISON 1687-02
+LIVRAISON 1687-03a
+LIVRAISON 1687-03b
+LIVRAISON 1687-04
+LIVRAISON 1687-05
+LIVRAISON 1687-06a
+LIVRAISON 1687-06b
+LIVRAISON 1687-07
+LIVRAISON 1687-08a
+LIVRAISON 1687-08b
+LIVRAISON 1687-09a
+LIVRAISON 1687-09b
+LIVRAISON 1687-10
+LIVRAISON 1687-11
+LIVRAISON 1687-12
+LIVRAISON 1688-01
+LIVRAISON 1688-02
+LIVRAISON 1688-03
+LIVRAISON 1688-04a
+LIVRAISON 1688-04b
+LIVRAISON 1688-05a
+LIVRAISON 1688-05b
+LIVRAISON 1688-06a
+LIVRAISON 1688-07
+LIVRAISON 1688-08
+LIVRAISON 1688-09a
+LIVRAISON 1688-09b
+LIVRAISON 1688-10a
+LIVRAISON 1688-10b
+LIVRAISON 1688-11a
+LIVRAISON 1688-11b
+LIVRAISON 1688-12a
+Error on line 1103 column 9 of MG-1688-12a.xml:
+  SXXP0003   Error reported by XML parser: Le type d'élément "p" doit se terminer par la
+  balise de fin correspondante "</p>".
+SXXP0003   Error reported by XML parser: Le type d'élément "p" doit se terminer par la balise de fin correspondante "</p>".
+rm: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/TOKILL.xml: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/MG-1688-12a*: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/1688-12a*: No such file or directory
+LIVRAISON 1688-12b
+LIVRAISON 1689-01a
+Error on line 83 column 61 of MG-1689-01a.xml:
+  SXXP0003   Error reported by XML parser: Le type d'élément "note" doit se terminer par la
+  balise de fin correspondante "</note>".
+SXXP0003   Error reported by XML parser: Le type d'élément "note" doit se terminer par la balise de fin correspondante "</note>".
+rm: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/TOKILL.xml: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/MG-1689-01a*: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/1689-01a*: No such file or directory
+LIVRAISON 1689-02a
+LIVRAISON 1689-02b
+LIVRAISON 1689-03a
+LIVRAISON 1689-03b
+LIVRAISON 1689-04a
+Error on line 171 column 808 of MG-1689-04a.xml:
+  SXXP0003   Error reported by XML parser: Le type d'élément "note" doit se terminer par la
+  balise de fin correspondante "</note>".
+SXXP0003   Error reported by XML parser: Le type d'élément "note" doit se terminer par la balise de fin correspondante "</note>".
+rm: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/TOKILL.xml: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/MG-1689-04a*: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/1689-04a*: No such file or directory
+LIVRAISON 1689-05a
+LIVRAISON 1689-05b
+LIVRAISON 1689-06a
+LIVRAISON 1689-07a
+LIVRAISON 1689-08a
+LIVRAISON 1689-09
+Error on line 410 column 829 of MG-1689-09.xml:
+  SXXP0003   Error reported by XML parser: Le type d'élément "p" doit se terminer par la
+  balise de fin correspondante "</p>".
+SXXP0003   Error reported by XML parser: Le type d'élément "p" doit se terminer par la balise de fin correspondante "</p>".
+rm: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/TOKILL.xml: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/MG-1689-09*: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/1689-09*: No such file or directory
+LIVRAISON 1689-10
+LIVRAISON 1689-11
+LIVRAISON 1689-12
+LIVRAISON 1690-01
+LIVRAISON 1690-02
+LIVRAISON 1690-03
+LIVRAISON 1690-04
+LIVRAISON 1690-05
+LIVRAISON 1690-06
+LIVRAISON 1690-07a
+LIVRAISON 1690-07b
+LIVRAISON 1690-08
+LIVRAISON 1690-09
+LIVRAISON 1690-10
+Error on line 375 column 134 of MG-1690-10.xml:
+  SXXP0003   Error reported by XML parser: Le type d'élément "note" doit se terminer par la
+  balise de fin correspondante "</note>".
+SXXP0003   Error reported by XML parser: Le type d'élément "note" doit se terminer par la balise de fin correspondante "</note>".
+rm: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/TOKILL.xml: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/MG-1690-10*: No such file or directory
+ls: /Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/in/mercure-galant-sources-github/tei/articles/1690-10*: No such file or directory
+LIVRAISON 1690-11
+LIVRAISON 1690-12
+LIVRAISON 1691-01
+LIVRAISON 1691-02
+LIVRAISON 1691-03
+LIVRAISON 1691-04
+LIVRAISON 1691-05
+LIVRAISON 1691-06

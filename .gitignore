@@ -1,0 +1,10 @@
+.vscode
+.DS_Store
+
+apps-and-deps/
+backups/
+in/
+repositories/
+secret/
+temp_prod/
+zzz*/

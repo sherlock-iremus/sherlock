@@ -1,0 +1,923 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Nathalie Berton-Blivet
+<b25c0ded-46e0-480d-8446-0a202266bd8f> a crm:E21_Person ; crm:P1_is_identified_by <2dc9b054-9de2-4752-83ed-a7dc15c81f52>, <4becab57-c81b-4430-a75e-886be453c6c5>, <021c87aa-6c84-4c73-846b-5ab86a55943c>, <d4743096-a3ec-41b8-8a47-bcd8daeb8596> .
+<2dc9b054-9de2-4752-83ed-a7dc15c81f52> a crm:E41_Appellation ; crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d>; crm:P190_has_symbolic_content "Nathalie Berton-Blivet" .
+<4becab57-c81b-4430-a75e-886be453c6c5> a crm:E41_Appellation ; crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> ; crm:P190_has_symbolic_content "🪈" .
+<021c87aa-6c84-4c73-846b-5ab86a55943c> a crm:E41_Appellation ; crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> ; crm:P190_has_symbolic_content "00BBBB" .
+<d4743096-a3ec-41b8-8a47-bcd8daeb8596> a crm:E42_Identifier ; crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> ; crm:P190_has_symbolic_content "0000-0002-5274-4330" .
+
+# Isabelle Pluvieux
+<e6f783bc-2b2e-497b-9f48-f0bbd86f4bbb> a crm:E21_Person ; crm:P1_is_identified_by <33545359-1251-4c84-ad8d-a28f001f1482>, <089de6ea-567a-40c3-b8c6-c23be78433d3>, <098f93e4-24d4-456e-8e30-21f1bc551c80>, <0d4e42e8-23ec-4f34-b144-8074c07b9505> .
+<9aa4342b-4d37-453a-9fd1-2d5bc96ec42f> a crm:E41_Appellation ; crm:P2_has_type <73ea8d74-3526-4f6a-8830-dd369795650d> ; crm:P190_has_symbolic_content "Isabelle Pluvieux" .
+<089de6ea-567a-40c3-b8c6-c23be78433d3> a crm:E41_Appellation ; crm:P190_has_symbolic_content "👑" ; crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .
+<098f93e4-24d4-456e-8e30-21f1bc551c80> a crm:E41_Appellation ; crm:P190_has_symbolic_content "DFA0DF" ; crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
+<0d4e42e8-23ec-4f34-b144-8074c07b9505> a crm:E42_Identifier ; crm:P190_has_symbolic_content "0009-0009-9315-9363" ; crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+
+# Nicolas Meeùs
+<08a13162-1841-40e4-a1c8-c8f4033cbc6c> a crm:E21_Person ; crm:P1_is_identified_by <9027e6c3-386f-403b-8b22-1db8f8eefec6> , <c4b18aeb-fca7-4703-8dcf-1d7cc779f367> , <e7c16cee-36db-440d-a01e-0a6434cd24cb> .
+<9027e6c3-386f-403b-8b22-1db8f8eefec6> a crm:E42_Identifier ; crm:P190_has_symbolic_content "0000-0003-4308-0445" ; crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+<c4b18aeb-fca7-4703-8dcf-1d7cc779f367> a crm:E41_Appellation ; crm:P190_has_symbolic_content "F75E25" ; crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
+<e7c16cee-36db-440d-a01e-0a6434cd24cb> a crm:E41_Appellation ; crm:P190_has_symbolic_content "N" ; crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .
+
+# Hugues Seress
+<49c69132-183d-40d4-90f5-2b533ef7dfde> a crm:E21_Person ; crm:P1_is_identified_by <85b9a53f-43ca-44f4-9a38-388b0e83b620> , <4e384a01-7ee6-4efb-a37b-7b1304a03ce5> , <40cc3cd3-918b-4fdc-b5a6-19cf71568e97> .
+<85b9a53f-43ca-44f4-9a38-388b0e83b620> a crm:E42_Identifier ; crm:P190_has_symbolic_content "0000-0001-9950-2657" ; crm:P2_has_type <d7ef2583-ff31-4913-9ed3-bc3a1c664b21> .
+<4e384a01-7ee6-4efb-a37b-7b1304a03ce5> a crm:E41_Appellation ; crm:P190_has_symbolic_content "F75E25" ; crm:P2_has_type <5f1bb74f-6ea0-4073-8b68-086f98454f1c> .
+<40cc3cd3-918b-4fdc-b5a6-19cf71568e97> a crm:E41_Appellation ; crm:P190_has_symbolic_content "H" ; crm:P2_has_type <04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> .@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mo: <http://purl.org/ontology/chord/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Types d'annotations
+
+<169ab089-c0a8-43ab-aec4-5a1a6e1b52c1>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Type de dissonance"@fr ;
+ .
+<003559fc-f033-4fc3-9c05-0d5f283123ed>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Identification de fondamentale"@fr ;
+ .
+
+# Types de dissonances
+
+<b2e81a8a-01f5-47f3-b5bf-aaa1c9300cfd>
+ a crm:E32_Authority_Document ;
+ crm:P1_is_identified_by: "Types de dissonances" ;
+ crm:P71_lists <c9289aed-0ee9-43fa-bb67-699b9346d122> ;
+ crm:P71_lists <14e52704-1322-4338-92a5-2b866c856d1f> ;
+ crm:P71_lists <905674f2-40ed-4bf0-8d13-df113ed84513> ;
+ crm:P71_lists <791d8d87-9eb0-43f5-ae34-3f2da8ea40cb> ;
+ crm:P71_lists <0bbe0556-1ac9-4ef8-b449-23e834dcc2b2> ;
+ crm:P71_lists <184b74d9-3452-42f1-963b-40d820021dfc> ;
+ .
+<d161f8dc-f149-4c75-9efb-15e438f1041c>
+ a crm:E65_Creation ;
+ crm:P94:has_created <b2e81a8a-01f5-47f3-b5bf-aaa1c9300cfd> ;
+ crm:P14_carried_out_by <5d7bdf74-addd-418b-ab43-38af4e70c158> ;
+ .
+<c9289aed-0ee9-43fa-bb67-699b9346d122>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Passing note"@en ;
+ crm:P1_is_identified_by "Note de passage"@fr ;
+ .
+<184b74d9-3452-42f1-963b-40d820021dfc>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Consonant note"@en ;
+ .
+<14e52704-1322-4338-92a5-2b866c856d1f>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Neighbor note"@en ;
+ crm:P1_is_identified_by "Broderie"@fr ;
+ .
+<905674f2-40ed-4bf0-8d13-df113ed84513>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Anticipation"@en ;
+ crm:P1_is_identified_by "Anticipation"@fr ;
+ .
+<791d8d87-9eb0-43f5-ae34-3f2da8ea40cb>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Suspension"@en ;
+ crm:P1_is_identified_by "Retard"@fr ;
+ .
+<0bbe0556-1ac9-4ef8-b449-23e834dcc2b2>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "Escape note"@en ;
+ crm:P1_is_identified_by "Échappée"@fr ;
+ .
+
+<e678d98d-5d13-492b-99f1-ce6bb3d76c10>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "C" ;
+ .
+<2f322b61-a201-43d8-aa18-7588dcdccecd>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "C♯" ;
+ .
+<a7128ac5-489b-43be-a1a0-c299681fb041>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "D" ;
+ .
+<7da8c5a3-b277-47cd-9434-c2518139c7c1>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "E♭" ;
+ .
+<16d52581-f121-453c-9e9f-3f193a116854>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "E" ;
+ .
+<09b8aff7-1ff1-4f08-9232-6b59d842459b>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "F" ;
+ .
+<7576b9e1-d018-4c30-85e2-e641025bc479>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "F♯" ;
+ .
+<bc79f8e7-c5ba-47d9-8df0-484fa2c8d2cb>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "G" ;
+ .
+<4a14582b-2457-42ac-b619-ad5d40c66fa3>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "G♯" ;
+ .
+<6052e2c5-3035-46c9-8406-606c160c12db>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "A" ;
+ .
+<dec44fce-de17-446c-ba68-b9c998d3f488>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "B♭" ;
+ .
+<74df0ba4-cd98-47dd-979f-a77adbf8031b>
+ a crm:E55_Type ;
+ crm:P1_is_identified_by "B" ;
+ .@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# TODO Jouer un rôle fonctionnel dans un groupe n'est pas la même chose qu'appartenir à ce groupe (distinction entre trésorier et adhérent)
+sherlock:possible_part_in_group
+    a rdf:Property ;
+    rdfs:domain crm:E74_Group ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Defines a possible part in group"@en ;
+.
+
+sherlock:has_interesting_part
+    a rdf:Property ;
+    rdfs:subPropertyOf crm:P106_is_composed_of ;
+    rdfs:domain crm:E90_Symbolic_Object ;
+    rdfs:range crm:E90_Symbolic_Object ;
+    rdfs:label "Highlights an interesting texte sample"@en ;
+.
+
+sherlock:function
+    a rdf:Property ;
+    rdfs:subPropertyOf crm:P150_defines_typical_parts_of ;
+    rdfs:domain crm:E55_Type ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Defines a function in an institution"@en ;
+    .
+
+sherlock:geohistorical_situation
+    a rdf:Property ;
+    rdfs:domain crm:E1_CRM_Entity ;
+    rdfs:range crm:E93_Presence ;
+    rdfs:label "Situates in time and space"@en ;
+    .
+
+sherlock:sheP_désigne
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:subPropertyOf crm:P67_refers_to ;
+    rdfs:domain crm:E89_Propositional_Object ;
+    rdfs:range crm:E1_CRM_Entity ;
+    crm:P1_is_identified_by "Désigne"@fr ;
+    .
+
+sherlock:sheP_MEI_Element
+    a rdf:Property ;
+    rdfs:domain crmdig:D1_Digital_Object ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "MEI element"@en
+    .
+
+sherlock:sheP_a_pour_entité_de_plus_haut_niveau
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:subPropertyOf crm:P71_lists ;
+    rdfs:domain crm:E32_Authority_Document ;
+    rdfs:range crm:E1_CRM_Entity ;
+    rdfs:label "A pour entité de plus haut niveau"@fr ;
+    .
+
+sherlock:sheP_is_linked_to_thesaurus a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain crm:E55_Type ;
+    rdfs:range crm:E32_Authority_Document ;
+    rdfs:label "prend ses valeurs dans le thésaurus"@en ;
+    .
+
+sherlock:sheP_subscribe
+    a rdf:Property ;
+    rdfs:domain crm:E21_Person ;
+    rdfs:range rdfs:Resource ;
+    .
+
+sherlock:definition
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain crm:E1_CRM_Entity ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf crm:P3_has_note ;
+    .
+    
+sherlock:has_editorial_note
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain crm:E1_CRM_Entity ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf crm:P3_has_note ;
+    .
+
+# TONALITIES
+
+sherlock:has_musical_context
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "A pour contexte musical"@fr ;
+    .
+
+sherlock:has_literary_source
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain crm:E1_CRM_Entity ;
+    rdfs:range crm:E62_String ;
+    rdfs:label "A pour source littéraire"@fr ;
+    .
+
+sherlock:has_musical_work_type
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "A pour type"@fr ;
+    .
+
+sherlock:has_modal-tonal_attribution
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Modal-tonal attribution"@en ;
+    .
+
+sherlock:has_nomenclature
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Nomenclature"@en ;
+    .
+
+sherlock:has_clefs
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Clefs"@en ;
+    .
+
+sherlock:has_key_signature
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Key Signature"@en ;
+    .
+
+sherlock:has_ambitus
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Ambitus"@en ;
+    .
+
+sherlock:has_tempus
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Tempus"@en ;
+    .
+
+sherlock:has_tonal-type
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Tonal Type"@en ;
+    .
+
+sherlock:has_final
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Final"@en ;
+    .
+
+sherlock:has_number_of_voices
+    a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Number of voices"@en ;
+    .
+
+sherlock:has_final_pitches a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Final pitch(es)"@en ;
+    .
+
+sherlock:has_pitch_class_hierarchies a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Pitch Class Hierarchies"@en ;
+    .
+
+sherlock:Fusion a rdfs:Class ;
+    rdfs:subClassOf crm:E5_Event ;
+    rdfs:label "Fusion Event"@en ;
+    .
+
+sherlock:was_merged a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:E92_Spacetime_Volume ;
+    rdfs:range sherlock:Fusion ;
+    rdfs:label "was merged"@fr ;
+    .
+
+sherlock:commune_nouvelle a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain sherlock:Fusion ;
+    rdfs:range crm:E92_Spacetime_Volume ;
+    rdfs:label "has commune nouvelle"@fr ;
+    .
+
+sherlock:same_interpretative_content a rdf:Property ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range lrmoo:F2_Expression ;
+    rdfs:label "has same interpretative content as"@en ;
+    rdfs:subPropertyOf crm:P130_shows_features_of ;
+    .
+
+sherlock:Commission
+    a rdfs:Class ;
+    rdfs:subClassOf crm:E7_Activity ;
+    rdfs:label "Commission Event"@en ;
+    .
+
+sherlock:commission_received_by
+    a rdf:Property ;
+    rdfs:domain sherlock:Commission ;
+    rdfs:range crm:E39_Actor ;
+    .
+
+sherlock:commission_of
+    a rdf:Property ;
+    rdfs:domain sherlock:Commission ;
+    rdfs:range crm:E73_Information_Object ;
+    .
+
+# ANLYSIS
+
+sherlock:Analysis
+    a rdfs:Class ;
+    rdfs:subClassOf crm:E7_Activity ;
+    rdfs:label "Analyse"@fr ;
+    .
+
+sherlock:has_privacy_type
+    a rdf:Property ;
+    rdfs:domain crm:E7_Activity ;
+    rdfs:range crm:E55_Type;
+    .
+
+sherlock:has_document_context
+    a rdf:Property ;
+    rdfs:domain crm:E13_Attribute_Assignment ;
+    rdfs:range crm:E73_Information_Object ;
+    .
+
+sherlock:Corpus
+    a rdfs:Class ;
+    rdfs:label "Corpus" ;
+    rdfs:subClassOf crm:E89_Propositional_Object ;
+    rdfs:subClassOf crm:E72_Legal_Object ;
+    .
+
+sherlock:has_member
+    a rdfs:Property ;
+    rdfs:domain sherlock:Corpus ;
+    rdfs:range crm:E1_CRM_Entity ;
+    owl:inverseOf sherlock:is_member_of ;
+    .
+
+sherlock:is_member_of
+    a rdfs:Property ;
+    rdfs:domain crm:E1_CRM_Entity ;
+    rdfs:range sherlock:Corpus ;
+    owl:inverseOf sherlock:has_member ;
+    .
+
+sherlock:P14_had_contributor
+    a rdfs:Property ;
+    rdfs:subPropertyOf crm:P11_had_participant ;
+    rdfs:domain crm:E7_Activity ;
+    rdfs:range: crm:E39_Actor ;
+    .
+
+sherlock:is_open_to_contribution
+    a rdf:Property ;
+    rdfs:domain crm:E7_Activity ;
+    rdfs:range xsd:boolean;
+    .@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+################################################################################
+# ACTEURS
+################################################################################
+
+<684b4c1a-be76-474c-810e-0f5984b47921>
+    a crm:E39_Actor ;
+    crm:P1_is_identified_by "L'équipe Mercure Galant" ;
+    .
+
+################################################################################
+# PROJETS
+################################################################################
+
+<02b27c88-7fea-40d1-86cf-428b0d3e3a13>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by "Projet d'édition du Mercure Galant" ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P9_consists_of <a4a80932-570e-48e6-b3f2-9cdfcb91a48a>, <756aa164-0cde-46ac-bc3a-a0ea83a08e2d>, <b2967fdb-c406-499d-aa59-6e3b80ed9e30> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    .
+
+    ################################################################################
+    # TEI
+    ################################################################################
+
+    <a4a80932-570e-48e6-b3f2-9cdfcb91a48a>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Édition numérique des articles du Mercure Galant" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P9_consists_of <de130017-ef82-4547-9892-194dde8cb726> ;
+        crm:P9_consists_of <fc4956c4-55aa-4528-b584-2d65faf6afe2> ;
+        .
+
+        <de130017-ef82-4547-9892-194dde8cb726>
+            a crm:E65_Creation ;
+            crm:P1_is_identified_by "Transcription TEI des articles du Mercure Galant" ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P94_has_created <7dd7cb84-ad41-44e6-8044-155827d9ff76> ;
+            .
+
+            <7dd7cb84-ad41-44e6-8044-155827d9ff76>
+                a sherlock:Corpus ;
+                crm:P1_is_identified_by <e38ea871-678a-4ead-99d6-8c7b0c301223> ;
+                crm:P1_is_identified_by "Corpus d'articles transcrits en TEI"
+                .
+
+                <e38ea871-678a-4ead-99d6-8c7b0c301223>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                    crm:P190_has_symbolic_content "http://data-iremus.huma-num.fr/graph/mercure-galant-tei" ;
+                    .
+
+        <fc4956c4-55aa-4528-b584-2d65faf6afe2>
+            a crm:E65_Creation ;
+            crm:P1_is_identified_by "Indexation des articles du Mercure Galant" ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P16_used_specific_object <81366968-0fc8-43f6-9a32-9609c19a33c0>, <dfa679e6-95f7-4480-a021-a3d4e1759790>, <d0e0b5e6-fdab-4f29-a87b-3362a5d2d4c5>, <cfe7b106-5bcb-43c3-89ac-a1c83c66ec4a> ;
+            crm:P94_has_created <d57b6cba-265a-4c4f-b1ed-019f59e97d7e> ;
+            .
+
+            <d57b6cba-265a-4c4f-b1ed-019f59e97d7e>
+                a sherlock:Corpus ;
+                crm:P1_is_identified_by <e38ea871-678a-4ead-99d6-8c7b0c301223>
+                .
+
+            <cfe7b106-5bcb-43c3-89ac-a1c83c66ec4a>
+                a sherlock:Corpus ;
+                crm:P1_is_identified_by <https://opentheso.huma-num.fr/opentheso/?idt=th317> ;
+                .
+
+    ################################################################################
+    # ESTAMPES
+    ################################################################################
+
+    <756aa164-0cde-46ac-bc3a-a0ea83a08e2d>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Édition numérique des estampes du Mercure Galant" ;
+        crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+        crm:P9_consists_of <d4696d11-1925-4bfb-898f-78513a4b18a1> ;
+        .
+
+        <d4696d11-1925-4bfb-898f-78513a4b18a1>
+            a crm:E65_Creation ;
+            crm:P1_is_identified_by "Analyse des estampes du Mercure Galant" ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P16_used_specific_object <a034a0e9-5a06-499d-a4c0-2d904b707a97>, <42fb7151-42fa-4c1c-832a-e2c9cc8c801e> ;
+            crm:P94_has_created <a96bdf72-695a-4c34-aa4e-43e75adc839e> ;
+            .
+
+            <42fb7151-42fa-4c1c-832a-e2c9cc8c801e>
+                a sherlock:Corpus ;
+                crm:P1_is_identified_by <a4cb9d53-079c-44d5-968f-e8b8e5c2127b> ;
+                crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ;
+                .
+
+                <a4cb9d53-079c-44d5-968f-e8b8e5c2127b>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <b407fd42-274b-42a6-a6da-4fc34532e5fc> ;
+                    crm:P190_has_symbolic_content <https://nakala.fr/collection/10.34847/nkl.c2713x22> ;
+                    .
+
+            <a96bdf72-695a-4c34-aa4e-43e75adc839e>
+                a sherlock:Corpus ;
+                crm:P1_is_identified_by <6b94af24-f905-42bc-9a7b-8dde91b06378> ;
+                crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ;
+                .
+
+                <6b94af24-f905-42bc-9a7b-8dde91b06378>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-estampes> ;
+                    .
+
+            <a034a0e9-5a06-499d-a4c0-2d904b707a97>
+                a sherlock:Corpus ;
+                crm:P1_is_identified_by <https://opentheso.huma-num.fr/opentheso/?idt=th391> ;
+                .
+
+    ################################################################################
+    # AIRS
+    ################################################################################
+
+    <b2967fdb-c406-499d-aa59-6e3b80ed9e30>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Édition des airs du Mercure Galant" ;
+        crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+        crm:P9_consists_of <f974c62a-3013-44eb-976a-1e6b7dfd8ff9> ;
+        .
+
+        <f974c62a-3013-44eb-976a-1e6b7dfd8ff9>
+            a crm:E65_Creation ;
+            crm:P1_is_identified_by "Catalogage des airs du Mercure Galant" ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P94_has_created <f76d70c5-ed33-40d7-ba99-c3601e27d7ed> ;
+            .
+
+            <f76d70c5-ed33-40d7-ba99-c3601e27d7ed>
+                a sherlock:Corpus ;
+                crm:P1_is_identified_by <a6204906-e9d7-4601-9d4c-0ff489400918> ;
+                .
+
+                <a6204906-e9d7-4601-9d4c-0ff489400918>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-airs> ;
+                    .
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+<66fcdc36-461f-4516-a065-57d9ef51f697>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by "Référentiel de la France de l'Ancien régime" ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P9_consists_of <14ecef4d-2357-4f6f-824b-6b315efeb9a7>, <666eb019-355f-42fc-9655-3b5533b2328e>, <63563a42-8235-4f89-ae2d-f028ed000b3c> ;
+    crm:P14_carried_out_by <b25c0ded-46e0-480d-8446-0a202266bd8f>, <e6f783bc-2b2e-497b-9f48-f0bbd86f4bbb>
+    .
+
+    ################################################################################
+    # PERSONNES
+    ################################################################################
+
+    <14ecef4d-2357-4f6f-824b-6b315efeb9a7>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Référentiel des personnes de la France de l'Ancien régime" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P9_consists_of <d53e8ee8-751a-4fda-a6ee-fdc5f78153a5> ;
+        .
+
+        <d53e8ee8-751a-4fda-a6ee-fdc5f78153a5>
+            a crm:E65_Creation ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P16_used_specific_object <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468> ;
+            crm:P94_has_created <81366968-0fc8-43f6-9a32-9609c19a33c0> ;
+            .
+
+            <81366968-0fc8-43f6-9a32-9609c19a33c0>
+                a crm:E32_Authority_Document ;
+                crm:P1_is_identified_by "Référentiel des personnes de la France de l'Ancien Régime"
+                .
+            
+            <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468> a sherlock:Corpus ; crm:P1_is_identified_by <eea017e2-16cd-4261-922a-5dde92033991> .
+            <eea017e2-16cd-4261-922a-5dde92033991> a crm:E42_Identifier ; crm:P190_has_symbolic_content "http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=accueildictionnaire" .
+
+    ################################################################################
+    # LIEUX
+    ################################################################################
+
+    <666eb019-355f-42fc-9655-3b5533b2328e>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Référentiel des lieux de la France de l'Ancien régime" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P9_consists_of <4d8fa713-d12d-4e50-b947-9af7aa3db7e7> ;
+        .
+
+        <4d8fa713-d12d-4e50-b947-9af7aa3db7e7>
+            a crm:E65_Creation ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P94_has_created <dfa679e6-95f7-4480-a021-a3d4e1759790> ;
+            .
+
+            <dfa679e6-95f7-4480-a021-a3d4e1759790>
+                a sherlock:Corpus ;
+                crm:P1_is_identified_by <8aa0abba-b045-4379-a95c-e13fc122d173>
+                .
+
+                <8aa0abba-b045-4379-a95c-e13fc122d173>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/rfar-lieux> ;
+                    .
+
+    ################################################################################
+    # INSTITUTIONS
+    ################################################################################
+
+    <63563a42-8235-4f89-ae2d-f028ed000b3c>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Référentiel des institutions de la France de l'Ancien régime" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P9_consists_of <6491b003-b7c1-471e-a896-bad6dccd1802> ;
+        .
+
+        <6491b003-b7c1-471e-a896-bad6dccd1802>
+            a crm:E65_Creation ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P94_has_created <d0e0b5e6-fdab-4f29-a87b-3362a5d2d4c5> ;
+            .
+
+            <d0e0b5e6-fdab-4f29-a87b-3362a5d2d4c5>
+                a sherlock:Corpus ;
+                crm:P1_is_identified_by <fc09ae3f-45bd-405c-a09e-746c934db138>
+                .
+
+                <fc09ae3f-45bd-405c-a09e-746c934db138>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/rfar-institutions> ;
+                    .@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+<2331eef7-2003-4f39-bdc7-13064657156c>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by 'Polifonia' ;
+    crm:P1_is_identified_by <https://polifonia-project.eu/> ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P9_consists_of <d9dafa60-75d1-4c34-8d1d-5ec12ffa0ea8> ;
+    .
+
+<d9dafa60-75d1-4c34-8d1d-5ec12ffa0ea8>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by 'Tonalities' ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P14_carried_out_by <56ed1334-b47a-440a-b78d-04c8d3cfc311> ;
+    .
+
+<56ed1334-b47a-440a-b78d-04c8d3cfc311>
+    a crm:E39_Actor ;
+    crm:P1_is_identified_by 'Team Tonalities (IReMus)' ;
+    .
+
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<6d72746a-9f28-4739-8786-c6415d53c56d> a crm:E55_Type ; crm:P1_is_identified_by "Entité analytique"@fr, "Analytical entity"@en .
+<90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86> a crm:E55_Type ; crm:P1_is_identified_by "MEI score offset"@en .
+<689e148d-a97d-45b4-898d-c395a24884df> a crm:E55_Type ; crm:P1_is_identified_by "Note offset anchor"@en .
+<1820ce38-34d2-4354-a0a7-c6f220d2ee08> a crm:E55_Type ; crm:P1_is_identified_by "MEI score offset value"@en .
+<d2a536eb-4a95-484f-b13d-f597ac8ea2fd> a crm:E55_Type ; crm:P1_is_identified_by "Note"@en .@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+# Sources
+<7d7fc017-61ba-4f80-88e1-744f1d00dd60> a crm:E55_Type ; crm:P1_is_identified_by "Texte original" .
+<8ccf65ae-65f5-4074-b469-85007e6a62ab> a crm:E55_Type ; crm:P1_is_identified_by "Incipit" .
+
+# F2
+<9cf40433-f154-46d1-97e0-542bec3abf09> a crm:E55_Type ; crm:P1_is_identified_by "Contenu MEI"@fr .
+<625bc194-d452-4f38-9ba9-83b2e0a79e00> a crm:E55_Type ; crm:P1_is_identified_by "Contenu TEI"@fr .
+<14926d58-83e7-4414-90a8-1a3f5ca8fec1> a crm:E55_Type ; crm:P1_is_identified_by "Collection d'images" .
+<792f6ea9-3d3d-4504-9042-4a3f8e23f542> a crm:E55_Type ; crm:P1_is_identified_by "Partition musicale"@fr .
+
+# F3
+<bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> a crm:E55_Type ; crm:P1_is_identified_by "Fichier MEI"@fr .
+<62b49ca2-ec73-4d72-aaf3-045da6869a15> a crm:E55_Type ; crm:P1_is_identified_by "Fichier TEI"@fr .
+<e73699b0-9638-4a9a-bfdd-ed1715416f02> a crm:E55_Type ; crm:P1_is_identified_by "Document Gallica" .
+
+# Acteurs
+<bb483a36-1f03-43b5-9793-402bc9ce5ea2> a crm:E55_Type ; crm:P1_is_identified_by "Prénom" .
+<bb483a36-1f03-43b5-9793-402bc9ce5ea2> a crm:E55_Type ; crm:P1_is_identified_by "Nom de famille" .
+<78930375-9d85-43aa-8a1a-f458fcdbdfd0> a crm:E55_Type ; crm:P1_is_identified_by "Pseudonyme" .
+
+# Actions scientifiques
+<5c6fa515-73c1-40ae-a6c1-bfedcc09ab54> a crm:E55_Type ; crm:P1_is_identified_by "Édition critique TEI" .@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<1126a1f7-2b7d-45ab-b02c-a25b225e2977> a crm:E55_Type ; crm:P1_is_identified_by "Titre principal" .
+<dad7fbf8-c629-437e-96ef-594a674e5e37> a crm:E55_Type ; crm:P1_is_identified_by "Titre alternatif" .
+<894b8a02-1f03-48ad-b22a-875aead9b326> a crm:E55_Type ; crm:P1_is_identified_by "domaine" .
+<1483a1a9-7193-4cb2-853f-ab6193155673> a crm:E55_Type ; crm:P1_is_identified_by "référence agence" .
+<31c6d6b8-09ca-46fd-994a-ca8aa8d9583b> a crm:E55_Type ; crm:P1_is_identified_by "Edition" .
+<4f324bd5-5982-4d99-949a-a9063e328599> a crm:E55_Type ; crm:P1_is_identified_by "Invention" .
+<7727e6e7-8c66-46c7-8bfe-7b2de70063c8> a crm:E55_Type ; crm:P1_is_identified_by "Gravure" .
+<b7f72f03-ae41-4605-bd1c-ba636b5165a2> a crm:E55_Type ; crm:P1_is_identified_by "Création artistique" .
+<ea8dbeda-c5ba-42ff-a2eb-2fa87f6e8581> a crm:E55_Type ; crm:P1_is_identified_by "Attribution" .
+<a4d8ae34-ffb2-4562-9a92-2d8536004745> a crm:E55_Type ; crm:P1_is_identified_by "Ancienne attribution" .
+<bb919bee-7a73-4ade-a42c-996062df8ac2> a crm:E55_Type ; crm:P1_is_identified_by "Précision oeuvre" .
+<48b6de1f-259b-41b9-af48-a1a05094ab9f> a crm:E55_Type ; crm:P1_is_identified_by "Commentaire" .
+<84b986a0-a1d9-46be-b1c3-447f4b9c4f10> a crm:E55_Type ; crm:P1_is_identified_by "Précision instruments" .
+<70c9af37-5b2e-4731-89f6-e3f317da2bf0> a crm:E55_Type ; crm:P1_is_identified_by "Précision musique" .
+<a146f796-e82f-4319-8741-c8eb400918a9> a crm:E55_Type ; crm:P1_is_identified_by "Thématique" .
+<20eb5622-0c9b-4bfd-b1f4-67664d7f47e2> a crm:E55_Type ; crm:P1_is_identified_by "Ecole (auteur)" .
+<916a8978-391e-4b02-b237-6aa7a9b44bb0> a crm:E55_Type ; crm:P1_is_identified_by "Inscription" .
+<93d99e9b-b857-4fc0-8fa0-b82a76735038> a crm:E55_Type ; crm:P1_is_identified_by "Ecole (lieu)" .
+<6555e041-d417-4df2-b8b5-ac25dca95fd4> a crm:E55_Type ; crm:P1_is_identified_by "Période" .
+<aaad25f5-1da4-4980-8e3e-ff0618f76e53> a crm:E55_Type ; crm:P1_is_identified_by "Spécialité" .
+<1cabd329-38a9-4712-adc7-04fadfa5ba05> a crm:E55_Type ; crm:P1_is_identified_by "Oeuvre en rapport" .
+<cae60963-9c65-4e29-bd6e-6b52c628ce41> a crm:E55_Type ; crm:P1_is_identified_by "Contient/contenue dans" .
+<5cfae3b1-1493-492f-a687-80825d8f5f68> a crm:E55_Type ; crm:P1_is_identified_by "A la manière de" .
+<5d86a902-8f9f-432e-9d80-3d095d6563af> a crm:E55_Type ; crm:P1_is_identified_by "Source littéraire" .
+<40ef565d-ea1f-4762-998f-ffb373179af4> a crm:E55_Type ; crm:P1_is_identified_by "Composition" .
+<14aafc3e-302f-4182-949f-3013382bb77c> a crm:E55_Type ; crm:P1_is_identified_by "Ecriture du libretto" .@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+# Types d'objets représentés
+<226e7258-2b03-4f46-8815-8415095287fb> a crm:E55_Type ; crm:P1_is_identified_by "Revers de médaille" .
+<74773744-7d22-41f5-b504-61486e1f5057> a crm:E55_Type ; crm:P1_is_identified_by "Avers de médaille" .
+
+# Types d'annotations
+<01a07474-f2b9-4afd-bb05-80842ecfb527> a crm:E55_Type ; crm:P1_is_identified_by "Titre sur l'image" .
+<ded9ea93-b400-4550-9aa8-e5aac1d627a0> a crm:E55_Type ; crm:P1_is_identified_by "Titre dans le péritexte" .
+<f2d9b792-2cfd-4265-a2c5-e0a69ce01536> a crm:E55_Type ; crm:P1_is_identified_by "Thématique" .
+<58fb99dd-1ffb-4e00-a16f-ef6898902301> a crm:E55_Type ; crm:P1_is_identified_by "Titre descriptif/forgé" .
+<0205f283-a73a-47e3-81bf-d0c67501fc22> a crm:E55_Type ; crm:P1_is_identified_by "Type de représentation" .
+<f8914e8f-c1f1-4e1b-90e6-591bcb75ea95> a crm:E55_Type ; crm:P1_is_identified_by "Technique de gravure" .
+
+# Types de rôles dans le contexte de production
+<4d57ac14-247f-4b0e-90ca-0397b6051b8b> a crm:E55_Type ; crm:P1_is_identified_by "Invenit" .
+<f39eb497-5559-486c-b5ce-6a607f615773> a crm:E55_Type ; crm:P1_is_identified_by "Sculpsit" .
+
+# Indexation
+<413f7969-406b-4be6-a042-09a800197e8f> a crm:E55_Type ; crm:P1_is_identified_by "Lieu associé" .
+<909049a0-99c3-49a8-b9d6-c4c3517859fb> a crm:E55_Type ; crm:P1_is_identified_by "Personne associée" .@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<a9d51926-c0ff-4304-b49d-9a18aff02d7e> a crm:E55_Type ; crm:P1_is_identified_by "Air".
+<fb1ac98a-1645-460f-9f26-23f36e216f7e> a crm:E55_Type ; crm:P1_is_identified_by "Texte d'une chanson".
+<768197b9-6cc6-4a62-aec9-7282a9c07983> a crm:E55_Type ; crm:P1_is_identified_by "Note sur la musique".
+<e6836743-fa50-4995-b534-ba13d1d24380> a crm:E55_Type ; crm:P1_is_identified_by "Genre musical".
+<1deed97c-80cd-4ff5-a16b-b9e0cfc55a4c> a crm:E55_Type ; crm:P1_is_identified_by "Forme musicale".
+<99239c96-a989-4a39-9c00-20c9d4b4c424> a crm:E55_Type ; crm:P1_is_identified_by "Forme poétique".
+<d1b826ac-83f6-4a39-a53d-3cf582c134da> a crm:E55_Type ; crm:P1_is_identified_by "Effectif musical".
+<d1ffe2ea-fee5-4363-9f43-1ba289f01ef7> a crm:E55_Type ; crm:P1_is_identified_by "Tonalité".
+<46561c75-fc5d-4f0c-9b82-ea8779264bfd> a crm:E55_Type ; crm:P1_is_identified_by "Instrument mentionné".
+<8b1ec2e2-37d0-4122-a541-2590ebfbd965> a crm:E55_Type ; crm:P1_is_identified_by "Identifiants de catalogues externes".
+<5891daa1-81be-494a-8bf9-9055574f0530> a crm:E55_Type ; crm:P1_is_identified_by "Incipit principal ou premier".
+<a7453d39-b7f0-4ca2-ba62-9fc560438c60> a crm:E55_Type ; crm:P1_is_identified_by "Incipit français".
+<f6ca9e82-e5fa-442d-a9e5-79fca664566e> a crm:E55_Type ; crm:P1_is_identified_by "Incipit musical".@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<901c2bb5-549d-47e9-bd91-7a21d7cbe49f> a crm:E55_Type ; crm:P1_is_identified_by "Livraison" .
+<13f43e00-680a-4a6d-a223-48e8d9bbeaae> a crm:E55_Type ; crm:P1_is_identified_by "Article" .
+<1317e1ac-50c8-4b97-9eac-c4d902b7da10> a crm:E55_Type ; crm:P1_is_identified_by "Estampe" .
+<2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7> a crm:E55_Type ; crm:P1_is_identified_by "Énigme" .
+<11f1b780-2325-498e-811f-c96a617873de> a crm:E55_Type ; crm:P1_is_identified_by "Poème" .
+<e2f6219a-2a40-4724-b4f9-1cf45a4f2849> a crm:E55_Type ; crm:P1_is_identified_by "Partition" .
+<fa4f0240-ce36-4268-8c67-d4aa40cb9350> a crm:E55_Type ; crm:P1_is_identified_by "Oeuvre citée" .
+<4af237dd-8ae9-4c69-b4cb-953c79d287bc> a crm:E55_Type ; crm:P1_is_identified_by "Pièce musicale" .
+<bffeb363-05ee-449c-a666-bb16eafde48c> a crm:E55_Type ; crm:P1_is_identified_by "BIBLIO [y compris liens] relative à la gravure et aux artistes" .
+@base <http://data-iremus.huma-num.fr/id/>  .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>  .
+
+<1d2f3f12-5bde-492e-a8ba-a3ac50652758> a crm:E55_Type ; crm:P1_is_identified_by "Composition" .
+<5cdb2ecf-c05e-4b97-a51f-49e597e89f54> a crm:E55_Type ; crm:P1_is_identified_by "Ecriture du libretto" .
+<caf3ea36-ae41-42dd-a7ed-d7c2405f18a5> a crm:E55_Type ; crm:P1_is_identified_by "Ecriture électronique" .
+<441ffd78-a065-420f-bb5a-87779dd133c7> a crm:E55_Type ; crm:P1_is_identified_by "Première représentation" .
+<77e3eba7-154b-4a42-afde-a73c03839faf> a crm:E55_Type ; crm:P1_is_identified_by "Dernière représentation" .
+<c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> a crm:E55_Type ; crm:P1_is_identified_by "Création" .
+<ce4b0274-4697-44e2-9610-a72714a4ea56> a crm:E55_Type ; crm:P1_is_identified_by "Re-création" .
+<caafe301-465c-4084-966f-c1e939d40819> a crm:E55_Type ; crm:P1_is_identified_by "Reprise" .
+<8d5b9d50-27a1-488a-82a6-19ee59acd847> a crm:E55_Type ; crm:P1_is_identified_by "Interprétation" .
+<c0e9693e-3e60-4d89-b005-56dcd864180d> a crm:E55_Type ; crm:P1_is_identified_by "Effectif" .
+<68b77a08-d6c8-42ed-bd3d-a922ec52b064> a crm:E55_Type ; crm:P1_is_identified_by "Danse" .
+<de64ccd2-6a0a-4017-b3fe-7530a27d778c> a crm:E55_Type ; crm:P1_is_identified_by "Performance Plan" .
+<ffc01a36-69b8-4ca2-9048-714961d1397b> a crm:E55_Type ; crm:P1_is_identified_by "Série de représentations" .
+<561e8ef8-6786-4df4-8cd5-c74479860753> a crm:E55_Type ; crm:P1_is_identified_by "Chorégraphie" .
+<e5e5890d-d774-43cc-b573-e1dc871bd05b> a crm:E55_Type ; crm:P1_is_identified_by "Scénographie" .
+<ff33c9d3-8e91-4b1e-ba5c-1d7f4c8c34bd> a crm:E55_Type ; crm:P1_is_identified_by "Mise en scène" .
+<12597890-dcac-42f4-b780-d9795364ed74> a crm:E55_Type ; crm:P1_is_identified_by "Dramaturgie" .
+<63da5276-9d37-4e5f-9d40-b16723c42ed2> a crm:E55_Type ; crm:P1_is_identified_by "Dialogues" .
+<181dc490-d221-41e8-81e6-1de21326c15f> a crm:E55_Type ; crm:P1_is_identified_by "Costumes" .
+<06a632d6-44c5-4337-8922-a04e5bd3641e> a crm:E55_Type ; crm:P1_is_identified_by "Décors" .
+<8e27d9eb-1b30-4b14-98a8-71d48a5b3a4d> a crm:E55_Type ; crm:P1_is_identified_by "Eclairages" .
+<ed23180f-5cd4-448a-9852-4078aeebc53b> a crm:E55_Type ; crm:P1_is_identified_by "Régie" .
+<6a9dc63f-f6f0-467f-9703-864e7781b47d> a crm:E55_Type ; crm:P1_is_identified_by "Maquillage" .
+<4b774fbe-6557-4589-9ae2-f9965e8e9bba> a crm:E55_Type ; crm:P1_is_identified_by "Bande son" .
+<1d0cccc9-35a6-4847-80a5-ad48a6fefe6b> a crm:E55_Type ; crm:P1_is_identified_by "Direction musicale" .
+<721457eb-85fd-4265-88f9-d9650184e436> a crm:E55_Type ; crm:P1_is_identified_by "Chef d'orchestre" .
+<d0bf0c77-1a79-4a66-9679-4cd8326cd226> a crm:E55_Type ; crm:P1_is_identified_by "Sonorisation" .
+<92b8d777-0495-4482-ad2d-f17c9ea682d1> a crm:E55_Type ; crm:P1_is_identified_by "Marionnettes" .
+<1f9b29ea-3da4-4974-99ca-e01bbf2bb9e4> a crm:E55_Type ; crm:P1_is_identified_by "Images et vidéo" .
+<4583a259-9bfa-4275-bb17-06d0d1c28779> a crm:E55_Type ; crm:P1_is_identified_by "Direction technique" .
+<bf07dbd8-09ef-4152-bd6e-570984ec294f> a crm:E55_Type ; crm:P1_is_identified_by "Direction d'orchestre" .
+<b9b15a16-0c60-499a-8eca-dc8dee26c5a8> a crm:E55_Type ; crm:P1_is_identified_by "Oeuvre composite" .
+<a00ca873-c10a-4ca6-8a4f-835d7e9bd211> a crm:E55_Type ; crm:P1_is_identified_by "Ensemble" .
+<d214ea65-1734-41d8-a0e6-e3dbbab3849a> a crm:E55_Type ; crm:P1_is_identified_by "Institution" .
+<ca835f2c-395b-4420-804e-c5ea7ebcc62c> a crm:E55_Type ; crm:P1_is_identified_by "Maison d'édition" .@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+# Appellations
+
+<3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> a crm:E55_Type ; crm:P1_is_identified_by "Preferred Appellation"@en .
+<70589b95-4156-431e-a58a-818af6dc795a> a crm:E55_Type ; crm:P1_is_identified_by "Alternative Appellation"@en .
+
+# Identifiers
+
+<6e2effb0-1dd6-4693-a9bb-f3ceb7dfe6fc> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant IReMus"@fr .
+<6703d6e9-bd46-4c7d-865e-5e5a4c0a549f> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant Hortus"@fr .
+<f316e967-0a73-442a-a6b9-e1de5171f247> a crm:E55_Type ; crm:P1_is_identified_by "URI Versailles"@fr .
+<df9f27d6-b08b-46e6-ad67-202259c4cdbd> a crm:E55_Type ; crm:P1_is_identified_by "URI Data BnF"@fr .
+<59835932-52aa-4a19-ac6e-916d2a4b9228> a crm:E55_Type ; crm:P1_is_identified_by "URI Catalogue BnF"@fr .
+<49729025-e609-46ed-a749-5f3ae53dbfbe> a crm:E55_Type ; crm:P1_is_identified_by "URI ISNI"@fr .
+<bae39954-9d0c-40e4-8258-c1b6dfd0a4a4> a crm:E55_Type ; crm:P1_is_identified_by "URI VIAF"@fr .@base <http://data-iremus.huma-num.fr/id/>  .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>  .
+
+<52f90a30-fe5b-4dde-b118-fa75934ad6a3> a crm:E55_Type ; crm:P1_is_identified_by "URL"@fr .
+<9b63d6ef-5c5b-4eca-92f4-76c083918129> a crm:E55_Type ; crm:P1_is_identified_by "URI de fichier XML" .
+<a1e06dc7-f2d8-403a-8061-50d56411c031> a crm:E55_Type ; crm:P1_is_identified_by "XPathSelector" .
+<f4262bac-f72c-40e2-aa51-ae352da5a35c> a crm:E55_Type ; crm:P1_is_identified_by "Lien Gallica" .
+<b89767f1-38fe-4a9e-9b4d-ea1d5624a687> a crm:E55_Type ; crm:P1_is_identified_by "Lien data.bnf.fr" .
+<b486f08e-4d50-4363-97b4-d4ea100818e5> a crm:E55_Type ; crm:P1_is_identified_by "XML Fragment" .
+<01de41ec-850f-473b-bd7f-268a18afc6a3> a crm:E55_Type ; crm:P1_is_identified_by "SHA1" .
+<466bb717-b90f-4104-8f4e-5a13fdde3bc3> a crm:E55_Type ; crm:P1_is_identified_by "Numéro de page" .
+<19073c4a-0ef7-4ac4-a51a-e0810a596773> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant IIIF version 3.0" .
+<db425957-e8bc-41d7-8a6b-d1b935cfe48d> a crm:E55_Type ; crm:P1_is_identified_by "xml:id" .
+<cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant GitHub" .
+<d74076d1-a145-449a-8403-88841ba29dfb> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant cote" .
+<cbce1a5e-4b6d-4d58-9fe0-4e5f41ae4d19> a crm:E55_Type ; crm:P1_is_identified_by "Référence IReMus" . 
+<8cefd485-0d51-4b95-a135-0feaf4896d11> a crm:E55_Type ; crm:P1_is_identified_by "Numéro d'inventaire" .
+<15c5867f-f612-4a00-b9f3-17b57e566b8c> a crm:E55_Type ; crm:P1_is_identified_by "Cote BnF" ; crm:P127_has_broader_term <ea5c35ee-90b9-46a2-93a4-fb4124d58f40> .
+<ea5c35ee-90b9-46a2-93a4-fb4124d58f40> a crm:E55_Type ; crm:P1_is_identified_by "Cote bibliothèque" ; crm:P127i_has_narrower_term <15c5867f-f612-4a00-b9f3-17b57e566b8c> .
+<ca70f2d9-44f1-4137-82e6-882752767d22> a crm:E55_Type ; crm:P1_is_identified_by "RDF Graph URI" .
+<b407fd42-274b-42a6-a6da-4fc34532e5fc> a crm:E55_Type ; crm:P1_is_identified_by "Collection Nakala" .
+<574ffe9e-525c-42f2-8188-329ba3c7231d> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant de projet interne" .@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<9c1ef1e1-b9f6-4378-bcc1-9eaae89c347b> a crm:E55_Type ; crm:P1_is_identified_by "Responsable scientifique"@fr .
+<becc2695-174a-496f-b706-c632eb480e5d> a crm:E55_Type ; crm:P1_is_identified_by "Contributeur/contributrice"@fr .
+<58c38fd3-ca35-476a-aa39-9cc815ee2dab> a crm:E55_Type ; crm:P1_is_identified_by "Projet de recherche"@fr, "Research project"@en .
+<21816195-6708-4bbd-a758-ee354bb84900> a crm:E55_Type ; crm:P1_is_identified_by "Production de connaissances"@fr, "Knowledge production"@en .
+<ae6c2f18-c8ae-4fac-83c8-9486fd00db2c> a crm:E55_Type ; crm:P1_is_identified_by "Traité théorique"@fr .
+<29b00e39-75da-4945-b6c4-a0ca00f96f68> a crm:E55_Type ; crm:P1_is_identified_by "Software program"@en .
+<fd434edb-66c1-4b0a-9b1f-f1aa136c705a> a crm:E55_Type ; crm:P1_is_identified_by "Software function"@en .
+<cabe46bf-23d4-4392-aa20-b3eb21ad7dfd> a crm:E55_Type ; crm:P1_is_identified_by "Brouillon"@fr, "Draft"@en .
+<54a5cf00-a46a-4435-b893-6eda0cdc5462> a crm:E55_Type ; crm:P1_is_identified_by "Publié"@fr, "Published"@en .
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<d7ef2583-ff31-4913-9ed3-bc3a1c664b21> a crm:E55_Type ; crm:P1_is_identified_by "ORCID iD" .
+<04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> a crm:E55_Type ; crm:P1_is_identified_by "Emoji" .
+<5f1bb74f-6ea0-4073-8b68-086f98454f1c> a crm:E55_Type ; crm:P1_is_identified_by "Hex color code" .
+<73ea8d74-3526-4f6a-8830-dd369795650d> a crm:E55_Type ; crm:P1_is_identified_by "Name (generated via ORCID API)" .
