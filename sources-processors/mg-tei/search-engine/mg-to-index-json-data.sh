@@ -3,12 +3,13 @@ if [[ -z "${OUT_DIR}" ]]; then
     exit 1
 fi
 
-E7_MG_URI="http://data-iremus.huma-num.fr/id/02b27c88-7fea-40d1-86cf-428b0d3e3a13"
-E7_NUMERIC_MG_URI="http://data-iremus.huma-num.fr/id/a4a80932-570e-48e6-b3f2-9cdfcb91a48a"
 F18_MG_URI="http://data-iremus.huma-num.fr/id/336f0cc6-8eb0-4d5d-b1eb-c27674f8e479"
+CORPUS_URI="http://data-iremus.huma-num.fr/id/7dd7cb84-ad41-44e6-8044-155827d9ff76"
+
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-JSON_FOLDER="$OUT_DIR/files/mg/tei/articles/"
+TEI_FOLDER="$OUT_DIR/mercure-galant-sources/tei/articles"
+
 
 QUERY="
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
@@ -22,7 +23,7 @@ WHERE {
     <$F18_MG_URI> lrm:R10_has_member ?F1_livraison .
     ?F1_livraison lrm:R3_is_realised_in ?F2_livraison_tei .
     ?F2_livraison_tei crm:P148_has_component ?F2_article_tei .
-	?F3_article_tei lrm:R4_embodies ?F2_article_tei .
+	  ?F3_article_tei lrm:R4_embodies ?F2_article_tei .
     ?F3_article_tei crm:P2_has_type iremus:62b49ca2-ec73-4d72-aaf3-045da6869a15 . # E55 Fichier TEI
     ?F3_article_tei crm:P1_is_identified_by ?e42_id .
     ?e42_id crm:P2_has_type iremus:574ffe9e-525c-42f2-8188-329ba3c7231d . # E55 Identifiant mercure
@@ -40,15 +41,15 @@ echo "$response" | jq -c '.results.bindings[]' | while read -r item; do
 
     # Generate JSON for each entry
     # Static values for F18 and E7
-    tei_file="$OUT_DIR/files/mg/tei/articles/${article_label##*/}.xml"
+    tei_file="$TEI_FOLDER/${article_label##*/}.xml"
     tei_as_txt="$(xsltproc "$SCRIPT_DIR/remove-tags.xslt" "$tei_file")"
 
-    filename="$OUT_DIR/files/mg/json-es/articles/${article_label##*/}.json"
+    filename="$SCRIPT_DIR/../../../out/mg/json-es/articles/${article_label##*/}.json"
 
     # Generate JSON for each entry and save it to the appropriate file
     cat <<EOF > "$filename"
 {"index": {"_index": "text-index", "_id": "$F3_article"}}
-{"F3_tei": "$F3_article", "article": "${article_label##*/}", "F18": "http://data-iremus.huma-num.fr/id/336f0cc6-8eb0-4d5d-b1eb-c27674f8e479", "E7": "http://data-iremus.huma-num.fr/id/a4a80932-570e-48e6-b3f2-9cdfcb91a48a","text": "$tei_as_txt"} 
+{"F3": "$F3_article", "internal_project_identifier": "${article_label}", "F18": "$F18_MG_URI", "corpus": "$CORPUS_URI","text": "$tei_as_txt"} 
 EOF
 
     echo "Saved JSON entry to $filename"

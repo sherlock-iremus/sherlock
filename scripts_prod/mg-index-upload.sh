@@ -3,7 +3,8 @@ if [[ -z "${OUT_DIR}" ]]; then
     exit 1
 fi
 
-DATA_DIR="$OUT_DIR/files/mg/json-es/articles"
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+DATA_DIR="$SCRIPT_DIR/../out/mg/json-es/articles/"
 
 output_file="mg.json"
 > "$output_file"
