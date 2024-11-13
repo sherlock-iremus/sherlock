@@ -597,6 +597,20 @@ sherlock:is_open_to_contribution
                     .
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+<4b437091-f34e-4d11-80a8-2cf0ed066739>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "Groupe texte de l'IReMus" ;
+    .
+
+<cf7e3849-a5dd-4c7a-aad1-e20fdabbb596>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by "Projet de constitution de référentiel du groupe texte de l'IReMus" ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P14_carried_out_by <4b437091-f34e-4d11-80a8-2cf0ed066739> ;
+    .@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
