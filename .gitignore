@@ -8,3 +8,5 @@ repositories/
 secret/
 temp_prod/
 zzz*/
+
+.nocodb.secret

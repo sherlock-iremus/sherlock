@@ -5,4 +5,5 @@ mkdir -p $ROOT/caches/nocodb/
 
 python3 $ROOT/rdfizers/nocodb/E21.py \
     --output_ttl $ROOT/out/ttl/nocodb/e21.ttl \
-    --cache $ROOT/caches/nocodb/e21.yaml
+    --cache $ROOT/caches/nocodb/e21.yaml \
+    --nocodb_secret $ROOT/rdfizers/nocodb/.nocodb.secret
