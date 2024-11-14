@@ -8,20 +8,16 @@ from sherlockcachemanagement import Cache
 parser = argparse.ArgumentParser()
 parser.add_argument("--output_ttl")
 parser.add_argument("--cache")
-parser.add_argument("--nocodb_secret")
+parser.add_argument("--nocodb_token")
 args = parser.parse_args()
 
 cache = Cache(args.cache)
 
 # LECTURE DES DONNÉES VIA L'API NOCODB
 
-f = open(args.nocodb_secret, "r")
-token = f.read().strip()
-f.close()
-
 url = "http://bases-iremus.huma-num.fr/api/v2/tables/mon2365w42426wo/records"
 querystring = {"offset": "0", "limit": "-1", "where": "", "viewId": "vwl6mpyalcbwep69"}
-headers = {"xc-token": token}
+headers = {"xc-token": args.nocodb_token}
 response = requests.request("GET", url, headers=headers, params=querystring)
 r = response.json()
 

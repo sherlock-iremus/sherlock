@@ -1,5 +1,0 @@
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ire: <http://data-iremus.huma-num.fr/id/> .
-
-ire:f136ddbd-d0e2-41eb-880d-d9e61b8d8c84 dcterms:title "caca" .
-
