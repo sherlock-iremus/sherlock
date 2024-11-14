@@ -1,4 +1,4 @@
-SCRIPTS_DIR="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source ../ENV
 
 SERVICE_DIR=$SCRIPTS_DIR/../repositories/sherlock-service
 cd "$SERVICE_DIR"

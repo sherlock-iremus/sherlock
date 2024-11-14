@@ -1,4 +1,4 @@
-ROOT=$(realpath $(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)/..)
+source ../ENV
 
 ssh tbottini@data-iremus.huma-num.fr "mkdir -p /home/tbottini/sherlock/ttl/mg"
 scp "$ROOT/out/ttl/mg/estampes.ttl" tbottini@data-iremus.huma-num.fr:/home/tbottini/sherlock/ttl/mg/estampes.ttl

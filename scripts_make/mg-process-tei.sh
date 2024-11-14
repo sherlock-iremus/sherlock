@@ -1,4 +1,4 @@
-ROOT=$(realpath $(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)/..)
+source ../ENV
 
 cd $REPOSITORIES/mercure-galant-github/
 git pull origin gh-pages

@@ -1,4 +1,4 @@
-ROOT="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"/..
+source ../ENV
 
 python3 sources-processors/images-mirror-collection-to-nakala.py \
     --pictures $ROOT/in/mercure-galant-estampes-github \

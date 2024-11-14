@@ -1,4 +1,4 @@
-ROOT=$(realpath $(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)/..)
+source ../ENV
 
 rm $ROOT/out/ttl/sherlock-static-data.ttl
 cat $ROOT/data-ttl/*.ttl > $ROOT/out/ttl/sherlock-static-data.ttl

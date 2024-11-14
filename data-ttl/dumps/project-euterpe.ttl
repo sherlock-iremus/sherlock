@@ -1,0 +1,27 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+<d95ebea1-09e4-4f1c-b68e-d86df8389c47>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by "Équipe Euterpe" ;
+    .
+
+<16c418f9-8d54-4ba0-82e2-080e283a3927>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by "Projet Euterpe" ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P9_consists_of <04344076-909e-4b93-bbd8-b59e83576913> ;
+    crm:P14_carried_out_by <d95ebea1-09e4-4f1c-b68e-d86df8389c47> ;
+    .
+
+<04344076-909e-4b93-bbd8-b59e83576913>
+    a crm:E65_Creation ;
+    crm:P1_is_identified_by "Création du corpus des œuvres" ;
+    crm:P94_has_created <835e842c-44d9-46a9-bdc1-26536b2cad5f> ;
+    .
+
+<835e842c-44d9-46a9-bdc1-26536b2cad5f>
+    a sherlock:Corpus ;
+    crm:P1_is_identified_by "Corpus des œuvres Euterpe" ;
+    .

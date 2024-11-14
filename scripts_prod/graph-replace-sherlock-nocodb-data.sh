@@ -1,4 +1,4 @@
-ROOT=$(realpath $(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)/..)
+source ../ENV
 
 rm $ROOT/out/ttl/sherlock-nocodb-data.ttl
 cat $ROOT/out/ttl/nocodb/*.ttl > $ROOT/out/ttl/nocodb/sherlock-nocodb-data.ttl

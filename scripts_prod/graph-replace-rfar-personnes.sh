@@ -1,4 +1,4 @@
-SCRIPTS_DIR="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source ../ENV
 
 ssh tbottini@data-iremus.huma-num.fr "mkdir -p /home/tbottini/sherlock/ttl/rfar"
 scp "$SCRIPTS_DIR/../out/ttl/rfar/personnes.ttl" tbottini@data-iremus.huma-num.fr:/home/tbottini/sherlock/ttl/rfar/personnes.ttl

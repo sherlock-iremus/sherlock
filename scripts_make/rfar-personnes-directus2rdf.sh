@@ -1,4 +1,4 @@
-ROOT="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"/..
+source ../ENV
 
 mkdir -p $ROOT/out/ttl/rfar
 mkdir -p $ROOT/caches/rfar

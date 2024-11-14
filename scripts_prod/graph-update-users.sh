@@ -1,5 +1,5 @@
-SCRIPTS_DIR="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ROOT=$(realpath $(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)/..)
+source ../ENV
+
 DATE=$(date '+%Y-%m-%d_%Hh%Mm%Ss')
 
 mkdir -p $ROOT/out/ttl/users/

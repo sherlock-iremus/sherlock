@@ -1,4 +1,4 @@
-ROOT=$(realpath $(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)/..)
+source ../ENV
 
 mkdir -p $ROOT/out/ttl/nocodb/
 mkdir -p $ROOT/caches/nocodb/
