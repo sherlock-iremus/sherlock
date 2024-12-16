@@ -4,7 +4,7 @@ if [[ -z "${OUT_DIR}" ]]; then
 fi
 
 F18_MG_URI="http://data-iremus.huma-num.fr/id/336f0cc6-8eb0-4d5d-b1eb-c27674f8e479"
-CORPUS_URI="http://data-iremus.huma-num.fr/id/7dd7cb84-ad41-44e6-8044-155827d9ff76"
+COLLECTION_URI="http://data-iremus.huma-num.fr/id/7dd7cb84-ad41-44e6-8044-155827d9ff76"
 
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
@@ -49,7 +49,7 @@ echo "$response" | jq -c '.results.bindings[]' | while read -r item; do
     # Generate JSON for each entry and save it to the appropriate file
     cat <<EOF > "$filename"
 {"index": {"_index": "text-index", "_id": "$F3_article"}}
-{"F3": "$F3_article", "internal_project_identifier": "${article_label}", "F18": "$F18_MG_URI", "corpus": "$CORPUS_URI","text": "$tei_as_txt"} 
+{"F3": "$F3_article", "internal_project_identifier": "${article_label}", "F18": "$F18_MG_URI", "collection": "$COLLECTION_URI","text": "$tei_as_txt"} 
 EOF
 
     echo "Saved JSON entry to $filename"

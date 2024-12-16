@@ -269,16 +269,16 @@ sherlock:has_document_context
     rdfs:range crm:E73_Information_Object ;
     .
 
-sherlock:Corpus
+sherlock:Collection
     a rdfs:Class ;
-    rdfs:label "Corpus" ;
+    rdfs:label "Collection" ;
     rdfs:subClassOf crm:E89_Propositional_Object ;
     rdfs:subClassOf crm:E72_Legal_Object ;
     .
 
 sherlock:has_member
     a rdfs:Property ;
-    rdfs:domain sherlock:Corpus ;
+    rdfs:domain sherlock:Collection ;
     rdfs:range crm:E1_CRM_Entity ;
     owl:inverseOf sherlock:is_member_of ;
     .
@@ -286,7 +286,7 @@ sherlock:has_member
 sherlock:is_member_of
     a rdfs:Property ;
     rdfs:domain crm:E1_CRM_Entity ;
-    rdfs:range sherlock:Corpus ;
+    rdfs:range sherlock:Collection ;
     owl:inverseOf sherlock:has_member ;
     .
 

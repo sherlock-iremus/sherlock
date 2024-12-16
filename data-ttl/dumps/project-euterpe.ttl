@@ -22,6 +22,6 @@
     .
 
 <835e842c-44d9-46a9-bdc1-26536b2cad5f>
-    a sherlock:Corpus ;
+    a sherlock:Collection ;
     crm:P1_is_identified_by "Corpus des œuvres Euterpe" ;
     .

@@ -43,7 +43,7 @@
             .
 
             <7dd7cb84-ad41-44e6-8044-155827d9ff76>
-                a sherlock:Corpus ;
+                a sherlock:Collection ;
                 crm:P1_is_identified_by <e38ea871-678a-4ead-99d6-8c7b0c301223> ;
                 crm:P1_is_identified_by "Corpus d'articles transcrits en TEI"
                 .
@@ -63,12 +63,12 @@
             .
 
             <d57b6cba-265a-4c4f-b1ed-019f59e97d7e>
-                a sherlock:Corpus ;
+                a sherlock:Collection ;
                 crm:P1_is_identified_by <e38ea871-678a-4ead-99d6-8c7b0c301223>
                 .
 
             <cfe7b106-5bcb-43c3-89ac-a1c83c66ec4a>
-                a sherlock:Corpus ;
+                a sherlock:Collection ;
                 crm:P1_is_identified_by <https://opentheso.huma-num.fr/opentheso/?idt=th317> ;
                 .
 
@@ -92,7 +92,7 @@
             .
 
             <42fb7151-42fa-4c1c-832a-e2c9cc8c801e>
-                a sherlock:Corpus ;
+                a sherlock:Collection ;
                 crm:P1_is_identified_by <a4cb9d53-079c-44d5-968f-e8b8e5c2127b> ;
                 crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ;
                 .
@@ -104,7 +104,7 @@
                     .
 
             <a96bdf72-695a-4c34-aa4e-43e75adc839e>
-                a sherlock:Corpus ;
+                a sherlock:Collection ;
                 crm:P1_is_identified_by <6b94af24-f905-42bc-9a7b-8dde91b06378> ;
                 crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ;
                 .
@@ -116,7 +116,7 @@
                     .
 
             <a034a0e9-5a06-499d-a4c0-2d904b707a97>
-                a sherlock:Corpus ;
+                a sherlock:Collection ;
                 crm:P1_is_identified_by <https://opentheso.huma-num.fr/opentheso/?idt=th391> ;
                 .
 
@@ -139,7 +139,7 @@
             .
 
             <f76d70c5-ed33-40d7-ba99-c3601e27d7ed>
-                a sherlock:Corpus ;
+                a sherlock:Collection ;
                 crm:P1_is_identified_by <a6204906-e9d7-4601-9d4c-0ff489400918> ;
                 .
 

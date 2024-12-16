@@ -40,11 +40,15 @@ do
     article_id="${article_id//MG-/}"
 
     mv $f $f.temp0
-    xmllint --noblanks $f.temp0 > $f.temp1
+    xmllint $f.temp0 > $f.temp1
     tr -d "\n\r" < $f.temp1 > $f.temp2
     tr -s " " < $f.temp2 > $f
     rm $f.temp0
     rm $f.temp1
     rm $f.temp2
+
+    mv $f $f.temp3
+    xmllint --format $f.temp3 > $f
+    rm $f.temp3
   done
 done

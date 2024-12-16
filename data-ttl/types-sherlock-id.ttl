@@ -19,4 +19,4 @@
 <ea5c35ee-90b9-46a2-93a4-fb4124d58f40> a crm:E55_Type ; crm:P1_is_identified_by "Cote bibliothèque" ; crm:P127i_has_narrower_term <15c5867f-f612-4a00-b9f3-17b57e566b8c> .
 <ca70f2d9-44f1-4137-82e6-882752767d22> a crm:E55_Type ; crm:P1_is_identified_by "RDF Graph URI" .
 <b407fd42-274b-42a6-a6da-4fc34532e5fc> a crm:E55_Type ; crm:P1_is_identified_by "Collection Nakala" .
-<574ffe9e-525c-42f2-8188-329ba3c7231d> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant de projet interne" .
+<574ffe9e-525c-42f2-8188-329ba3c7231d> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant projet" .

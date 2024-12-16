@@ -3,12 +3,14 @@ import requests
 
 
 def get_access_token(email, password, url):
-    query = f"""mutation {{
-      auth_login(email: {email}, password: "{password}") {{
-        access_token
-        refresh_token
-      }}
-    }}"""
+    query = f"""
+mutation {{
+  auth_login(email: \"{email}\", password: \"{password}\") {{
+    access_token
+    refresh_token
+  }}
+}}
+"""
     r = requests.post(url + '/graphql/system', json={'query': query})
     return r.json()['data']['auth_login']['access_token']
 

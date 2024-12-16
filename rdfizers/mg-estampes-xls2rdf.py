@@ -145,7 +145,7 @@ for sheet_title, rows in sheets.items():
             id_livraison = pattern_livraison.search(row["ID estampe"]).group(0)
 
             # Dans le cas où la livraison n'aurait jamais été transcrite en TEI, on se donne le droit de la référencer dans le cache
-            livraison_F2_originale = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"], True)]
+            livraison_F2_originale = iremus_ns[cache_tei.get_uuid(["Collection", "Livraisons", id_livraison, "Expression originale", "F2"], True)]
 
             concepts_used = []
             personnes_used = []
@@ -181,15 +181,15 @@ for sheet_title, rows in sheets.items():
                 if match:
                     try:
                         id_article = match.group(0)[3:]
-                        article_F2_original = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"])]
-                        article_F2_TEI = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"])]
+                        article_F2_original = iremus_ns[cache_tei.get_uuid(["Collection", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"])]
+                        article_F2_TEI = iremus_ns[cache_tei.get_uuid(["Collection", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"])]
                         g.add((article_F2_original, crm_ns["P148_has_component"], estampe))
                         g.add((article_F2_TEI, crm_ns["P148_has_component"], estampe))
                     except:
                         print("ERREUR [Colonne ID article OBVIL] Article TEI inexistant : " + id_article)
                 else:
                     try:
-                        livraison_F2_TEI = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"])]
+                        livraison_F2_TEI = iremus_ns[cache_tei.get_uuid(["Collection", "Livraisons", id_livraison, "Expression TEI", "F2"])]
                         g.add((livraison_F2_originale, crm_ns["P148_has_component"], estampe))
                         g.add((livraison_F2_TEI, crm_ns["P148_has_component"], estampe))
                     except:
@@ -203,7 +203,7 @@ for sheet_title, rows in sheets.items():
                     id_article_lie = match.group(0)[3:]
                     id_livraison = pattern_livraison.search(id_article_lie).group(0)
                     try:
-                        article_F2_TEI = iremus_ns[cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article_lie, "F2"])]
+                        article_F2_TEI = iremus_ns[cache_tei.get_uuid(["Collection", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article_lie, "F2"])]
                         e13 = make_E13(["estampes", id, "seeAlso", "E13_uuid"], estampe, RDFS.seeAlso, article_F2_TEI, estampe)
                         if row["Commentaire ID article lié OBVIL"]:
                             g.add((e13, crm_ns["P3_has_note"], Literal(row["Commentaire ID article lié OBVIL"])))
