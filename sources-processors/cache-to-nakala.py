@@ -36,7 +36,7 @@ def upload_image_and_return_doi(file_path, file_name, cache_entry):
 
         # DATA
 
-    r = requests.post(
+    request = requests.post(
         url=f"{api_url}/datas",
         headers={'accept': 'application/json', 'Content-Type': 'application/json', 'X-API-KEY': api_key},
         data=json.dumps({
@@ -78,8 +78,8 @@ def upload_image_and_return_doi(file_path, file_name, cache_entry):
                 },
             ],
         }),
-    ).json()
-
+    )
+    r = request.json()
     pprint(r)
 
     if r['code'] == 201:
