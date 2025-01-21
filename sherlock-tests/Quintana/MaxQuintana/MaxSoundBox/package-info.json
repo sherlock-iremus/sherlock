@@ -1,0 +1,24 @@
+{
+	"name" : "MaxSoundBox",
+	"author" : "ISMM Team @ Ircam",
+	"description" : "MaxSoundBox: Legacy Ircam tools for real-time analysis, transformation and synthesis of sound.",
+	"homepatcher" : "MaxSoundBoxOverview.maxpat",
+	"max_version_max" : "none",
+	"max_version_min" : "6.1.7",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "10.7.x"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "7"
+		}
+
+	}
+,
+	"tags" : [ "analysis", "synthesis", "externals", "descriptors" ],
+	"version" : "09-2022",
+	"website" : "http://forumnet.ircam.fr/product/max-sound-box-en/"
+}

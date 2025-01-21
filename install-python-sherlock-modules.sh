@@ -9,3 +9,5 @@ pip3 install --upgrade pip
 cd ./python_packages/sherlockcachemanagement && ../../my-venv/bin/pip install -e . && cd ../..
 cd ./python_packages/helpers_excel && ../../my-venv/bin/pip install -e . && cd ../..
 cd ./python_packages/directus_graphql_helpers && ../../my-venv/bin/pip install -e . && cd ../..
+cd ./python_packages/nocodb_helpers && ../../my-venv/bin/pip install -e . && cd ../..
+cd ./python_packages/sherlock_helpers && ../../my-venv/bin/pip install -e . && cd ../..

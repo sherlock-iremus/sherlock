@@ -23,7 +23,7 @@ cache_tei = Cache(args.cache_tei)
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
-lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
+lrmoo_ns = Namespace("http://iflastandards.info/ns/lrm/lrmoo/")
 sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
 g = Graph(base=str(iremus_ns))
@@ -175,12 +175,12 @@ for file in os.listdir(args.tei):
         g.add((article_F2_original, crm_ns["P102_has_title"], l(article_titre)))
         g.add((article_F2_original, crm_ns["P2_has_type"], iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"]))  # type « Article »
         g.add((article_F2_original, crm_ns["P2_has_type"], iremus_ns["7d7fc017-61ba-4f80-88e1-744f1d00dd60"]))  # type « Édition originale »
-        g.add((livraison_F2_originale, crm_ns["P148_has_component"], article_F2_original))
+        g.add((livraison_F2_originale, lrmoo_ns["R75_incorporates"], article_F2_original))
 
         # article :: TEI :: F2
         article_F2_tei = iremus_ns[cache_tei.get_uuid(["Collection", "Livraisons", livraison_id, "TEI", "Articles", article_id, "F2",], True)]
         g.add((article_F2_tei, RDF.type, lrmoo_ns["F2_Expression"]))
-        g.add((livraison_F2_tei, crm_ns["P148_has_component"], article_F2_tei))
+        g.add((livraison_F2_tei, lrmoo_ns["R75_incorporates"], article_F2_tei))
         g.add((article_F2_tei, crm_ns["P102_has_title"], l(article_titre)))
         g.add((article_F2_tei, crm_ns["P2_has_type"], iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"]))  # type « Article »
         g.add((article_F2_tei, crm_ns["P2_has_type"], iremus_ns["62b49ca2-ec73-4d72-aaf3-045da6869a15"]))  # édition « TEI »

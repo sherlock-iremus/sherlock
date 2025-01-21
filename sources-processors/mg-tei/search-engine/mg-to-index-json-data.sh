@@ -14,7 +14,7 @@ TEI_FOLDER="$OUT_DIR/mercure-galant-sources/tei/articles"
 QUERY="
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX iremus: <http://data-iremus.huma-num.fr/id/>
-PREFIX lrm: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX lrm: <http://iflastandards.info/ns/lrm/lrmoo/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?F3_article_tei ?article_mg_identifier

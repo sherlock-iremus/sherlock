@@ -62,7 +62,7 @@ if args.cache_tei:
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
-lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
+lrmoo_ns = Namespace("http://iflastandards.info/ns/lrm/lrmoo/")
 opentheso_ns = Namespace("https://opentheso.huma-num.fr/opentheso/")
 sherlock_ns_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
