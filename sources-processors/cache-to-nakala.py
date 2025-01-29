@@ -98,17 +98,15 @@ def update_yaml_with_nakala_values(folder_path, yaml_file_path):
         keys = yaml_data.keys()
 
     for key in keys:
-        # Pour l'intégrité des données, on modifie et sauvegarde le fichier après chaque image ajoutée
-        with open(yaml_file_path, 'r') as yaml_file:
-            yaml_data = yaml.safe_load(yaml_file) or {}
-
         if not isinstance(yaml_data[key], dict):
             yaml_data[key] = {}
         if 'nakala_doi' not in yaml_data[key] or yaml_data[key]['nakala_doi'] == None:
             yaml_data[key]['nakala_doi'] = upload_image_and_return_doi(folder_path + key, key, yaml_data[key])
+            with open(yaml_file_path, 'w') as yaml_file:
+                yaml.dump(yaml_data, yaml_file, default_flow_style=False)
+        else:
+            print(f"{key} déjà uploadée vers Nakala")
 
-        with open(yaml_file_path, 'w') as yaml_file:
-            yaml.dump(yaml_data, yaml_file, default_flow_style=False)
 
 def add_all_dois_to_nakala_collection(yaml_file_path, collection):
     dois = []

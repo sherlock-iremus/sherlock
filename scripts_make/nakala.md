@@ -2,7 +2,7 @@
 
 Necessary env variable :
 - NAKALA_API_KEY 
-- OUT_DIR : root folder containing sources
+- REPOSITORIES : root folder containing sources
 
 ## Step 1: Create a cache from a local folder
 

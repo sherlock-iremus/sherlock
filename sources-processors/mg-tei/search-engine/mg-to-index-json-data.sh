@@ -1,5 +1,5 @@
-if [[ -z "${OUT_DIR}" ]]; then
-    >&2 echo "No OUT_DIR environment variable"
+if [[ -z "${REPOSITORIES}" ]]; then
+    >&2 echo "No REPOSITORIES environment variable"
     exit 1
 fi
 
@@ -8,7 +8,7 @@ COLLECTION_URI="http://data-iremus.huma-num.fr/id/7dd7cb84-ad41-44e6-8044-155827
 
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-TEI_FOLDER="$OUT_DIR/mercure-galant-sources/tei/articles"
+TEI_FOLDER="$REPOSITORIES/mercure-galant-sources/tei/articles"
 
 
 QUERY="

@@ -1,5 +1,5 @@
-if [[ -z "${OUT_DIR}" ]]; then
-    >&2 echo "No OUT_DIR environment variable"
+if [[ -z "${REPOSITORIES}" ]]; then
+    >&2 echo "No REPOSITORIES environment variable"
     exit 1
 fi
 
