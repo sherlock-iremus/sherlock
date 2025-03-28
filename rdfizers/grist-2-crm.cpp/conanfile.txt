@@ -1,0 +1,10 @@
+[requires]
+rdf4cpp/0.0.54
+highway/1.0.6
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout

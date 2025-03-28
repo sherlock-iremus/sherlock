@@ -74,13 +74,20 @@
 
             <dfa679e6-95f7-4480-a021-a3d4e1759790>
                 a sherlock:Collection ;
-                crm:P1_is_identified_by <8aa0abba-b045-4379-a95c-e13fc122d173>
+                a crm:E32_Authority_Document ;
+                crm:P1_is_identified_by <8aa0abba-b045-4379-a95c-e13fc122d173>, <f665cc24-a2d0-45ca-9263-0cdc911a920f> ;
                 .
 
                 <8aa0abba-b045-4379-a95c-e13fc122d173>
                     a crm:E42_Identifier ;
                     crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
                     crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/refar-lieux> ;
+                    .
+                
+                <f665cc24-a2d0-45ca-9263-0cdc911a920f>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <c7465286-fe10-4b2a-a764-c2a25ed3c63f> ;
+                    crm:P190_has_symbolic_content <https://opentheso.huma-num.fr/?idt=dfa679e6-95f7-4480-a021-a3d4e1759790> ;
                     .
 
     ################################################################################
@@ -102,6 +109,7 @@
 
             <d0e0b5e6-fdab-4f29-a87b-3362a5d2d4c5>
                 a sherlock:Collection ;
+                a crm:E32_Authority_Document ;
                 crm:P1_is_identified_by <fc09ae3f-45bd-405c-a09e-746c934db138>
                 .
 

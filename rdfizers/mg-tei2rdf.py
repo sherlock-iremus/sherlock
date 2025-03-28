@@ -50,7 +50,7 @@ g.add((jddv, crm_ns["P1_is_identified_by"], l("Jean Donneau de Visé")))
 bnf_e42 = u("ark:/12148/cb119003987")
 g.add((jddv, crm_ns["P1_is_identified_by"], bnf_e42))
 g.add((bnf_e42, RDF.type, crm_ns["E42_Identifier"]))
-g.add((bnf_e42, crm_ns["P2_has_type"], u("b89767f1-38fe-4a9e-9b4d-ea1d5624a687")))  # type lien data.bnf.fr
+g.add((bnf_e42, crm_ns["P2_has_type"], u("df9f27d6-b08b-46e6-ad67-202259c4cdbd")))  # type lien data.bnf.fr
 g.add((bnf_e42, crm_ns["P190_has_symbolic_content"], u("https://data.bnf.fr/ark:/12148/cb119003987")))
 
 # F27

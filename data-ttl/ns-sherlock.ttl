@@ -249,7 +249,7 @@ sherlock:commission_of
     rdfs:range crm:E73_Information_Object ;
     .
 
-# ANLYSIS
+# ANALYSIS
 
 sherlock:Analysis
     a rdfs:Class ;

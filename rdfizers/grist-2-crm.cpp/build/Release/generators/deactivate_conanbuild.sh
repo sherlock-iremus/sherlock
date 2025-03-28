@@ -1,0 +1,1 @@
+. "/Users/amleth/Library/CloudStorage/Dropbox/CNRS/iremus/data-iremus/rdfizers/grist-2-crm.cpp/build/Release/generators/deactivate_conanbuildenv-release-armv8.sh"
