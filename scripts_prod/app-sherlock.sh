@@ -3,7 +3,7 @@ source ../ENV
 ssh-add
 
 cd $REPOSITORIES/sherlock-app
-pnpm run build
+yarn run build
 
 ssh tbottini@data-iremus.huma-num.fr "rm -rf /home/tbottini/sherlock/apache/public_html/sherlock/"
 scp -r ./dist tbottini@data-iremus.huma-num.fr:/home/tbottini/sherlock/apache/public_html/

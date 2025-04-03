@@ -1,8 +1,9 @@
 [requires]
+llvm-core/19.1.7
 rdf4cpp/0.0.54
-highway/1.0.6
 
 [generators]
+cmake
 CMakeDeps
 CMakeToolchain
 

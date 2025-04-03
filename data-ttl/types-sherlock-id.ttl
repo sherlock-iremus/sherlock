@@ -39,3 +39,4 @@
 <c3c91ea4-e5eb-4c22-9727-923564355d2e> a crm:E55_Type ; crm:P1_is_identified_by "URI RISM"@fr .
 <c8e6991d-46cf-401a-9218-4dbda6abb805> a crm:E55_Type ; crm:P1_is_identified_by "URI Versailles"@fr .
 <d1106e67-f0b7-4eb6-a4dd-54f39e33559a> a crm:E55_Type ; crm:P1_is_identified_by "URI Wikidata"@fr .
+<7e5a220f-ba3b-4b96-b513-a8fdf163fac2> a crm:E55_Type ; crm:P1_is_identified_by "Logo"@fr .
