@@ -44,3 +44,25 @@ def put_record(base, api_key, doc_id, table_id, data):
 
 def columns(base, api_key, doc_id, table_id):
     return get(base, api_key, f"/docs/{doc_id}/tables/{table_id}/columns")
+
+
+def patch_records(base, api_key, doc_id, table_id, data):
+    return session.put(
+        f"{base}/docs/{doc_id}/tables/{table_id}/records",
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        },
+        json=data,
+        verify=False
+    ).json()
+
+
+def post_attachment(base, api_key, doc_id, f):
+    return session.post(
+        f"{base}/docs/{doc_id}/attachments",
+        headers={
+            "Authorization": f"Bearer {api_key}"
+        },
+        files={"upload": f}
+    ).json()
