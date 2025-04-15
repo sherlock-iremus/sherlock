@@ -1,0 +1,224 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<05d7a305-e10f-4a33-a31c-4ee0516353a1> a skos:Concept ;
+    skos:historyNote 116 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "13e siècle" .
+
+<0a7049b6-e15c-4d2a-8443-d9ab78e082e1> a skos:Concept ;
+    skos:historyNote 108 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "18e siècle" .
+
+<14746925-9c24-4803-8eed-4299a194bb58> a skos:Concept ;
+    skos:historyNote 20228 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "1ère moitié 17e siècle" .
+
+<148cab97-2ec1-4b2d-b195-e41f268a87dd> a skos:Concept ;
+    skos:historyNote 19488 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "4e quart 18e siècle" .
+
+<18f37b6f-d142-43f6-a2a6-0ad685d8cace> a skos:Concept ;
+    skos:historyNote 121 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "11e siècle" .
+
+<21181da8-e241-491c-9f26-e3f69cc50f0b> a skos:Concept ;
+    skos:historyNote 20178 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "1er quart 15e siècle" .
+
+<3873b07c-16aa-47f1-be95-496d1a385b54> a skos:Concept ;
+    skos:historyNote 19904 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "2e moitié 16e siècle" .
+
+<3d301254-e067-46c9-b03b-5f42bc5b2650> a skos:Concept ;
+    skos:historyNote 112 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "17e siècle" .
+
+<3ed69df7-236b-4e43-a706-c80ffc4a23c4> a skos:Concept ;
+    skos:historyNote 20213 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "1ère moitié 18e siècle" .
+
+<3f51a364-dd30-4b63-926a-f27c11ed008b> a skos:Concept ;
+    skos:historyNote 19907 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "2e moitié 19e siècle" .
+
+<4d46d3ea-0cc6-4d36-bc55-4c95fdd83497> a skos:Concept ;
+    skos:historyNote 110 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "19e siècle" .
+
+<5344c792-e3d6-431a-874b-04c91c313a35> a skos:Concept ;
+    skos:historyNote 114 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "14e siècle" .
+
+<553c3ce3-f827-486b-94f0-40a4e84716ee> a skos:Concept ;
+    skos:historyNote 19899 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "1er millénaire" .
+
+<5e07e461-7b01-4493-9504-51a90e71c308> a skos:Concept ;
+    skos:historyNote 19898 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "ère chrétienne" .
+
+<62e6a8e3-94d9-419c-b0e1-9c62b3666717> a skos:Concept ;
+    skos:historyNote 19902 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "1ère moitié 16e siècle" .
+
+<70df216c-d491-4920-bafa-12197abeacc7> a skos:Concept ;
+    skos:historyNote 19903 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "1er quart 16e siècle" .
+
+<7ed12b22-9a25-4cd6-8137-fc7959d31c12> a skos:Concept ;
+    skos:historyNote 20201 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "1ère moitié 19e siècle" .
+
+<92bd8251-1845-48a0-b794-b53ad72c76f1> a skos:Concept ;
+    skos:historyNote 20208 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "4e quart 14e siècle" .
+
+<a0905123-4649-4fc3-8ccc-2341fcd01b54> a skos:Concept ;
+    skos:historyNote 19026 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "4e quart 16e siècle" .
+
+<a881dc34-028e-4b4f-89dc-fd9c748c0d01> a skos:Concept ;
+    skos:historyNote 19900 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "2e millénaire" .
+
+<ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62> a skos:Concept ;
+    skos:historyNote 111 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "20e siècle" .
+
+<bdfdd084-443f-4d01-9753-3b9d5cd74687> a skos:Concept ;
+    skos:historyNote 117 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "12e siècle" .
+
+<caef433b-9739-4480-bb24-78fce686e208> a skos:Concept ;
+    skos:historyNote 20207 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "2e moitié 14e siècle" .
+
+<cc2ec291-d013-4b6e-8d48-655bb1f7430a> a skos:Concept ;
+    skos:historyNote 20177 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "1ère moitié 15e siècle" .
+
+<d06ea777-ca8f-4820-a046-a033e214dff5> a skos:Concept ;
+    skos:historyNote 20220 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "1er quart 19e siècle" .
+
+<d141bdaa-7a71-471b-9507-8938db38759a> a skos:Concept ;
+    skos:historyNote 19489 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "4e quart 19e siècle" .
+
+<d6cbde73-d545-49e5-b669-1bdce893a76b> a skos:Concept ;
+    skos:historyNote 19906 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "2e moitié 18e siècle" .
+
+<d7cf8105-c80f-418c-9d03-4609847e3bad> a skos:Concept ;
+    skos:historyNote 19901 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "2e moitié 15e siècle" .
+
+<e2519f29-e880-44ca-80c5-c61d4d65f637> a skos:Concept ;
+    skos:historyNote 120 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "9e siècle" .
+
+<e917efdf-d1ab-4189-a74b-ca9af35027d0> a skos:Concept ;
+    skos:historyNote 122 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "4e quart 15e siècle" .
+
+<ea170bea-4080-41e1-9c64-e114bf481212> a skos:Concept ;
+    skos:historyNote 19905 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "2e moitié 17e siècle" .
+
+<f161e15d-4be3-420b-8d11-c4cb2d0c8ba1> a skos:Concept ;
+    skos:historyNote 109 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "16e siècle" .
+
+<f4ae3d66-5235-4c4f-b1fe-61fde9815678> a skos:Concept ;
+    skos:historyNote 119 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "10e siècle" .
+
+<f67ce01b-b412-4487-a02c-670d5af8a454> a skos:Concept ;
+    skos:historyNote 19487 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "4e quart 17e siècle" .
+
+<f6a35902-d0f9-4949-b071-bf9abd65172e> a skos:Concept ;
+    skos:historyNote 20229 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "1er quart 17e siècle" .
+
+<ff64f0bf-a02e-4278-8bb3-60a661b7d4af> a skos:Concept ;
+    skos:historyNote 113 ;
+    skos:inScheme <d1e55d5f-43c2-4e11-ae56-503ecf31f638> ;
+    skos:prefLabel "15e siècle" .
+
+<d1e55d5f-43c2-4e11-ae56-503ecf31f638> a skos:ConceptScheme ;
+    dcterms:title "Périodes" ;
+    skos:hasTopConcept <05d7a305-e10f-4a33-a31c-4ee0516353a1>,
+        <0a7049b6-e15c-4d2a-8443-d9ab78e082e1>,
+        <14746925-9c24-4803-8eed-4299a194bb58>,
+        <148cab97-2ec1-4b2d-b195-e41f268a87dd>,
+        <18f37b6f-d142-43f6-a2a6-0ad685d8cace>,
+        <21181da8-e241-491c-9f26-e3f69cc50f0b>,
+        <3873b07c-16aa-47f1-be95-496d1a385b54>,
+        <3d301254-e067-46c9-b03b-5f42bc5b2650>,
+        <3ed69df7-236b-4e43-a706-c80ffc4a23c4>,
+        <3f51a364-dd30-4b63-926a-f27c11ed008b>,
+        <4d46d3ea-0cc6-4d36-bc55-4c95fdd83497>,
+        <5344c792-e3d6-431a-874b-04c91c313a35>,
+        <553c3ce3-f827-486b-94f0-40a4e84716ee>,
+        <5e07e461-7b01-4493-9504-51a90e71c308>,
+        <62e6a8e3-94d9-419c-b0e1-9c62b3666717>,
+        <70df216c-d491-4920-bafa-12197abeacc7>,
+        <7ed12b22-9a25-4cd6-8137-fc7959d31c12>,
+        <92bd8251-1845-48a0-b794-b53ad72c76f1>,
+        <a0905123-4649-4fc3-8ccc-2341fcd01b54>,
+        <a881dc34-028e-4b4f-89dc-fd9c748c0d01>,
+        <ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62>,
+        <bdfdd084-443f-4d01-9753-3b9d5cd74687>,
+        <caef433b-9739-4480-bb24-78fce686e208>,
+        <cc2ec291-d013-4b6e-8d48-655bb1f7430a>,
+        <d06ea777-ca8f-4820-a046-a033e214dff5>,
+        <d141bdaa-7a71-471b-9507-8938db38759a>,
+        <d6cbde73-d545-49e5-b669-1bdce893a76b>,
+        <d7cf8105-c80f-418c-9d03-4609847e3bad>,
+        <e2519f29-e880-44ca-80c5-c61d4d65f637>,
+        <e917efdf-d1ab-4189-a74b-ca9af35027d0>,
+        <ea170bea-4080-41e1-9c64-e114bf481212>,
+        <f161e15d-4be3-420b-8d11-c4cb2d0c8ba1>,
+        <f4ae3d66-5235-4c4f-b1fe-61fde9815678>,
+        <f67ce01b-b412-4487-a02c-670d5af8a454>,
+        <f6a35902-d0f9-4949-b071-bf9abd65172e>,
+        <ff64f0bf-a02e-4278-8bb3-60a661b7d4af> .
+

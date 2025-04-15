@@ -1,0 +1,11 @@
+[requires]
+llvm-core/19.1.7
+rdf4cpp/0.0.54
+
+[generators]
+cmake
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout

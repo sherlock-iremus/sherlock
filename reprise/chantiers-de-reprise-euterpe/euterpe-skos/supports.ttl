@@ -1,0 +1,38 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<40bcb6ff-dcb4-4e51-a09d-6508d5326486> a skos:Concept ;
+    skos:historyNote 19011 ;
+    skos:inScheme <04ac0d8c-8c96-49a5-9507-accc2233bc53> ;
+    skos:prefLabel "Numérique" .
+
+<4b3f5f03-f786-4955-a8cf-6f19a812186c> a skos:Concept ;
+    skos:historyNote 19010 ;
+    skos:inScheme <04ac0d8c-8c96-49a5-9507-accc2233bc53> ;
+    skos:prefLabel "Diapositive" .
+
+<72f9c788-73af-474a-861e-2b62364d86cb> a skos:Concept ;
+    skos:historyNote 19013 ;
+    skos:inScheme <04ac0d8c-8c96-49a5-9507-accc2233bc53> ;
+    skos:prefLabel "APS" .
+
+<b101f62f-2040-4269-b3a9-3c54e2334c94> a skos:Concept ;
+    skos:historyNote 19012 ;
+    skos:inScheme <04ac0d8c-8c96-49a5-9507-accc2233bc53> ;
+    skos:prefLabel "Ekta" .
+
+<e05c2707-aac8-4739-8c9d-2c91b6ad60e9> a skos:Concept ;
+    skos:historyNote 19009 ;
+    skos:inScheme <04ac0d8c-8c96-49a5-9507-accc2233bc53> ;
+    skos:prefLabel "tirage papier" .
+
+<04ac0d8c-8c96-49a5-9507-accc2233bc53> a skos:ConceptScheme ;
+    dcterms:title "Supports" ;
+    skos:hasTopConcept <40bcb6ff-dcb4-4e51-a09d-6508d5326486>,
+        <4b3f5f03-f786-4955-a8cf-6f19a812186c>,
+        <72f9c788-73af-474a-861e-2b62364d86cb>,
+        <b101f62f-2040-4269-b3a9-3c54e2334c94>,
+        <e05c2707-aac8-4739-8c9d-2c91b6ad60e9> .
+

@@ -1,0 +1,212 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<014f7607-d6c6-4528-9749-c025b8d4aee2> a skos:Concept ;
+    skos:historyNote 18992 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "musique écrite avec partie de chant" .
+
+<05bc6354-dec2-4c0a-95a6-e15737c16c46> a skos:Concept ;
+    skos:historyNote 19000 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "oeuvre musicale, pédagogique ou théorique identifiée" .
+
+<169f3d3a-e121-4f12-891c-9df559938133> a skos:Concept ;
+    skos:historyNote 19630 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "partie vocale" .
+
+<1db5b55e-1404-419f-8580-609cd86a6a23> a skos:Concept ;
+    skos:historyNote 19629 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "partie séparée" .
+
+<2cb928d9-21ec-42aa-a7e9-98b591a39be2> a skos:Concept ;
+    skos:historyNote 19999 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "notation figurée" .
+
+<30e66596-e097-4d3e-b696-4fc9bc8650e5> a skos:Concept ;
+    skos:historyNote 19038 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "musique écrite avec partie de chant" .
+
+<34d97920-a75c-47d1-8516-3039b7e6058a> a skos:Concept ;
+    skos:historyNote 19638 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "musique instrumentale" .
+
+<3920dcd2-2d11-4b21-bd3b-f41cdf6ce57d> a skos:Concept ;
+    skos:historyNote 19002 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "titre de l'oeuvre ou de l'extrait" .
+
+<3f3c49d5-c4a0-4751-af59-a96b8828082d> a skos:Concept ;
+    skos:historyNote 18999 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "notation lisible" .
+
+<5a73d855-ff36-4ec0-b58b-1820620d6a9c> a skos:Concept ;
+    skos:historyNote 19639 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "plain-chant" .
+
+<5d2daca6-6cdf-4374-adfa-c6b4f2313541> a skos:Concept ;
+    skos:historyNote 19624 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "format à l'italienne ~ paysage ~ oblong" .
+
+<643224e5-f29a-458e-b5a4-5f6c5ddeb5a0> a skos:Concept ;
+    skos:historyNote 19994 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "feuille de musique ~ feuille volante" .
+
+<86c0c549-d9c4-44bc-af6d-5ac292b734b5> a skos:Concept ;
+    skos:historyNote 19626 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "livre de choeur" .
+
+<8877016c-630b-4f17-a8c6-113800e2ae14> a skos:Concept ;
+    skos:historyNote 19995 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "phylactère" .
+
+<9143db2a-3d5b-4890-90bb-5b12150043ac> a skos:Concept ;
+    skos:historyNote 19637 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "musique vocale" .
+
+<95d1c57a-ad96-46be-b100-4227e55b51a9> a skos:Concept ;
+    skos:historyNote 19001 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "texte chanté lisible" .
+
+<9d46373c-7583-4e46-a8bb-e4dc9a225182> a skos:Concept ;
+    skos:historyNote 19623 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "livre de musique manuscrit" .
+
+<a138195f-3333-44d6-9d2c-3dfe191efdbb> a skos:Concept ;
+    skos:historyNote 19284 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "musique écrite" .
+
+<a3c6c47b-0a95-4342-aa8a-6da0e827cbe5> a skos:Concept ;
+    skos:historyNote 19622 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "livre de musique imprimé" .
+
+<a4c1c0f7-9910-4e74-983f-7937d18b5f1d> a skos:Concept ;
+    skos:historyNote 18996 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "tablature" .
+
+<acde1d46-3f0f-465e-a4ed-3133cb94bfad> a skos:Concept ;
+    skos:historyNote 19628 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "partition d'orchestre" .
+
+<b4736522-04b6-432c-bb12-c3804409c369> a skos:Concept ;
+    skos:historyNote 19631 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "partie instrumentale" .
+
+<bc9aae21-e699-4868-a7a3-23b2a0401431> a skos:Concept ;
+    skos:historyNote 20000 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "caractéristiques matérielles" .
+
+<be628bbf-4c1a-4160-b733-3be8db3cd432> a skos:Concept ;
+    skos:historyNote 19996 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "oeuvre musicale / extrait d'oeuvre musicale" .
+
+<ce86cdf2-368f-478a-9112-2b528e0097d0> a skos:Concept ;
+    skos:historyNote 19619 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "nom de l'auteur" .
+
+<d5d18e5a-0468-4cdf-96aa-85f6d6fb825c> a skos:Concept ;
+    skos:historyNote 19636 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "texte chanté illisible" .
+
+<d744b799-75cc-402f-b19c-318031bf907b> a skos:Concept ;
+    skos:historyNote 19618 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "oeuvre musicale non identifiée" .
+
+<de2b497f-8631-4e83-aeff-0fc0649b36c4> a skos:Concept ;
+    skos:historyNote 19621 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "livre de musique" .
+
+<e0a0f5b0-4eac-44b3-8535-f845fdacc1e8> a skos:Concept ;
+    skos:historyNote 19614 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "notation illisible" .
+
+<e124005a-ab18-4917-98c2-45d5ce19c2a2> a skos:Concept ;
+    skos:historyNote 18993 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "notation musicale et textuelle" .
+
+<e4264bd0-b0e1-43e0-ba10-55cf5d3dbad2> a skos:Concept ;
+    skos:historyNote 18994 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "tablature avec partie vocale" .
+
+<e737d9d8-98c5-4078-b757-65d213ec3ccd> a skos:Concept ;
+    skos:historyNote 19620 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "tablature avec partie instrumentale" .
+
+<f8f24e20-cb85-4a53-8075-c0280b9c5d9b> a skos:Concept ;
+    skos:historyNote 19627 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "rouleau" .
+
+<fd33e9eb-699a-456f-a915-a79d80f59838> a skos:Concept ;
+    skos:historyNote 19625 ;
+    skos:inScheme <46c3b62d-7338-4bc0-9b65-f5d34b3200dc> ;
+    skos:prefLabel "format à la française ~ portrait" .
+
+<46c3b62d-7338-4bc0-9b65-f5d34b3200dc> a skos:ConceptScheme ;
+    dcterms:title "Types de notations musicales" ;
+    skos:hasTopConcept <014f7607-d6c6-4528-9749-c025b8d4aee2>,
+        <05bc6354-dec2-4c0a-95a6-e15737c16c46>,
+        <169f3d3a-e121-4f12-891c-9df559938133>,
+        <1db5b55e-1404-419f-8580-609cd86a6a23>,
+        <2cb928d9-21ec-42aa-a7e9-98b591a39be2>,
+        <30e66596-e097-4d3e-b696-4fc9bc8650e5>,
+        <34d97920-a75c-47d1-8516-3039b7e6058a>,
+        <3920dcd2-2d11-4b21-bd3b-f41cdf6ce57d>,
+        <3f3c49d5-c4a0-4751-af59-a96b8828082d>,
+        <5a73d855-ff36-4ec0-b58b-1820620d6a9c>,
+        <5d2daca6-6cdf-4374-adfa-c6b4f2313541>,
+        <643224e5-f29a-458e-b5a4-5f6c5ddeb5a0>,
+        <86c0c549-d9c4-44bc-af6d-5ac292b734b5>,
+        <8877016c-630b-4f17-a8c6-113800e2ae14>,
+        <9143db2a-3d5b-4890-90bb-5b12150043ac>,
+        <95d1c57a-ad96-46be-b100-4227e55b51a9>,
+        <9d46373c-7583-4e46-a8bb-e4dc9a225182>,
+        <a138195f-3333-44d6-9d2c-3dfe191efdbb>,
+        <a3c6c47b-0a95-4342-aa8a-6da0e827cbe5>,
+        <a4c1c0f7-9910-4e74-983f-7937d18b5f1d>,
+        <acde1d46-3f0f-465e-a4ed-3133cb94bfad>,
+        <b4736522-04b6-432c-bb12-c3804409c369>,
+        <bc9aae21-e699-4868-a7a3-23b2a0401431>,
+        <be628bbf-4c1a-4160-b733-3be8db3cd432>,
+        <ce86cdf2-368f-478a-9112-2b528e0097d0>,
+        <d5d18e5a-0468-4cdf-96aa-85f6d6fb825c>,
+        <d744b799-75cc-402f-b19c-318031bf907b>,
+        <de2b497f-8631-4e83-aeff-0fc0649b36c4>,
+        <e0a0f5b0-4eac-44b3-8535-f845fdacc1e8>,
+        <e124005a-ab18-4917-98c2-45d5ce19c2a2>,
+        <e4264bd0-b0e1-43e0-ba10-55cf5d3dbad2>,
+        <e737d9d8-98c5-4078-b757-65d213ec3ccd>,
+        <f8f24e20-cb85-4a53-8075-c0280b9c5d9b>,
+        <fd33e9eb-699a-456f-a915-a79d80f59838> .
+

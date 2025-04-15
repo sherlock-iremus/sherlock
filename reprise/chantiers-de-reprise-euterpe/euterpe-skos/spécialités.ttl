@@ -1,0 +1,170 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<05be30f1-812a-4cbf-9ed0-d5495ba821d3> a skos:Concept ;
+    skos:historyNote 39 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "compositeur" .
+
+<129c5b61-0c62-4479-bfa2-70e23b4f3956> a skos:Concept ;
+    skos:historyNote 19611 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "poète" .
+
+<17fc8f21-74d1-4d5b-8cac-47abd356ae55> a skos:Concept ;
+    skos:historyNote 19610 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "journaliste" .
+
+<1a7e52f6-d43f-4eed-b9be-9c916ab14901> a skos:Concept ;
+    skos:historyNote 38 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "chanteur" .
+
+<243d31e3-3073-4854-83b9-a2032d99814e> a skos:Concept ;
+    skos:historyNote 19602 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "violoniste" .
+
+<2e863009-27d2-4d59-b899-3d91e02391d5> a skos:Concept ;
+    skos:historyNote 19471 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "enlumineur" .
+
+<335a89cd-73f7-43a2-bad6-0f933577f75a> a skos:Concept ;
+    skos:historyNote 19475 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "photographe" .
+
+<3a1216d9-24d3-4e82-902a-7c9aa6b8532b> a skos:Concept ;
+    skos:historyNote 19605 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "philosophe" .
+
+<50e03858-756f-41ee-b98b-94c0846a583b> a skos:Concept ;
+    skos:historyNote 19606 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "pédagogue" .
+
+<53f2f497-45da-407d-bec3-9fc2b90e5bad> a skos:Concept ;
+    skos:historyNote 40 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "danseur" .
+
+<5b2b72e7-7924-4245-9cfa-2a7718d9bdca> a skos:Concept ;
+    skos:historyNote 41 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "joueur d'instrument" .
+
+<6a785fac-2b0c-4594-9a44-54955a77a2e3> a skos:Concept ;
+    skos:historyNote 19613 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "acteur" .
+
+<6f2f1d13-50b4-4f27-83bd-21769408d966> a skos:Concept ;
+    skos:historyNote 19604 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "claveciniste" .
+
+<70801518-e87a-4f69-aa53-7ac8a9c22338> a skos:Concept ;
+    skos:historyNote 19603 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "organiste" .
+
+<86b8c1ac-1936-4c3d-814a-0f4cb8782eac> a skos:Concept ;
+    skos:historyNote 34 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "sculpteur" .
+
+<8ec1f39b-f9ad-46cf-a939-67612ea0f0a1> a skos:Concept ;
+    skos:historyNote 36 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "peintre" .
+
+<9cdef9fb-6cfb-4baa-8e7b-bc60117dfbd1> a skos:Concept ;
+    skos:historyNote 19463 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "tapissier" .
+
+<a2cd0c55-1c48-4ddb-9f2f-4c71aefa8999> a skos:Concept ;
+    skos:historyNote 19490 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "chorégraphe" .
+
+<abdebca9-5b12-43c6-8c11-d879bb4224ff> a skos:Concept ;
+    skos:historyNote 19608 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "écrivain" .
+
+<b59adba7-7937-484d-93b4-a089d9c21cbb> a skos:Concept ;
+    skos:historyNote 33 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "graveur" .
+
+<c8f5dd53-2364-43bb-9ee7-f67a1521b0aa> a skos:Concept ;
+    skos:historyNote 19612 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "romancier" .
+
+<cac1d0ba-d443-4635-ba61-a43da665d0ad> a skos:Concept ;
+    skos:historyNote 19607 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "violoncelliste" .
+
+<cf340c5a-8a8f-4b73-8b40-0da34265f7e2> a skos:Concept ;
+    skos:historyNote 42 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "librettiste" .
+
+<dfa4d65b-44e3-4231-b5e4-2a3aa1c90343> a skos:Concept ;
+    skos:historyNote 19477 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "dessinateur" .
+
+<e84afafc-5990-473f-b591-d5acff683cb9> a skos:Concept ;
+    skos:historyNote 35 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "éditeur" .
+
+<ec17fecf-de28-4e95-b6f2-dd6a6c42c629> a skos:Concept ;
+    skos:historyNote 37 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "architecte" .
+
+<ec894fe2-5367-4f56-a2db-7ed9c4b2212c> a skos:Concept ;
+    skos:historyNote 19609 ;
+    skos:inScheme <18fea333-455c-4040-bfc0-b3443ce7c529> ;
+    skos:prefLabel "auteur dramatique" .
+
+<18fea333-455c-4040-bfc0-b3443ce7c529> a skos:ConceptScheme ;
+    dcterms:title "Spécialités" ;
+    skos:hasTopConcept <05be30f1-812a-4cbf-9ed0-d5495ba821d3>,
+        <129c5b61-0c62-4479-bfa2-70e23b4f3956>,
+        <17fc8f21-74d1-4d5b-8cac-47abd356ae55>,
+        <1a7e52f6-d43f-4eed-b9be-9c916ab14901>,
+        <243d31e3-3073-4854-83b9-a2032d99814e>,
+        <2e863009-27d2-4d59-b899-3d91e02391d5>,
+        <335a89cd-73f7-43a2-bad6-0f933577f75a>,
+        <3a1216d9-24d3-4e82-902a-7c9aa6b8532b>,
+        <50e03858-756f-41ee-b98b-94c0846a583b>,
+        <53f2f497-45da-407d-bec3-9fc2b90e5bad>,
+        <5b2b72e7-7924-4245-9cfa-2a7718d9bdca>,
+        <6a785fac-2b0c-4594-9a44-54955a77a2e3>,
+        <6f2f1d13-50b4-4f27-83bd-21769408d966>,
+        <70801518-e87a-4f69-aa53-7ac8a9c22338>,
+        <86b8c1ac-1936-4c3d-814a-0f4cb8782eac>,
+        <8ec1f39b-f9ad-46cf-a939-67612ea0f0a1>,
+        <9cdef9fb-6cfb-4baa-8e7b-bc60117dfbd1>,
+        <a2cd0c55-1c48-4ddb-9f2f-4c71aefa8999>,
+        <abdebca9-5b12-43c6-8c11-d879bb4224ff>,
+        <b59adba7-7937-484d-93b4-a089d9c21cbb>,
+        <c8f5dd53-2364-43bb-9ee7-f67a1521b0aa>,
+        <cac1d0ba-d443-4635-ba61-a43da665d0ad>,
+        <cf340c5a-8a8f-4b73-8b40-0da34265f7e2>,
+        <dfa4d65b-44e3-4231-b5e4-2a3aa1c90343>,
+        <e84afafc-5990-473f-b591-d5acff683cb9>,
+        <ec17fecf-de28-4e95-b6f2-dd6a6c42c629>,
+        <ec894fe2-5367-4f56-a2db-7ed9c4b2212c> .
+

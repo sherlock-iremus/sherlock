@@ -1,0 +1,146 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<0799e005-5f5e-4ab2-8701-6e40b7e04a25> a skos:Concept ;
+    skos:historyNote 16066 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "maquette" .
+
+<111ace6d-8b53-4f96-a010-00931703c06b> a skos:Concept ;
+    skos:historyNote 16050 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Photographie" .
+
+<122f2768-fe58-4301-b12a-64852bc7ca81> a skos:Concept ;
+    skos:historyNote 16054 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Orfévrerie" .
+
+<1442a552-6c20-45f5-8b09-5abe2c10b406> a skos:Concept ;
+    skos:historyNote 16045 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Objet au sens large" .
+
+<250573a3-ecf3-4211-adb1-201673f9f69c> a skos:Concept ;
+    skos:historyNote 16036 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Emaillerie" .
+
+<357625e8-17e2-4530-8a4b-973eaa4937d3> a skos:Concept ;
+    skos:historyNote 19915 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Beaux-arts" .
+
+<362e6ee9-318c-4f9b-84eb-e438c61ad962> a skos:Concept ;
+    skos:historyNote 16044 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Céramique" .
+
+<3f2f5763-4819-4cdd-915d-71dd22e6f1c9> a skos:Concept ;
+    skos:historyNote 16043 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Tapisserie" .
+
+<4042970c-9ba1-4572-8928-c393c606aec6> a skos:Concept ;
+    skos:historyNote 16058 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Textile" .
+
+<66eeeefe-8254-4d20-9ad8-63186f31654f> a skos:Concept ;
+    skos:historyNote 16047 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Facture instrumentale" .
+
+<6db6ba96-49ff-4238-a595-e1009a306cfd> a skos:Concept ;
+    skos:historyNote 19916 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Spectacle - fête" .
+
+<716ce07a-03fc-4d42-8833-0f457810c1f7> a skos:Concept ;
+    skos:historyNote 16039 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Sculpture" .
+
+<82d38ec1-d9ce-4e1d-b70f-0d1c4dbc5ef1> a skos:Concept ;
+    skos:historyNote 16040 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Ebénisterie" .
+
+<88a25f58-662d-44f0-be6c-ce5b62c3b13a> a skos:Concept ;
+    skos:historyNote 16037 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Enluminure" .
+
+<8a513bdb-2a5d-4c3c-8254-d637deb5ed95> a skos:Concept ;
+    skos:historyNote 16061 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "support mixte" .
+
+<8f20dece-e9e3-464f-b522-78476f34b288> a skos:Concept ;
+    skos:historyNote 19914 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Arts décoratifs" .
+
+<a656d5cb-7ef1-47db-84d5-a6a3bd60e765> a skos:Concept ;
+    skos:historyNote 16038 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Estampe" .
+
+<c8cb86c0-e005-460b-a028-3f54afffb93d> a skos:Concept ;
+    skos:historyNote 16068 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Architecture" .
+
+<da5bf40a-0aa5-4a6f-8aa9-7bf10c7492da> a skos:Concept ;
+    skos:historyNote 16049 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Art mobilier" .
+
+<dadda380-e23f-4157-8ed6-ec2c4ad3ad87> a skos:Concept ;
+    skos:historyNote 16033 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Peinture" .
+
+<eb8b06e6-a6bf-45fb-a07e-03a8215884a5> a skos:Concept ;
+    skos:historyNote 16034 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Dessin" .
+
+<f296fff7-675f-4986-b156-ef714606f7f9> a skos:Concept ;
+    skos:historyNote 16041 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Vitrail" .
+
+<fb6390a6-e571-4fae-bad2-2ef192f7c110> a skos:Concept ;
+    skos:historyNote 16053 ;
+    skos:inScheme <965636a0-dc5c-43f1-adf1-0167e874218e> ;
+    skos:prefLabel "Mosaïque" .
+
+<965636a0-dc5c-43f1-adf1-0167e874218e> a skos:ConceptScheme ;
+    dcterms:title "Domaines" ;
+    skos:hasTopConcept <0799e005-5f5e-4ab2-8701-6e40b7e04a25>,
+        <111ace6d-8b53-4f96-a010-00931703c06b>,
+        <122f2768-fe58-4301-b12a-64852bc7ca81>,
+        <1442a552-6c20-45f5-8b09-5abe2c10b406>,
+        <250573a3-ecf3-4211-adb1-201673f9f69c>,
+        <357625e8-17e2-4530-8a4b-973eaa4937d3>,
+        <362e6ee9-318c-4f9b-84eb-e438c61ad962>,
+        <3f2f5763-4819-4cdd-915d-71dd22e6f1c9>,
+        <4042970c-9ba1-4572-8928-c393c606aec6>,
+        <66eeeefe-8254-4d20-9ad8-63186f31654f>,
+        <6db6ba96-49ff-4238-a595-e1009a306cfd>,
+        <716ce07a-03fc-4d42-8833-0f457810c1f7>,
+        <82d38ec1-d9ce-4e1d-b70f-0d1c4dbc5ef1>,
+        <88a25f58-662d-44f0-be6c-ce5b62c3b13a>,
+        <8a513bdb-2a5d-4c3c-8254-d637deb5ed95>,
+        <8f20dece-e9e3-464f-b522-78476f34b288>,
+        <a656d5cb-7ef1-47db-84d5-a6a3bd60e765>,
+        <c8cb86c0-e005-460b-a028-3f54afffb93d>,
+        <da5bf40a-0aa5-4a6f-8aa9-7bf10c7492da>,
+        <dadda380-e23f-4157-8ed6-ec2c4ad3ad87>,
+        <eb8b06e6-a6bf-45fb-a07e-03a8215884a5>,
+        <f296fff7-675f-4986-b156-ef714606f7f9>,
+        <fb6390a6-e571-4fae-bad2-2ef192f7c110> .
+

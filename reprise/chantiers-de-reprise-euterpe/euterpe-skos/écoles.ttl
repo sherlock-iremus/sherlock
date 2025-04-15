@@ -1,0 +1,182 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<03358f7d-3712-458d-95a2-0d8e7e826d0d> a skos:Concept ;
+    skos:historyNote 102 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Grèce" .
+
+<180b9026-0c6b-448d-ac42-88dd815ed7dd> a skos:Concept ;
+    skos:historyNote 105 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Perse" .
+
+<28c706c8-92de-4760-b33c-aacba2d8688b> a skos:Concept ;
+    skos:historyNote 20221 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Hollande" .
+
+<2c7ba64b-b3da-4be9-82ec-226ba7a9327d> a skos:Concept ;
+    skos:historyNote 101 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Hongrie" .
+
+<2d0e1689-02a1-4e97-8a42-88a9fb972888> a skos:Concept ;
+    skos:historyNote 104 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Colombie" .
+
+<35f6a2c0-fa42-4dfa-8d3a-a24260f74aba> a skos:Concept ;
+    skos:historyNote 99 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Canada" .
+
+<365011cc-34b7-4409-8158-865fabfefafa> a skos:Concept ;
+    skos:historyNote 89 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Yougoslavie" .
+
+<3a9c3796-7585-427a-be94-5e23bd754744> a skos:Concept ;
+    skos:historyNote 98 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Portugal" .
+
+<3d563898-b8ac-499e-abf9-d939f5996be3> a skos:Concept ;
+    skos:historyNote 82 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Allemagne" .
+
+<40a250b1-8a7b-4861-8f67-e19c3b547966> a skos:Concept ;
+    skos:historyNote 96 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Suède" .
+
+<58916a81-fe06-4a3f-8be9-a5275376a4b5> a skos:Concept ;
+    skos:historyNote 83 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Italie" .
+
+<5a56872b-8108-48f0-971b-88c1ea828c22> a skos:Concept ;
+    skos:historyNote 90 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Suisse" .
+
+<5f56aff0-7cb4-4cbb-bfb7-63fe9c159e6a> a skos:Concept ;
+    skos:historyNote 87 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Espagne" .
+
+<77a33d19-5384-4fd2-a03b-efa2be314370> a skos:Concept ;
+    skos:historyNote 19896 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Afrique" .
+
+<892f29bf-e19f-4068-885b-af5e17b79ad1> a skos:Concept ;
+    skos:historyNote 106 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Ecole inconnue" .
+
+<8f1db912-6732-4911-81ab-5b8199e36f26> a skos:Concept ;
+    skos:historyNote 94 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Afrique du Sud" .
+
+<901ae980-e2bf-4c10-ad4f-244b1f8023b9> a skos:Concept ;
+    skos:historyNote 88 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Autriche" .
+
+<962f8bb9-52d5-4cc5-a165-93db27927352> a skos:Concept ;
+    skos:historyNote 97 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Tchécoslovaquie" .
+
+<b1c72862-4f70-4ad7-8d1e-ae33182179f9> a skos:Concept ;
+    skos:historyNote 93 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Inde" .
+
+<b8470c9b-0227-4f36-9f1b-d090a4e8ddb7> a skos:Concept ;
+    skos:historyNote 103 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Amérique du Sud" .
+
+<c0592fcb-8484-4582-abd1-372a13e4d51e> a skos:Concept ;
+    skos:historyNote 85 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Flandres" .
+
+<db4194eb-687a-4cee-97f4-c57a681ebab1> a skos:Concept ;
+    skos:historyNote 91 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Etats-Unis" .
+
+<dd099d23-9329-4002-b94c-0c87abcc2163> a skos:Concept ;
+    skos:historyNote 84 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "France" .
+
+<e08beffd-199e-4f76-98f7-6482466de451> a skos:Concept ;
+    skos:historyNote 86 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Grande-Bretagne" .
+
+<ea59e24a-1808-4726-af03-549dba2fb79f> a skos:Concept ;
+    skos:historyNote 95 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Pologne" .
+
+<ee14ba8f-0317-4cbb-bfd3-340d16301a9f> a skos:Concept ;
+    skos:historyNote 100 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Danemark" .
+
+<f77317f2-e8da-4c3d-a2fe-1c2141770837> a skos:Concept ;
+    skos:historyNote 92 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Russie" .
+
+<f9af238a-7094-40d2-a518-03eb24a32ed6> a skos:Concept ;
+    skos:historyNote 19895 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Europe du Nord" .
+
+<fc038ba3-c1f1-4336-bf96-944047e7647c> a skos:Concept ;
+    skos:historyNote 81 ;
+    skos:inScheme <1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> ;
+    skos:prefLabel "Pays-Bas" .
+
+<1362a606-1e9b-4c19-a4ac-f3a66fd0ebcc> a skos:ConceptScheme ;
+    dcterms:title "Écoles" ;
+    skos:hasTopConcept <03358f7d-3712-458d-95a2-0d8e7e826d0d>,
+        <180b9026-0c6b-448d-ac42-88dd815ed7dd>,
+        <28c706c8-92de-4760-b33c-aacba2d8688b>,
+        <2c7ba64b-b3da-4be9-82ec-226ba7a9327d>,
+        <2d0e1689-02a1-4e97-8a42-88a9fb972888>,
+        <35f6a2c0-fa42-4dfa-8d3a-a24260f74aba>,
+        <365011cc-34b7-4409-8158-865fabfefafa>,
+        <3a9c3796-7585-427a-be94-5e23bd754744>,
+        <3d563898-b8ac-499e-abf9-d939f5996be3>,
+        <40a250b1-8a7b-4861-8f67-e19c3b547966>,
+        <58916a81-fe06-4a3f-8be9-a5275376a4b5>,
+        <5a56872b-8108-48f0-971b-88c1ea828c22>,
+        <5f56aff0-7cb4-4cbb-bfb7-63fe9c159e6a>,
+        <77a33d19-5384-4fd2-a03b-efa2be314370>,
+        <892f29bf-e19f-4068-885b-af5e17b79ad1>,
+        <8f1db912-6732-4911-81ab-5b8199e36f26>,
+        <901ae980-e2bf-4c10-ad4f-244b1f8023b9>,
+        <962f8bb9-52d5-4cc5-a165-93db27927352>,
+        <b1c72862-4f70-4ad7-8d1e-ae33182179f9>,
+        <b8470c9b-0227-4f36-9f1b-d090a4e8ddb7>,
+        <c0592fcb-8484-4582-abd1-372a13e4d51e>,
+        <db4194eb-687a-4cee-97f4-c57a681ebab1>,
+        <dd099d23-9329-4002-b94c-0c87abcc2163>,
+        <e08beffd-199e-4f76-98f7-6482466de451>,
+        <ea59e24a-1808-4726-af03-549dba2fb79f>,
+        <ee14ba8f-0317-4cbb-bfd3-340d16301a9f>,
+        <f77317f2-e8da-4c3d-a2fe-1c2141770837>,
+        <f9af238a-7094-40d2-a518-03eb24a32ed6>,
+        <fc038ba3-c1f1-4336-bf96-944047e7647c> .
+

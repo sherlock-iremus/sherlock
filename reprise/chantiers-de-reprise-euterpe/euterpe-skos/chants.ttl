@@ -1,0 +1,116 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<1921628d-e3f9-44c3-ba74-d14c5fb9b555> a skos:Concept ;
+    skos:historyNote 19033 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "ange chantant" .
+
+<1a3118c1-5773-4c84-94b1-29d2b1aa28b4> a skos:Concept ;
+    skos:historyNote 19468 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chantre" .
+
+<1d358338-02ac-41d9-8004-29f7e7e9b9f1> a skos:Concept ;
+    skos:historyNote 19037 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "choeur" .
+
+<1fa591ea-50c4-4378-a675-30edcac47ae7> a skos:Concept ;
+    skos:historyNote 19028 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chanteur dans un groupe" .
+
+<33653641-2ae3-432f-a996-cbb663791c88> a skos:Concept ;
+    skos:historyNote 19008 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chanteuse d'opéra" .
+
+<4f5ee92d-08e6-46f4-9a0e-edf0813d3ce3> a skos:Concept ;
+    skos:historyNote 19285 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "animal chantant" .
+
+<57066719-9229-494d-b479-87f48acbfbe3> a skos:Concept ;
+    skos:historyNote 19035 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "groupe de chanteurs" .
+
+<819b525f-4070-41df-92f0-ff8f24ca8046> a skos:Concept ;
+    skos:historyNote 19006 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chanteur de salon" .
+
+<89ec5a33-8a11-402d-b7c6-3ace0b2e0ea8> a skos:Concept ;
+    skos:historyNote 19040 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chanteur" .
+
+<8e3bfe86-bec2-4371-b1cf-672f658bbd0c> a skos:Concept ;
+    skos:historyNote 19005 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chanteuse de salon" .
+
+<9819bb34-a317-4ca4-936c-a0182b4288cd> a skos:Concept ;
+    skos:historyNote 19474 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "maître de chant" .
+
+<99aca482-891b-4e5e-8eb1-da4687739be0> a skos:Concept ;
+    skos:historyNote 19034 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chanteur des rues" .
+
+<a008a602-39e9-4c08-b229-a0bd6e83a33b> a skos:Concept ;
+    skos:historyNote 19007 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chanteur d'opéra" .
+
+<b378dcd4-d354-41ef-a3a7-4fe8d8fb63d5> a skos:Concept ;
+    skos:historyNote 19004 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "choeur d'anges" .
+
+<c2bfa853-6ccb-4eae-a9c4-0bbe9d8d7cd5> a skos:Concept ;
+    skos:historyNote 19466 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "enfant chantant" .
+
+<d77741b9-e322-464d-a7ad-299a96129735> a skos:Concept ;
+    skos:historyNote 19032 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chanteuse" .
+
+<d8c7325a-51ba-4100-b69c-86ca6c4d51bb> a skos:Concept ;
+    skos:historyNote 19003 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chanteur des rues s'accompagnant" .
+
+<ec949b8e-2808-485a-99e8-c28c5ea3144f> a skos:Concept ;
+    skos:historyNote 19469 ;
+    skos:inScheme <e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> ;
+    skos:prefLabel "chorale" .
+
+<e0f7166e-0cdc-43cf-b7f5-214f838f4ee9> a skos:ConceptScheme ;
+    dcterms:title "Chants" ;
+    skos:hasTopConcept <1921628d-e3f9-44c3-ba74-d14c5fb9b555>,
+        <1a3118c1-5773-4c84-94b1-29d2b1aa28b4>,
+        <1d358338-02ac-41d9-8004-29f7e7e9b9f1>,
+        <1fa591ea-50c4-4378-a675-30edcac47ae7>,
+        <33653641-2ae3-432f-a996-cbb663791c88>,
+        <4f5ee92d-08e6-46f4-9a0e-edf0813d3ce3>,
+        <57066719-9229-494d-b479-87f48acbfbe3>,
+        <819b525f-4070-41df-92f0-ff8f24ca8046>,
+        <89ec5a33-8a11-402d-b7c6-3ace0b2e0ea8>,
+        <8e3bfe86-bec2-4371-b1cf-672f658bbd0c>,
+        <9819bb34-a317-4ca4-936c-a0182b4288cd>,
+        <99aca482-891b-4e5e-8eb1-da4687739be0>,
+        <a008a602-39e9-4c08-b229-a0bd6e83a33b>,
+        <b378dcd4-d354-41ef-a3a7-4fe8d8fb63d5>,
+        <c2bfa853-6ccb-4eae-a9c4-0bbe9d8d7cd5>,
+        <d77741b9-e322-464d-a7ad-299a96129735>,
+        <d8c7325a-51ba-4100-b69c-86ca6c4d51bb>,
+        <ec949b8e-2808-485a-99e8-c28c5ea3144f> .
+

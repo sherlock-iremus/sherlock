@@ -1,0 +1,32 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<2b20adc9-54a8-4573-8347-2a994809e622> a skos:Concept ;
+    skos:inScheme <6a7a3335-0db0-4c0a-a8fa-9d2e7ac7d8c5> ;
+    skos:prefLabel "Graveur" .
+
+<524db20d-156d-4c1e-b60f-a69e59b722ea> a skos:Concept ;
+    skos:inScheme <6a7a3335-0db0-4c0a-a8fa-9d2e7ac7d8c5> ;
+    skos:prefLabel "Artiste" .
+
+<8a2902e4-434f-461d-882e-9c243ebef0b2> a skos:Concept ;
+    skos:inScheme <6a7a3335-0db0-4c0a-a8fa-9d2e7ac7d8c5> ;
+    skos:prefLabel "Éditeur" .
+
+<8bed3a6e-fc91-4819-be6b-6dcc19ea6be3> a skos:Concept ;
+    skos:inScheme <6a7a3335-0db0-4c0a-a8fa-9d2e7ac7d8c5> ;
+    skos:prefLabel "Compositeur" .
+
+<d79389e9-172f-4654-b053-f4648bc32ced> a skos:Concept ;
+    skos:inScheme <6a7a3335-0db0-4c0a-a8fa-9d2e7ac7d8c5> ;
+    skos:prefLabel "Librettiste" .
+
+<6a7a3335-0db0-4c0a-a8fa-9d2e7ac7d8c5> a skos:ConceptScheme ;
+    dcterms:title "Rôles" ;
+    skos:hasTopConcept <2b20adc9-54a8-4573-8347-2a994809e622>,
+        <524db20d-156d-4c1e-b60f-a69e59b722ea>,
+        <8a2902e4-434f-461d-882e-9c243ebef0b2>,
+        <8bed3a6e-fc91-4819-be6b-6dcc19ea6be3>,
+        <d79389e9-172f-4654-b053-f4648bc32ced> .
+

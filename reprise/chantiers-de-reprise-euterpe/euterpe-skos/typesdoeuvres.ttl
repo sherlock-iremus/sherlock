@@ -1,0 +1,74 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<26aa6132-f573-485f-884f-144a20452b3b> a skos:Concept ;
+    skos:historyNote 19014 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "opéra" .
+
+<301ceecd-ee25-498a-9db8-c9b176814bff> a skos:Concept ;
+    skos:historyNote 19024 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "opéra-bouffe" .
+
+<35373c18-a91e-4d30-98fc-fa8b340ef69c> a skos:Concept ;
+    skos:historyNote 19017 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "comédie ballet" .
+
+<72c96aaf-e918-4714-8ac7-816d8fdd754f> a skos:Concept ;
+    skos:historyNote 19022 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "opéra féerique" .
+
+<85ea70b3-9aba-4384-a19e-b3d9fd673a35> a skos:Concept ;
+    skos:historyNote 19020 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "opéra comique" .
+
+<8e85a6d2-4e62-4dcd-ae9a-4a7eacbebac3> a skos:Concept ;
+    skos:historyNote 19015 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "opéra-ballet" .
+
+<c17dc3bf-bdca-419c-b3bc-d57be659bd92> a skos:Concept ;
+    skos:historyNote 19016 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "tragédie musicale" .
+
+<cde8d027-ddc4-453f-80b7-c2ea400c9110> a skos:Concept ;
+    skos:historyNote 19018 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "ballet" .
+
+<e1b33ce8-962c-4779-839e-73458c931cfd> a skos:Concept ;
+    skos:historyNote 19019 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "comédie musicale" .
+
+<e2b6cb99-24b4-41bf-990d-20baa47de3e5> a skos:Concept ;
+    skos:historyNote 19023 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "ballet-pantomime" .
+
+<faa11506-2eda-4389-b540-c6480899887c> a skos:Concept ;
+    skos:historyNote 19021 ;
+    skos:inScheme <44df3f6f-c372-4e43-8529-b0621f27babf> ;
+    skos:prefLabel "drame lyrique" .
+
+<44df3f6f-c372-4e43-8529-b0621f27babf> a skos:ConceptScheme ;
+    dcterms:title "Types d'œuvres" ;
+    skos:hasTopConcept <26aa6132-f573-485f-884f-144a20452b3b>,
+        <301ceecd-ee25-498a-9db8-c9b176814bff>,
+        <35373c18-a91e-4d30-98fc-fa8b340ef69c>,
+        <72c96aaf-e918-4714-8ac7-816d8fdd754f>,
+        <85ea70b3-9aba-4384-a19e-b3d9fd673a35>,
+        <8e85a6d2-4e62-4dcd-ae9a-4a7eacbebac3>,
+        <c17dc3bf-bdca-419c-b3bc-d57be659bd92>,
+        <cde8d027-ddc4-453f-80b7-c2ea400c9110>,
+        <e1b33ce8-962c-4779-839e-73458c931cfd>,
+        <e2b6cb99-24b4-41bf-990d-20baa47de3e5>,
+        <faa11506-2eda-4389-b540-c6480899887c> .
+
