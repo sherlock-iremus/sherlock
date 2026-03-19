@@ -32,29 +32,6 @@ L'indexation peut être réalisée avec un descripteur contrôlé issu d'un thé
     C -->|rdf:type| crm:E55_Type
 ```
 
-## Exemples d'indexation avec un `skos:Concept`/`crm:E55_Type` via une E13
-
-```mermaid
-    flowchart TB
-
-    A[Un article sur le Synclavier]
-    click A "https://fr.wikipedia.org/wiki/Synclavier"
-
-    B[Un article évoquant le Synclavier]
-    click B "https://www.soundonsound.com/people/mark-snow-scoring-x-files"
-    
-    C[Le concept de Synclavier dans le thésaurus MIMO]
-    click C "https://vocabulary.mimo-international.com/InstrumentsKeywords/fr/page/2320"
-   
-    A -->|crm:P129_is_about| C
-    B -->|crm:P67_refers_to| C
-
-    A -->|rdf:type| crm:E33_Linguistic_Object
-    B -->|rdf:type| crm:E33_Linguistic_Object
-    C -->|rdf:type| skos:Concept
-    C -->|rdf:type| crm:E55_Type
-```
-
 ## Exemple d'indexation avec une entité nommée
 
 ```mermaid
