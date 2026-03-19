@@ -45,3 +45,28 @@ L'indexation peut être réalisée avec un descripteur contrôlé issu d'un thé
     E33 -->|rdf:type| crm:E33_Linguistic_Object
     E33 -->|crm:P67_refers_to| E21
 ```
+
+## Exemples d'indexation avec un `skos:Concept`/`crm:E55_Type` via une annotation
+
+```mermaid
+    flowchart LR
+
+    E33[Un article évoquant le Synclavier]
+    click E33 "https://www.soundonsound.com/people/mark-snow-scoring-x-files"
+    
+    C[Le concept de Synclavier dans le thésaurus MIMO]
+    click C "https://vocabulary.mimo-international.com/InstrumentsKeywords/fr/page/2320"
+
+    E13 -->|crm:P140_assigned_attribute_to| E33
+    E13 -->|crm:P141_assigned| C
+    E13 -->|crm:P177_assigned_property_of_type| crm:P67_refers_to
+    E13 -->|crm:P14_carried_out_by| Moi
+   
+    E33 -->|rdf:type| crm:E33_Linguistic_Object
+    C -->|rdf:type| skos:Concept
+    C -->|rdf:type| crm:E55_Type
+    E13 -->|rdf:type| crm:E13_Attribute_Assignment
+    Moi -->|rdf:type| crm:E21_Person
+```
+
+La propriété utilisée pour établir le lien d'indexation (`crm:P67_refers_to`, `crm:P129_is_about`) devient la valeur désignée par la propriété `crm:P177_assigned_property_of_type`. Remarquons que dans le CRM, toutes les propriétés sont des `crm:E55_Type`, ce qui permet de les utiliser comme objets de triplets dont le prédicat est `crm:P177_assigned_property_of_type`.
