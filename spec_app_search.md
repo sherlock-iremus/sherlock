@@ -17,9 +17,9 @@
 - Les descripteurs sont trouvés par une recherche plein texte sur leurs libellés (préférés et alternatifs).
 - Pour chaque descripteur trouvé, trois fonctions sont exposées :
   1. Un lien conduisant à la consultation de l'entité nommée dans le contexte de son référentiel ou du concept dans le contexte de son thésaurus.
-  2. Un bouton ajoutant le résultat de recherche à la liste de recherche.
-  3. Un bouton ajoutant le résultat de recherche à la liste d'exclusion.
-- À chaque fois qu'un descripteur est ajouté ou retiré de la liste de recherche et à chaque fois que l'opérateur booléen courant est modifié, la liste des ressources indexées trouvées est recalculée.
+  2. Un bouton ajoutant le descripteur à la liste de recherche.
+  3. Un bouton ajoutant le descripteur à la liste d'exclusion.
+- À chaque fois qu'un descripteur est ajouté ou retiré de la liste de recherche ou d'exclusion et à chaque fois que l'opérateur booléen courant est modifié, la liste des ressources indexées trouvées est recalculée.
 
 ## Maquette fil de fer du composant
 
