@@ -31,3 +31,17 @@ L'indexation peut être réalisée avec un descripteur contrôlé issu d'un thé
     C -->|rdf:type| skos:Concept
     C -->|rdf:type| crm:E55_Type
 ```
+
+## Exemple d'indexation avec une entité nommée
+
+```mermaid
+    flowchart TB
+    E21[Mark Snow]
+    click E21 "https://data.bnf.fr/fr/ark:/12148/cb13992208s"
+    E33[Un article évoquant Mark Snow]
+    click E33 "https://www.soundonsound.com/people/mark-snow-scoring-x-files"
+
+    E21 -->|rdf:type| crm:E21_Person
+    E33 -->|rdf:type| crm:E33_Linguistic_Object
+    E33 -->|crm:P67_refers_to| E21
+```
