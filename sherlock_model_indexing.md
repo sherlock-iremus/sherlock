@@ -15,17 +15,17 @@ L'indexation peut être réalisée avec un descripteur contrôlé issu d'un thé
     flowchart TB
 
     A[Un article sur le Synclavier
-    <div style="font-family: monospace; margin-top: 1em;">crm:E33_Linguistic_Object</div>
+    <div style="font-family: monospace;">crm:E33_Linguistic_Object</div>
     ]
     click A "https://fr.wikipedia.org/wiki/Synclavier"
 
     B[Un article évoquant le Synclavier
-    <div style="font-family: monospace; margin-top: 1em;">crm:E33_Linguistic_Object</div>
+    <div style="font-family: monospace;">crm:E33_Linguistic_Object</div>
     ]
     click B "https://www.soundonsound.com/people/mark-snow-scoring-x-files"
     
     C[Le concept de Synclavier dans le thésaurus MIMO
-    <div style="font-family: monospace; margin-top: 1em;">skos:Concept<br>crm:E55_Type</div>
+    <div style="font-family: monospace;">skos:Concept<br>crm:E55_Type</div>
     ]
     click C "https://vocabulary.mimo-international.com/InstrumentsKeywords/fr/page/2320"
    
