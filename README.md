@@ -14,7 +14,7 @@ SHERLOCK vise la construction d'une chaîne de collecte et de publication de don
 
 ```mermaid
     flowchart TB
-    grist[👩‍🔬<br>Saisie des données dans Grist<br>+<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md" target="_blank">Conventions de mapping</a>]
+    grist[👩‍🔬<br>Saisie des données dans Grist<br>+<br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
     scripts[⚙️<br>Conversaion des données tabulaires → RDF/CIDOC CRM]
     sparql[🌐<br>Mise à disposition des données via un SPARQL endpoint]
     sherlock[🍱<br>Publication/exploration des données dans Sherlock App]
