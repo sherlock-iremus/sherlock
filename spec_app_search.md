@@ -20,6 +20,7 @@
   2. Un bouton ajoutant le descripteur à la liste de recherche.
   3. Un bouton ajoutant le descripteur à la liste d'exclusion.
 - À chaque fois qu'un descripteur est ajouté ou retiré de la liste de recherche ou d'exclusion et à chaque fois que l'opérateur booléen courant est modifié, la liste des ressources indexées trouvées est recalculée.
+- La liste des ressources indexées trouvées peut également être filtrée par date (au sens de [E65 Creation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E65).
 
 ## Maquette fil de fer du composant
 
