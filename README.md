@@ -13,7 +13,7 @@ SHERLOCK vise la construction d'une chaîne de collecte et de publication de don
 ## Schéma d'ensemble
 
 ```mermaid
-    flowchart LR
+    flowchart TB
     grist[👩‍🔬<br>Saisie des données dans Grist<br>+<br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
     scripts[⚙️<br>Conversaion des données tabulaires → RDF/CIDOC CRM]
     sparql[🌐<br>Mise à disposition des données via un SPARQL endpoint]
@@ -24,4 +24,15 @@ SHERLOCK vise la construction d'une chaîne de collecte et de publication de don
     sparql --> sherlock
 ```
 
-## L'application SHERLOCK   
+## Quelques vue de l'application SHERLOCK
+
+- [Identité d'une ressource](https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons/1672-01)
+- [Structure d'une œuvre + recherche plein-texte dans les composants](https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons/1672-01)
+- [Contenu d'un périodique](https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons)
+- [Annotations (E13) sur une ressource](https://data-iremus.huma-num.fr/sherlock/id/355f3c4d-7b7c-472f-9b66-974a819f9eaf)
+- [Ressources liées](https://data-iremus.huma-num.fr/sherlock/id/355f3c4d-7b7c-472f-9b66-974a819f9eaf)
+- Visionneuses simples :
+    - [TEI](https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/articles/1677-05_211)
+    - [MEI](https://data-iremus.huma-num.fr/sherlock/?resource=https://www.nakala.fr/10.34847/nkl.48576349)
+    - [image](https://data-iremus.huma-num.fr/sherlock/id/f28b62fc-d686-4c78-a205-015e5d7dc4b6)
+- [Recherche plein texte multi-champs dans les ressources d'une collection](https://data-iremus.huma-num.fr/sherlock/projects/aam)
