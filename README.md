@@ -1,4 +1,4 @@
-# SHERLOCK 📡
+# 📡 SHERLOCK
 
 Cette page est le point d'entrée du programme de recherche/ingénierie SHERLOCK, porté par l'[Institut de Recherche en Musicologie](https://www.iremus.cnrs.fr/) et le [Consortium Musica*](https://musica.hypotheses.org/) de l'[IR* Huma-Num](https://www.huma-num.fr/).
 
