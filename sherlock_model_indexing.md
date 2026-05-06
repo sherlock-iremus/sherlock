@@ -23,13 +23,13 @@ L'indexation peut être réalisée avec un concept issu d'un thésaurus (un
 ```mermaid
     flowchart TB
 
-    A[Un article sur le Synclavier]
+    A[Un article sur<br>le Synclavier]
     click A "https://fr.wikipedia.org/wiki/Synclavier"
 
-    B[Un article évoquant le Synclavier]
+    B[Un article évoquant<br>le Synclavier]
     click B "https://www.soundonsound.com/people/mark-snow-scoring-x-files"
     
-    C[Le concept de Synclavier dans le thésaurus MIMO]
+    C[Le concept de Synclavier<br>dans le thésaurus MIMO]
     click C "https://vocabulary.mimo-international.com/InstrumentsKeywords/fr/page/2320"
    
     A -->|crm:P129_is_about| C
@@ -47,7 +47,7 @@ L'indexation peut être réalisée avec un concept issu d'un thésaurus (un
     flowchart TB
     E21[Mark Snow]
     click E21 "https://data.bnf.fr/fr/ark:/12148/cb13992208s"
-    E33[Un article évoquant Mark Snow]
+    E33[Un article évoquant<br>Mark Snow]
     click E33 "https://www.soundonsound.com/people/mark-snow-scoring-x-files"
 
     E21 -->|rdf:type| crm:E21_Person
@@ -60,10 +60,10 @@ L'indexation peut être réalisée avec un concept issu d'un thésaurus (un
 ```mermaid
     flowchart LR
 
-    E33[Un article évoquant le Synclavier]
+    E33[Un article évoquant<br>le Synclavier]
     click E33 "https://www.soundonsound.com/people/mark-snow-scoring-x-files"
     
-    C[Le concept de Synclavier dans le thésaurus MIMO]
+    C[Le concept de Synclavier<br>dans le thésaurus MIMO]
     click C "https://vocabulary.mimo-international.com/InstrumentsKeywords/fr/page/2320"
 
     E13 -->|crm:P140_assigned_attribute_to| E33
@@ -86,7 +86,7 @@ de triplets dont le prédicat est `crm:P177_assigned_property_of_type`.
 
 ## `⛩️ Référentiels et annotations dans le contexte des projets`
 
-Les index sont regroupées dans des référentiels :
+Les index sont regroupés dans des référentiels :
 
 |   Type de l'index   |     Type du référentiel      | Propriété liant l'index à son référentiel |
 | :-----------------: | :--------------------------: | :---------------------------------------: |
@@ -95,37 +95,46 @@ Les index sont regroupées dans des référentiels :
 
 Dans la perspective d'une documentation du processus scientifique, on peut
 vouloir exprimer que tel projet de recherche recourt à tels référentiels pour
-indexer telle collection.
+indexer telle collection. Cette relation est établie au niveau des annotations
+(`crm:E13_Attribute_Assignment`) via la propriété `crm:P16_used_specific_object`
+qui connecte une `E13` au référentiel auquel appartient l'objet pointé par la
+propriété `crm:P141_assigned`.
 
 ```mermaid
-flowchart TB
+flowchart TB;
 
 %% nommage et typage
 
-E7_projet[« Un projet »]-->|rdf:type| crm:E7_Activity
-E13a[« Indexation 1 »]-->|rdf:type| crm:E13_Attribute_Assignment
-E13b[« Indexation 2 »]-->|rdf:type| crm:E13_Attribute_Assignment
-E32_Personnes[« 🗃️  Référentiel de personnes »]-->|rdf:type| crm:E32_Authority_Document
-E55_projet[« Projet de recherche »]-->|rdf:type| crm:E55_Type
-E65_collection[« Création de la collection »]-->|rdf:type| crm:E65_Creation
-SKOS_CS[« 🗂️  Thésaurus SKOS »]-->|rdf:type| skos:ConceptScheme
-SKOS_Concept1[« 🏷️  Concept 1 »]-->|rdf:type| skos:Concept
-Personne1[« 🤵  Personne 1 »]-->|rdf:type| crm:E21_Person
+E7_projet[« Un projet »<br>crm:E7_Activity]
+E55_projet[« Projet de recherche »<br>crm:E55_Type]
+E65_collection[« Création de la collection »<br>crm:E65_Creation]
+Collection[« 📦  Une collection d'items »<br>sherlock:Collection]
+Item1[« 🗿  Un item »<br>crm:E1_CRM_Entity]
+
+E32_Personnes[« 🗃️  Référentiel de personnes »<br>crm:E32_Authority_Document]
+Personne1[« 🤵  Personne 1 »<br>crm:E21_Person]
+SKOS_CS[« 🗂️  Thésaurus SKOS »<br>skos:ConceptScheme]
+SKOS_Concept1[« 🏷️  Concept 1 »<br>skos:Concept]
+
+E13a[« Indexation 1 »<br>crm:E13_Attribute_Assignment]
+E13b[« Indexation 2 »<br>crm:E13_Attribute_Assignment]
 
 %% liens
 
-SKOS_Concept1-->|skos:inScheme| SKOS_CS
-Personne1-->|crm:P71i_is_listed_in| E32_Personnes
 E7_projet-->|crm:P2_has_type| E55_projet
 E7_projet-->|crm:P9_consists_of| E65_collection
 E65_collection-->|crm:P94_has_created| Collection
-Collection-->|rdf:type| sherlock:Collection
+Collection-->|sherlock:has_member|Item1
+SKOS_Concept1-->|skos:inScheme| SKOS_CS
+Personne1-->|crm:P71i_is_listed_in| E32_Personnes
 E7_projet-->|crm:P9_consists_of| E13a
 E7_projet-->|crm:P9_consists_of| E13b
 E13a-->|crm:P141_assigned| SKOS_Concept1
 E13b-->|crm:P141_assigned| Personne1
 E13a-->|crm:P16_used_specific_object| SKOS_CS
 E13b-->|crm:P16_used_specific_object| E32_Personnes
+E13a-->|crm:P140_assigned_attribute_to| Item1
+E13b-->|crm:P140_assigned_attribute_to| Item1
+E13a-->|crm:P177_assigned_property_of_type| P67a[crm:P67_refers_to]
+E13b-->|crm:P177_assigned_property_of_type| P67b[crm:P67_refers_to]
 ```
-
-Note : à des fins de lisibilité, les propriétés des annotations E13 `crm:P140_assigned_attribute_to` et `crm:P177_assigned_property_of_type` ne sont pas représentées sur ce diagramme.
