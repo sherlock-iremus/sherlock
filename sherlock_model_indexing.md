@@ -55,7 +55,7 @@ L'indexation peut être réalisée avec un concept issu d'un thésaurus (un
     E33 -->|crm:P67_refers_to| E21
 ```
 
-## `🧑‍🔬 Exemples d'indexation avec un concept via une annotation`
+## `🧑‍🔬 Exemples d'indexation via une annotation`
 
 ```mermaid
     flowchart LR
