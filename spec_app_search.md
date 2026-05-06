@@ -1,8 +1,10 @@
 # Application SHERLOCK : spécification du composant de recherche de ressources par descripteurs
 
 👩‍🔬 Ont participé à l'élaboration de cette spécification :
-  - [Anne Piéjus](https://cv.hal.science/anne-piejus)
-  - [Nathalie Berton-Blivet](https://shs.hal.science/search/index/q/*/authIdHal_s/nathalie-berton-blivet)
+  - [Thomas Bottini](https://scanr.enseignementsup-recherche.gouv.fr/authors/idref152847812)
+  - [Anne Piéjus](https://scanr.enseignementsup-recherche.gouv.fr/authors/idref05661389X)
+  - [Nathalie Berton-Blivet](https://scanr.enseignementsup-recherche.gouv.fr/authors/idref153609702)
+  - [Antoine Lebrun](https://github.com/AntoineLbrn)
 
 📚 Lecture préalable : [Modèle SHERLOCK d'indexation des ressources](sherlock_model_indexing.md).
 
