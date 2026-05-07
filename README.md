@@ -46,11 +46,13 @@ articule :
 ## `⛩️ Schéma d'ensemble`
 
 ```mermaid
-    flowchart LR
+    flowchart TB
     
-    koda(📦 Stockage des fichiers<br><br>Gitlab CNRS<br><a href="https://src.koda.cnrs.fr/">src.koda.cnrs.fr</a>)
-    nakala(🪎 Pérennisation des fichiers<br>🖼️ Serveur IIF<br><br> Nakala<br><a href="https://www.nakala.fr/">www.nakala.fr</a>)
-    hnot(🗂️ Gestion des thésaurus<br><br>Opentheso<br><a href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>)
+    subgraph  
+    koda[📦 Stockage des fichiers<br><br>Gitlab CNRS<br><a href="https://src.koda.cnrs.fr/">src.koda.cnrs.fr</a>]
+    nakala[🪎 Pérennisation des fichiers avec des DOI<br>🖼️ Serveur IIF<br><br> Nakala<br><a href="https://www.nakala.fr/">www.nakala.fr</a>]
+    hnot[🗂️ Gestion des thésaurus<br><br>Opentheso<br><a href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>]
+    end
     
     grist[🗃️ Saisie des données dans Grist<br>+<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
     scripts[🧠<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM]
