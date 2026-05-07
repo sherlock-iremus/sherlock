@@ -70,9 +70,9 @@ e1@{ animate: true }
     e2@{ animate: true }
     e3@{ animate: true }
     
-    grist --- sdnakala--->koda
-    grist===gop--->hnot
-    grist--->nakala
+    grist ---> koda
+    grist === gop ---> hnot
+    grist --- sdnakala ---> nakala
 ```
 
 ## `🌸 Quelques vues de l'application Web SHERLOCK`
