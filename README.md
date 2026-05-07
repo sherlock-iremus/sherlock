@@ -50,7 +50,7 @@ articule :
     
     subgraph  
     koda[📦 Stockage de fichiers<br><br>Gitlab CNRS<br><a href="https://src.koda.cnrs.fr/">src.koda.cnrs.fr</a>]
-    nakala[🪎 Pérennisation de fichiers avec des DOI<br>🖼️ Serveur IIF<br><br> Nakala<br><a href="https://www.nakala.fr/">www.nakala.fr</a>]
+    nakala[🪎 Pérennisation de fichiers avec des DOI<br>🖼️ Serveur IIIF<br><br> Nakala<br><a href="https://www.nakala.fr/">www.nakala.fr</a>]
     hnot[🗂️ Gestion de thésaurus<br><br>Opentheso<br><a href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>]
     end
     
