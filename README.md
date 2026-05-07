@@ -54,14 +54,14 @@ articule :
     scripts[<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM]
     sparql[🌐<br>Mise à disposition des données RDF via un SPARQL endpoint<br>https://data-iremus.huma-num.fr/sparql]
     sherlock[🍱<br>Publication/exploration des données dans l'application Web Sherlock]
-    gop[Plugin Grist pour indexer les données avec des thésaurus Opentheso<br><br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-opentheso-plugin">github</a>]
+    gop[🎋 Plugin Grist pour indexer les données avec des thésaurus Opentheso<br><br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-opentheso-plugin">github</a>]
 
     grist e1@==> scripts
     scripts e2@==> sparql
     sparql e3@==> sherlock
 
     grist---koda
-    grist---hnot
+    grist---gop---hnot
     grist---nakala
 
     e1@{ animate: true }
