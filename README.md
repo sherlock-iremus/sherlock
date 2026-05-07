@@ -54,21 +54,26 @@ articule :
     hnot[🗂️ Gestion de thésaurus<br><br>Opentheso<br><a href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>]
     end
     
-    grist[🗃️ Saisie des données dans Grist<br>+<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
+    grist[🗃️<br>Saisie des données dans Grist<br>+<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
+    sdnakala[🦕<br>Scripts de publication par lots vers Nakala de données cataloguées dans Grist<br><a href="https://github.com/sherlock-iremus/sherlock-deno">github</a>]
+    gop[🎋<br>Plugin Grist pour indexer les données avec des thésaurus Opentheso<br><a href="https://github.com/sherlock-iremus/sherlock-grist-opentheso-plugin">github</a>]
     scripts[🧠<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm">github</a>]
     sparql[🌐<br>Mise à disposition des données RDF via un SPARQL endpoint<br><a href="https://data-iremus.huma-num.fr/sparql">https://data-iremus.huma-num.fr/sparql</a>]
     sherlock[⛩️<br>Publication/exploration des données dans l'application Web Sherlock]
-    gop[🎋 Plugin Grist pour indexer les données avec des thésaurus Opentheso<br><a href="https://github.com/sherlock-iremus/sherlock-grist-opentheso-plugin">github</a>]
-    sdnakala[🦕 Scripts de publication par lots vers Nakala de données cataloguées dans Grist<br><a href="https://github.com/sherlock-iremus/sherlock-deno">github</a>]
+    tonalities[🎼<br>Tonalities]
 
-    grist e1@==> scripts
-    scripts e2@==> sparql
-    sparql e3@==> sherlock
+    grist e1@==>|API REST| scripts
+    scripts e2@==>|Fichiers RDF| sparql
+    sparql e3@==>|SPARQL endpoint| sherlock
+    sparql e4@===>|API REST authentifiée| tonalities 
+    tonalities e5@===>|API REST authentifiée| sparql
 
 
-e1@{ animate: true }
+    e1@{ animate: true }
     e2@{ animate: true }
     e3@{ animate: true }
+    e4@{ animate: true }
+    e5@{ animate: true }
     
     grist ---> koda
     grist === gop ---> hnot
