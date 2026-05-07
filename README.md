@@ -60,7 +60,7 @@ articule :
     scripts[🧠<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm">github</a>]
     sparql[🌐<br>Mise à disposition des données RDF via un SPARQL endpoint<br><a href="https://data-iremus.huma-num.fr/sparql">https://data-iremus.huma-num.fr/sparql</a>]
     sherlock[⛩️<br>Publication/exploration des données dans l'application Web Sherlock]
-    tonalities[🎼<br>Tonalities]
+    tonalities[🎼<br>Tonalities : annotation collaborative de partitions MEI]
 
     grist e1@==>|API REST| scripts
     scripts e2@==>|Fichiers RDF| sparql
