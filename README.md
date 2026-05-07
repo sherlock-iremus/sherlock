@@ -47,14 +47,14 @@ articule :
 
 ```mermaid
     flowchart LR
-    grist[🗃️ Saisie des données dans Grist<br>+<br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
-    koda[📦 Stockage des fichiers<br><br>Gitlab CNRS<br><a target="_blank" href="https://src.koda.cnrs.fr/">src.koda.cnrs.fr</a>]
-    nakala[🪎 Pérennisation des fichiers<br>🖼️ Serveur IIF<br><br> Nakala<br><a target="_blank" href="https://www.nakala.fr/">www.nakala.fr</a>]
-    hnot[🗂️ Gestion des thésaurus<br><br>Opentheso<br><a target="_blank" href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>]
+    grist[🗃️ Saisie des données dans Grist<br>+<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
+    koda[📦 Stockage des fichiers<br><br>Gitlab CNRS<br><a href="https://src.koda.cnrs.fr/">src.koda.cnrs.fr</a>]
+    nakala[🪎 Pérennisation des fichiers<br>🖼️ Serveur IIF<br><br> Nakala<br><a href="https://www.nakala.fr/">www.nakala.fr</a>]
+    hnot[🗂️ Gestion des thésaurus<br><br>Opentheso<br><a href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>]
     scripts[<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM]
     sparql[🌐<br>Mise à disposition des données RDF via un SPARQL endpoint<br>https://data-iremus.huma-num.fr/sparql]
     sherlock[🍱<br>Publication/exploration des données dans l'application Web Sherlock]
-    gop[🎋 Plugin Grist pour indexer les données avec des thésaurus Opentheso<br><br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-opentheso-plugin">github</a>]
+    gop[🎋 Plugin Grist pour indexer les données avec des thésaurus Opentheso<br><br><a href="https://github.com/sherlock-iremus/sherlock-grist-opentheso-plugin">github</a>]
 
     grist e1@==> scripts
     scripts e2@==> sparql
