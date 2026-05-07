@@ -47,26 +47,30 @@ articule :
 
 ```mermaid
     flowchart LR
+    
+    koda(📦 Stockage des fichiers<br><br>Gitlab CNRS<br><a href="https://src.koda.cnrs.fr/">src.koda.cnrs.fr</a>)
+    nakala(🪎 Pérennisation des fichiers<br>🖼️ Serveur IIF<br><br> Nakala<br><a href="https://www.nakala.fr/">www.nakala.fr</a>)
+    hnot(🗂️ Gestion des thésaurus<br><br>Opentheso<br><a href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>)
+    
     grist[🗃️ Saisie des données dans Grist<br>+<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
-    koda[📦 Stockage des fichiers<br><br>Gitlab CNRS<br><a href="https://src.koda.cnrs.fr/">src.koda.cnrs.fr</a>]
-    nakala[🪎 Pérennisation des fichiers<br>🖼️ Serveur IIF<br><br> Nakala<br><a href="https://www.nakala.fr/">www.nakala.fr</a>]
-    hnot[🗂️ Gestion des thésaurus<br><br>Opentheso<br><a href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>]
-    scripts[<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM]
+    scripts[🧠<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM]
     sparql[🌐<br>Mise à disposition des données RDF via un SPARQL endpoint<br>https://data-iremus.huma-num.fr/sparql]
     sherlock[🍱<br>Publication/exploration des données dans l'application Web Sherlock]
     gop[🎋 Plugin Grist pour indexer les données avec des thésaurus Opentheso<br><br><a href="https://github.com/sherlock-iremus/sherlock-grist-opentheso-plugin">github</a>]
+    sdnakala[🦕 Scripts de publication par lots de Grist vers Nakala]
 
     grist e1@==> scripts
     scripts e2@==> sparql
     sparql e3@==> sherlock
 
-    grist---koda
-    grist---gop---hnot
-    grist---nakala
 
-    e1@{ animate: true }
+e1@{ animate: true }
     e2@{ animate: true }
     e3@{ animate: true }
+    
+    grist --- sdnakala--->koda
+    grist===gop--->hnot
+    grist--->nakala
 ```
 
 ## `🌸 Quelques vue de l'application SHERLOCK`
