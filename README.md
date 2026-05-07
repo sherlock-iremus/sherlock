@@ -46,15 +46,22 @@ articule :
 ## `⛩️ Schéma d'ensemble`
 
 ```mermaid
-    flowchart TB
+    flowchart LR
     grist[👩‍🔬<br>Saisie des données dans Grist<br>+<br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
+    nakala[Nakala<br><a target="_blank" href="https://www.nakala.fr/">www.nakala.fr</a>]
+    koda[Gitlab CNRS<br><a target="_blank" href="https://src.koda.cnrs.fr/">src.koda.cnrs.fr</a>]
+    hnot[Opentheso<br><a target="_blank" href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>]
     scripts[<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM]
-    sparql[🌐<br>Mise à disposition des données RDF via un SPARQL *endpoint*<br><br>https://data-iremus.huma-num.fr/sparql]
+    sparql[🌐<br>Mise à disposition des données RDF via un SPARQL endpoint<br>https://data-iremus.huma-num.fr/sparql]
     sherlock[🍱<br>Publication/exploration des données dans l'application Web Sherlock]
 
     grist e1@==> scripts
     scripts e2@==> sparql
     sparql e3@==> sherlock
+
+    grist---koda
+    grist---hnot
+    grist---nakala
 
     e1@{ animate: true }
     e2@{ animate: true }
@@ -74,3 +81,5 @@ articule :
   - [image](https://data-iremus.huma-num.fr/sherlock/id/f28b62fc-d686-4c78-a205-015e5d7dc4b6)
 - [Recherche plein texte multi-champs dans les ressources d'une collection](https://data-iremus.huma-num.fr/sherlock/projects/aam)
 - [Spécification du futur composant de recherche de ressources par descripteurs](https://github.com/sherlock-iremus/sherlock/blob/main/spec_app_search.md)
+
+<!-- https://yasgui.triply.cc/#query=SELECT%20%3Fgraph%20(COUNT(*)%20AS%20%3Ftriples)%0AWHERE%20%7B%0A%20%20GRAPH%20%3Fgraph%20%7B%0A%20%20%20%20%3Fs%20%3Fp%20%3Fo%20.%0A%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fgraph%0AORDER%20BY%20DESC(%3Ftriples)&endpoint=https%3A%2F%2Fdata-iremus.huma-num.fr%2Fsparql&requestMethod=POST&tabTitle=Query&headers=%7B%7D&contentTypeConstruct=application%2Fn-triples%2C*%2F*%3Bq%3D0.9&contentTypeSelect=application%2Fsparql-results%2Bjson%2C*%2F*%3Bq%3D0.9&outputFormat=table -->
