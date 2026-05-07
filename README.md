@@ -43,7 +43,7 @@ articule :
   https://tonalities.gitpages.huma-num.fr/start/
   -->
 
-## `⛩️ Schéma d'ensemble`
+## `🍱 Schéma d'ensemble`
 
 ```mermaid
     flowchart TB
@@ -57,7 +57,7 @@ articule :
     grist[🗃️ Saisie des données dans Grist<br>+<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
     scripts[🧠<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm">github</a>]
     sparql[🌐<br>Mise à disposition des données RDF via un SPARQL endpoint<br><a href="https://data-iremus.huma-num.fr/sparql">https://data-iremus.huma-num.fr/sparql</a>]
-    sherlock[🍱<br>Publication/exploration des données dans l'application Web Sherlock]
+    sherlock[⛩️<br>Publication/exploration des données dans l'application Web Sherlock]
     gop[🎋 Plugin Grist pour indexer les données avec des thésaurus Opentheso<br><a href="https://github.com/sherlock-iremus/sherlock-grist-opentheso-plugin">github</a>]
     sdnakala[🦕 Scripts de publication par lots vers Nakala de données cataloguées dans Grist<br><a href="https://github.com/sherlock-iremus/sherlock-deno">github</a>]
 
