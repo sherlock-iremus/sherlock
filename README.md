@@ -75,7 +75,7 @@ e1@{ animate: true }
     grist--->nakala
 ```
 
-## `🌸 Quelques vue de l'application SHERLOCK`
+## `🌸 Quelques vues de l'application Web SHERLOCK`
 
 - [Identité d'une ressource](https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons/1672-01)
 - [Structure d'une œuvre + recherche plein-texte dans les composants](https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons/1672-01)
