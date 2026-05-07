@@ -8,14 +8,18 @@
 <br>
 <br>
 
-Cette page est le point d'entrée du programme de recherche/ingénierie SHERLOCK,
-porté par l'[Institut de Recherche en Musicologie](https://www.iremus.cnrs.fr/)
-et le [Consortium Musica*](https://musica.hypotheses.org/) de
+SHERLOCK est un programme de recherche/ingénierie porté par
+l'[Institut de Recherche en Musicologie](https://www.iremus.cnrs.fr/) et le
+[Consortium Musica*](https://musica.hypotheses.org/) de
 l'[IR* Huma-Num](https://www.huma-num.fr/).
 
 SHERLOCK vise la construction d'une chaîne de collecte et de publication de
-données pour la recherche en humanités autour de l'ontologie
-[CIDOC CRM](https://cidoc-crm.org/). À cette fin,  SHERLOCK articule :
+données pour la recherche en humanités (en particulier, pour la musicologie)
+autour de l'ontologie [CIDOC CRM](https://cidoc-crm.org/).
+
+<!--
+À cette fin, SHERLOCK
+articule :
 
 - des réflexions méthodologiques et techniques autour de l'usage du CIDOC CRM
   comme ontologie centrale dans un système d'information scientifique
@@ -35,25 +39,29 @@ données pour la recherche en humanités autour de l'ontologie
   [données musicologiques](https://github.com/sherlock-iremus/iremus-sherlock-data-ttl)
   sémantiques modélisées avec le CIDOC CRM
 
-## `Schéma d'ensemble`
+  https://github.com/Amleth/consortium-musica2-gt2-ontologies/tree/main/guide
+  https://tonalities.gitpages.huma-num.fr/start/
+  -->
+
+## `⛩️ Schéma d'ensemble`
 
 ```mermaid
     flowchart TB
-    grist[👩‍🔬<br>Saisie des données dans Grist<br>+<br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
-    scripts[⚙️<br>Conversaion des données tabulaires → RDF/CIDOC CRM]
-    sparql[🌐<br>Mise à disposition des données via un SPARQL endpoint]
-    sherlock[🍱<br>Publication/exploration des données dans Sherlock App]
+    grist[👩‍🔬<br>Saisie des données<br>dans Grist<br>+<br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
+    scripts[<br>Conversion automatique<br>des données tabulaires<br>en données RDF/CIDOC CRM]
+    sparql[🌐<br>Mise à disposition<br>des données RDF<br>via un SPARQL *endpoint*<br><br>https://data-iremus.huma-num.fr/sparql]
+    sherlock[🍱<br>Publication/exploration des données dans l'application Web Sherlock]
 
     grist e1@==> scripts
     scripts e2@==> sparql
     sparql e3@==> sherlock
 
-    e1@{ animate: fast }
-    e2@{ animate: fast }
-    e3@{ animate: fast }
+    e1@{ animate: true }
+    e2@{ animate: true }
+    e3@{ animate: true }
 ```
 
-## `Quelques vue de l'application SHERLOCK`
+## `🌸 Quelques vue de l'application SHERLOCK`
 
 - [Identité d'une ressource](https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons/1672-01)
 - [Structure d'une œuvre + recherche plein-texte dans les composants](https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons/1672-01)
