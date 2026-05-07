@@ -64,7 +64,7 @@ articule :
 
     grist e1@==>|API REST| scripts
     scripts e2@==>|Fichiers RDF| sparql
-    sparql e3@==>|SPARQL endpoint| sherlock
+    sparql e3@==>|SPARQL endpoint public| sherlock
     sparql e4@===>|API REST authentifiée| tonalities 
     tonalities e5@===>|API REST authentifiée| sparql
 
