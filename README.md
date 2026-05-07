@@ -47,9 +47,9 @@ articule :
 
 ```mermaid
     flowchart TB
-    grist[👩‍🔬<br>Saisie des données<br>dans Grist<br>+<br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
-    scripts[<br>Conversion automatique<br>des données tabulaires<br>en données RDF/CIDOC CRM]
-    sparql[🌐<br>Mise à disposition<br>des données RDF<br>via un SPARQL *endpoint*<br><br>https://data-iremus.huma-num.fr/sparql]
+    grist[👩‍🔬<br>Saisie des données dans Grist<br>+<br><a target="_blank" href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
+    scripts[<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM]
+    sparql[🌐<br>Mise à disposition des données RDF via un SPARQL *endpoint*<br><br>https://data-iremus.huma-num.fr/sparql]
     sherlock[🍱<br>Publication/exploration des données dans l'application Web Sherlock]
 
     grist e1@==> scripts
