@@ -17,6 +17,16 @@ SHERLOCK vise la construction d'une chaîne de collecte et de publication de
 données pour la recherche en humanités (en particulier, pour la musicologie)
 autour de l'ontologie [CIDOC CRM](https://cidoc-crm.org/).
 
+## `🪷 Objectifs et philosophie`
+
+- 🧠 Produire des modèles conceptuels adaptés à la complexité et la diversité des données musicologiques.
+- 💾 Proposer un cadre technique reposant sur des outils durables pour accompagner les chercheurs dans la gestion du cycle de vie de leurs données.
+- 🛠️ Équiper les chercheurs avec des outils de saisie de données collaboratifs, dont l'ergonomie est proche de leurs pratiques ordinaires (tableurs).
+- ⚖️ Publier et pérenniser les données des projets de recherche en respectant les principes du [FAIR](https://www.go-fair.org/fair-principles/) et du [LOD 5⭐](https://5stardata.info/fr/) attendus par nos tutelles et par les organismes financeurs de la recherche, notamment depuis la loi pour une République numérique de 2016.
+- 🪴 Rendre accessible la production et la publication de données sémantiques. Faire monter en compétence autour de ces questions. À l'issu des formations sur le Web sémantique, les chercheurs qui y assistent ressortent souvent en disant : *« Le Web sémantique et les ontologies c’est très intéressant, mais comment je fais concrètement pour produire des données conformes ? »*.
+
+## `🔒 Verrous et approche`
+
 <!--
 À cette fin, SHERLOCK
 articule :
@@ -43,15 +53,15 @@ articule :
   https://tonalities.gitpages.huma-num.fr/start/
   -->
 
-## `🍱 Schéma d'ensemble`
+## `🍱 Schéma technique d'ensemble`
 
 ```mermaid
     flowchart TB
     
     subgraph  
-    koda[📦 Stockage de fichiers<br><br>Gitlab CNRS<br><a href="https://src.koda.cnrs.fr/">src.koda.cnrs.fr</a>]
-    nakala[🪎 Pérennisation de fichiers avec des DOI<br>🖼️ Serveur IIIF<br><br> Nakala<br><a href="https://www.nakala.fr/">www.nakala.fr</a>]
-    hnot[🗂️ Gestion de thésaurus<br><br>Opentheso<br><a href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>]
+    koda[📦<br>Stockage de fichiers<br><br>Gitlab CNRS<br><a href="https://src.koda.cnrs.fr/">src.koda.cnrs.fr</a>]
+    nakala[🪎<br>Pérennisation de fichiers avec des DOI<br><br>🖼️<br>Serveur IIIF<br><br> Nakala<br><a href="https://www.nakala.fr/">www.nakala.fr</a>]
+    hnot[🗂️<br>Gestion de thésaurus<br><br>Opentheso<br><a href="https://opentheso.huma-num.fr/">opentheso.huma-num.fr</a>]
     end
     
     grist[🗃️<br>Saisie des données dans Grist<br>+<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md">Conventions de mapping</a>]
@@ -80,7 +90,7 @@ articule :
     grist --- sdnakala ---> nakala
 ```
 
-## `🌸 Quelques vues de l'application Web SHERLOCK`
+## `⛩️ Quelques vues de l'application Web SHERLOCK`
 
 - [Identité d'une ressource](https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons/1672-01)
 - [Structure d'une œuvre + recherche plein-texte dans les composants](https://data-iremus.huma-num.fr/sherlock/projects/mercure-galant/livraisons/1672-01)
@@ -95,3 +105,10 @@ articule :
 - [Spécification du futur composant de recherche de ressources par descripteurs](https://github.com/sherlock-iremus/sherlock/blob/main/spec_app_search.md)
 
 <!-- https://yasgui.triply.cc/#query=SELECT%20%3Fgraph%20(COUNT(*)%20AS%20%3Ftriples)%0AWHERE%20%7B%0A%20%20GRAPH%20%3Fgraph%20%7B%0A%20%20%20%20%3Fs%20%3Fp%20%3Fo%20.%0A%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fgraph%0AORDER%20BY%20DESC(%3Ftriples)&endpoint=https%3A%2F%2Fdata-iremus.huma-num.fr%2Fsparql&requestMethod=POST&tabTitle=Query&headers=%7B%7D&contentTypeConstruct=application%2Fn-triples%2C*%2F*%3Bq%3D0.9&contentTypeSelect=application%2Fsparql-results%2Bjson%2C*%2F*%3Bq%3D0.9&outputFormat=table -->
+
+## `📡 Communications significatives`
+
+- ⛩️ Thomas Bottini. Modéliser les données de la recherche avec le CIDOC CRM. Journée d'étude *« Partager les données des SHS sur le Web sémantique »*, Consortiums Huma-Num Musica* et MASA, Mar 2026, Paris, France. [⟨hal-05548446⟩](https://hal.science/hal-05548446v1 )
+- 🧠 Thomas Bottini. Le CIDOC-CRM pour capter l'activité critique sur les sources en musicologie. *Rencontres de la musicologie numérique*, Consortium Musica 2, Dec 2022, Paris, France. [⟨hal-03950324⟩](https://hal.science/hal-03950324v1)
+- 🎼 Thomas Bottini. Quelle infrastructure pour l'annotation sémantique collaborative de partitions MEI ?. Rencontres de la musicologie numérique, Consortium Musica 2, Dec 2022, Paris, France. [⟨hal-03950321⟩](https://hal.science/hal-03950321v1)
+- 🎼 Thomas Bottini, Christophe Guillotel-Nothmann, Marco Gurrieri, Félix Poullet-Pagès. Tonalities: a Collaborative Annotation Interface for Music Analysis. *Musical Heritage Knowledge Graphs workshop during the 22nd International Semantic Web Conference 2022*, Oct 2022, Hangzhou, China. [⟨hal-03923731⟩](https://hal.science/hal-03923731v1)
