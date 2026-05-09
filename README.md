@@ -13,33 +13,50 @@ l'[Institut de Recherche en Musicologie](https://www.iremus.cnrs.fr/) et le
 [Consortium Musica*](https://musica.hypotheses.org/) de
 l'[IR* Huma-Num](https://www.huma-num.fr/).
 
-SHERLOCK vise la construction d'une chaîne de collecte et de publication de
-données pour la recherche en humanités (en particulier, pour la musicologie)
-autour de l'ontologie [CIDOC CRM](https://cidoc-crm.org/).
+SHERLOCK propose une chaîne de traitement des données de la recherche sur le
+patrimoine (en particulier, musical) autour de l'ontologie standard
+[CIDOC CRM](https://cidoc-crm.org/), accompagnant le chercheurs des premiers
+temps de son projet jusqu'à la publication et la valorisation de ses données
+dans le contexte du Web sémantique. Il articule : 💾 des outils gestion de
+données durables existants (Grist, Nakala), 🧪 des méthodologies et des
+standards de gestion des données de la recherche (IIIF, RDF, SKOS, TEI, MEI…) et
+📡 le développement d'interfaces Web d'exploration.
 
 ## `🪷 Objectifs et philosophie`
 
-- 🧠 Produire des modèles conceptuels adaptés à la complexité et la diversité des données musicologiques.
-- 💾 Proposer un cadre technique reposant sur des outils durables pour accompagner les chercheurs dans la gestion du cycle de vie de leurs données.
-- 🛠️ Équiper les chercheurs avec des outils de saisie de données collaboratifs, dont l'ergonomie est proche de leurs pratiques ordinaires (tableurs).
-- ⚖️ Publier et pérenniser les données des projets de recherche en respectant les principes du [FAIR](https://www.go-fair.org/fair-principles/) et du [LOD 5⭐](https://5stardata.info/fr/) attendus par nos tutelles et par les organismes financeurs de la recherche, notamment depuis la loi pour une République numérique de 2016.
-- 🪴 Rendre accessible la production et la publication de données sémantiques. Faire monter en compétence autour de ces questions. À l'issu des formations sur le Web sémantique, les chercheurs qui y assistent ressortent souvent en disant : *« Le Web sémantique et les ontologies c’est très intéressant, mais comment je fais concrètement pour produire des données conformes ? »*.
+- 🧠 Produire des modèles conceptuels adaptés à la complexité et la diversité
+  des données musicologiques.
+- 💾 Proposer un cadre technique reposant sur des outils durables pour
+  accompagner les chercheurs dans la gestion du cycle de vie de leurs données.
+- 🛠️ Équiper les chercheurs avec des outils de saisie de données collaboratifs,
+  dont l'ergonomie est proche de leurs pratiques ordinaires (tableurs).
+- ⚖️ Publier et pérenniser les données des projets de recherche en respectant
+  les principes du [FAIR](https://www.go-fair.org/fair-principles/) et du
+  [LOD 5⭐](https://5stardata.info/fr/) attendus par nos tutelles et par les
+  organismes financeurs de la recherche, notamment depuis la loi pour une
+  République numérique de 2016.
+- 🪴 Rendre accessible la production et la publication de données sémantiques.
+  Faire monter en compétence autour de ces questions. À l'issu des formations
+  sur le Web sémantique, les chercheurs qui y assistent ressortent souvent en
+  disant : _« Le Web sémantique et les ontologies c’est très intéressant, mais
+  comment je fais concrètement pour produire des données conformes ? »_.
 
-## `🔒 Verrous et approche`
+## `🌄 Obstacles levés`
+
+- 😭 Il n'existe pas d'outils de saisie de données RDF/CIDOC CRM suffisamment ergonomiques et proches des pratiques ordinaires des chercheurs.
+  - ✅ Nous nous appuyons sur l'outil *nocode* [Grist](https://www.getgrist.com/) — qui propose une interface de type tableur tout en ajoutant la collaboration temps-réel, un système de droits, la construction de formulaires personnalisés et une API REST complète — et le complétons par un [outil de génération de données RDF/CIDOC CRM reposant sur des règles de *mapping* simples](https://github.com/sherlock-iremus/sherlock-grist-to-crm).
+- 🏷️ Les outils de gestion des données sont dissociés des outils de gestion des thésaurus.
+  - ✅ Nous avons développé un [plugin Grist](https://github.com/sherlock-iremus/sherlock-grist-opentheso-plugin) se connectant à [Opentheso](https://opentheso.huma-num.fr/) pour indexer les données tabulaires.
+- 🪎 Les outils de gestion du cycle de vie des fichiers sont dissociés des outils assurant leur catalogage scientifique.
+  - ✅ Nous avons développé un [outil de publication par lots dans Nakala à partir de Grist](https://github.com/sherlock-iremus/sherlock-deno).
 
 <!--
-À cette fin, SHERLOCK
-articule :
-
 - des réflexions méthodologiques et techniques autour de l'usage du CIDOC CRM
   comme ontologie centrale dans un système d'information scientifique
   collaboratif :
-  - [Modéliser les données de la recherche avec le CIDOC CRM](https://hal.science/hal-05548446)
-    ([💾](https://github.com/Amleth/communications/blob/main/20260312-cm-crm/main.typ)),
-    journée d'étude du Consortium Musica*, 12 mars 2026.
 - des scénarios de mise en œuvre d'applications existantes comme Grist, Nakala
   ou Opentheso
-  ([sherlock-grist-to-crm](https://github.com/sherlock-iremus/sherlock-grist-to-crm/blob/main/doc/mapping.md),
+  (,
   [sherlock-grist-opentheso-plugin](https://github.com/sherlock-iremus/sherlock-grist-opentheso-plugin))
 - le développement de nouvelles
   applications ([sherlock-app](https://github.com/sherlock-iremus/sherlock-app))
@@ -50,7 +67,7 @@ articule :
   sémantiques modélisées avec le CIDOC CRM
 
   https://github.com/Amleth/consortium-musica2-gt2-ontologies/tree/main/guide
-  https://tonalities.gitpages.huma-num.fr/start/
+  
   -->
 
 ## `🍱 Schéma technique d'ensemble`
@@ -70,7 +87,7 @@ articule :
     scripts[🧠<br>Conversion automatique des données tabulaires en données RDF/CIDOC CRM<br><a href="https://github.com/sherlock-iremus/sherlock-grist-to-crm">github</a>]
     sparql[🌐<br>Mise à disposition des données RDF via un SPARQL endpoint<br><a href="https://data-iremus.huma-num.fr/sparql">https://data-iremus.huma-num.fr/sparql</a>]
     sherlock[⛩️<br>Publication/exploration des données dans l'application Web Sherlock]
-    tonalities[🎼<br>Tonalities : annotation collaborative de partitions encodées MEI avec des ontologies]
+    tonalities[🎼<br>Tonalities : annotation collaborative de partitions encodées MEI avec des ontologies<br><br><a href="https://tonalities.gitpages.huma-num.fr/start/">tonalities.gitpages.huma-num.fr</a>]
 
     grist e1@==>|API REST| scripts
     scripts e2@==>|Fichiers RDF| sparql
@@ -108,7 +125,20 @@ articule :
 
 ## `📡 Communications significatives`
 
-- ⛩️ Thomas Bottini. Modéliser les données de la recherche avec le CIDOC CRM. Journée d'étude *« Partager les données des SHS sur le Web sémantique »*, Consortiums Huma-Num Musica* et MASA, Mar 2026, Paris, France. [⟨hal-05548446⟩](https://hal.science/hal-05548446v1 )
-- 🧠 Thomas Bottini. Le CIDOC-CRM pour capter l'activité critique sur les sources en musicologie. *Rencontres de la musicologie numérique*, Consortium Musica 2, Dec 2022, Paris, France. [⟨hal-03950324⟩](https://hal.science/hal-03950324v1)
-- 🎼 Thomas Bottini. Quelle infrastructure pour l'annotation sémantique collaborative de partitions MEI ?. Rencontres de la musicologie numérique, Consortium Musica 2, Dec 2022, Paris, France. [⟨hal-03950321⟩](https://hal.science/hal-03950321v1)
-- 🎼 Thomas Bottini, Christophe Guillotel-Nothmann, Marco Gurrieri, Félix Poullet-Pagès. Tonalities: a Collaborative Annotation Interface for Music Analysis. *Musical Heritage Knowledge Graphs workshop during the 22nd International Semantic Web Conference 2022*, Oct 2022, Hangzhou, China. [⟨hal-03923731⟩](https://hal.science/hal-03923731v1)
+- ⛩️ Thomas Bottini. Modéliser les données de la recherche avec le CIDOC CRM.
+  Journée d'étude _« Partager les données des SHS sur le Web sémantique »_,
+  Consortiums Huma-Num Musica* et MASA, Mar 2026, Paris, France.
+  [⟨hal-05548446⟩](https://hal.science/hal-05548446v1)
+- 🧠 Thomas Bottini. Le CIDOC-CRM pour capter l'activité critique sur les
+  sources en musicologie. _Rencontres de la musicologie numérique_, Consortium
+  Musica 2, Dec 2022, Paris, France.
+  [⟨hal-03950324⟩](https://hal.science/hal-03950324v1)
+- 🎼 Thomas Bottini. Quelle infrastructure pour l'annotation sémantique
+  collaborative de partitions MEI ?. Rencontres de la musicologie numérique,
+  Consortium Musica 2, Dec 2022, Paris, France.
+  [⟨hal-03950321⟩](https://hal.science/hal-03950321v1)
+- 🎼 Thomas Bottini, Christophe Guillotel-Nothmann, Marco Gurrieri, Félix
+  Poullet-Pagès. Tonalities: a Collaborative Annotation Interface for Music
+  Analysis. _Musical Heritage Knowledge Graphs workshop during the 22nd
+  International Semantic Web Conference 2022_, Oct 2022, Hangzhou, China.
+  [⟨hal-03923731⟩](https://hal.science/hal-03923731v1)
