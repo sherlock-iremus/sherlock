@@ -54,7 +54,7 @@ conformes ? »_.
   et de l'ontologie standard CIDOC CRM dans SHERLOCK permet de satisfaire ces
   contraintes.
 
-`⛩️ Publier et explorer les données sémantiques`
+`⛩️ Publier et explorer des données sémantiques`
 
 - 🔒 _Le CIDOC CRM est une ontologie permettant d'exprimer avec une grande
   précision la subtilité des données de la recherche. Mais leur mise en
@@ -78,7 +78,7 @@ conformes ? »_.
   - [Recherche plein texte multi-champs dans les ressources d'une collection](https://data-iremus.huma-num.fr/sherlock/projects/aam)
   - [Spécification du futur composant de recherche de ressources par descripteurs](https://github.com/sherlock-iremus/sherlock/blob/main/spec_app_search.md)
 
-`🏷️ Indexer les données`
+`🏷️ Indexer les données avec des thésaurus SKOS`
 
 - 🔒 _Les outils de gestion des données sont dissociés des outils de gestion des
   thésaurus._
@@ -107,7 +107,7 @@ conformes ? »_.
   et une disponibilité de l'équipe SHERLOCK auprès des chercheurs pour les
   accompagner dans leurs tâches de modélisation.
 
-`💾 Recourir à des outils durables pour gérer les données de la recherche`
+`💾 Recourir à des outils durables`
 
 - 🔒 _L'état de l'art des outils de gestion de données est vaste, et il peut
   être difficile de s'y orienter et de prendre les bonnes décisions, notamment
