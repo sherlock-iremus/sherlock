@@ -1,4 +1,4 @@
-# `📡 SHERLOCK 🌲`
+# `📡 SHERLOCK`
 
 <br>
 <br>
