@@ -29,7 +29,7 @@ souvent en disant : _« Le Web sémantique et les ontologies c'est très
 intéressant, mais comment je fais concrètement pour produire des données
 conformes ? »_.
 
-## `🌲 Obstacles levés`
+## `🌄 Obstacles levés`
 
 `🛠️ Produire des données sémantiques avec des outils ergonomiques`
 
