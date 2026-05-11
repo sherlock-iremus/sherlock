@@ -102,10 +102,10 @@ conformes ? »_.
 - 🔑 Les travaux de modélisation des données musicologiques menés dans le cadre
   du programme SHERLOCK à l'IReMus résonnent au niveau national via les actions
   de formations du [Consortium Musica*](https://musica.hypotheses.org/). Cela se
-  traduit par des journées de formation, des journées d'étude, un
+  traduit par : une disponibilité de l'équipe SHERLOCK auprès des chercheurs
+  pour les accompagner dans leurs tâches de modélisation, un
   [guide](https://github.com/Amleth/consortium-musica2-gt2-ontologies/tree/main/guide),
-  et une disponibilité de l'équipe SHERLOCK auprès des chercheurs pour les
-  accompagner dans leurs tâches de modélisation.
+  des journées de formation, des journées d'étude.
 
 `💾 Recourir à des outils durables`
 
