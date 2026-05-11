@@ -96,9 +96,9 @@ conformes ? »_.
 
 `🧠 Modéliser les données complexes de la musicologie`
 
-- 🔒 _Trouver la bonne information ou la bonne formation pour monter en
-  compétence sur la modélisation sémantique des données musicologiques n'est pas
-  évident._
+- 🔒 _Trouver la bonne information ou la bonne formation pour structurer une
+  base de données musicologies et monter en compétences sur la modélisation
+  sémantique n'est pas évident._
 - 🔑 Les travaux de modélisation des données musicologiques menés dans le cadre
   du programme SHERLOCK à l'IReMus résonnent au niveau national via les actions
   de formations du [Consortium Musica*](https://musica.hypotheses.org/). Cela se
