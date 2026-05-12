@@ -15,9 +15,9 @@ l'[IR* Huma-Num](https://www.huma-num.fr/).**
 
 🏮 SHERLOCK propose une chaîne de traitement des données de la recherche sur le
 patrimoine (en particulier, musical) autour de l'ontologie standard
-[CIDOC CRM](https://cidoc-crm.org/), accompagnant le chercheurs des premiers
+[CIDOC CRM](https://cidoc-crm.org/). Il accompagne le chercheur des premiers
 temps de son projet jusqu'à la publication et la valorisation de ses données
-dans le contexte du Web sémantique. Il articule : des outils gestion de données
+dans le contexte du Web sémantique. Il articule : des outils de gestion de données
 durables existants (Grist, Nakala), des méthodologies et des standards de
 gestion des données de la recherche (IIIF, RDF, SKOS, TEI, MEI…) et le
 développement d'interfaces Web d'exploration.
@@ -174,7 +174,7 @@ conformes ? »_.
     grist --- sdnakala ---> nakala
 ```
 
-## `📡 Communications significatives`
+## `📡 Communications`
 
 - ⛩️ Thomas Bottini. Modéliser les données de la recherche avec le CIDOC CRM.
   Journée d'étude _« Partager les données des SHS sur le Web sémantique »_,
@@ -185,7 +185,7 @@ conformes ? »_.
   Musica 2, Dec 2022, Paris, France.
   [⟨hal-03950324⟩](https://hal.science/hal-03950324v1)
 - 🎼 Thomas Bottini. Quelle infrastructure pour l'annotation sémantique
-  collaborative de partitions MEI ?. Rencontres de la musicologie numérique,
+  collaborative de partitions MEI ? Rencontres de la musicologie numérique,
   Consortium Musica 2, Dec 2022, Paris, France.
   [⟨hal-03950321⟩](https://hal.science/hal-03950321v1)
 - 🎼 Thomas Bottini, Christophe Guillotel-Nothmann, Marco Gurrieri, Félix
